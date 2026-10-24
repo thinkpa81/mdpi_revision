@@ -1,0 +1,100 @@
+﻿year,variable,raw_variable,codebook_variable,code,value_label_ko,sheet,excel_row
+2023,region,Area1,지역,1,1) 서울,O. 응답가구 및 응답자 특성,8
+2023,region,Area1,지역,2,2) 부산,O. 응답가구 및 응답자 특성,9
+2023,region,Area1,지역,3,3) 대구,O. 응답가구 및 응답자 특성,10
+2023,region,Area1,지역,4,4) 인천,O. 응답가구 및 응답자 특성,11
+2023,region,Area1,지역,5,5) 광주,O. 응답가구 및 응답자 특성,12
+2023,region,Area1,지역,6,6) 대전,O. 응답가구 및 응답자 특성,13
+2023,region,Area1,지역,7,7) 울산,O. 응답가구 및 응답자 특성,14
+2023,region,Area1,지역,8,8) 세종,O. 응답가구 및 응답자 특성,15
+2023,region,Area1,지역,9,9) 경기,O. 응답가구 및 응답자 특성,16
+2023,region,Area1,지역,10,10) 강원,O. 응답가구 및 응답자 특성,17
+2023,region,Area1,지역,11,11) 충북,O. 응답가구 및 응답자 특성,18
+2023,region,Area1,지역,12,12) 충남,O. 응답가구 및 응답자 특성,19
+2023,region,Area1,지역,13,13) 전북,O. 응답가구 및 응답자 특성,20
+2023,region,Area1,지역,14,14) 전남,O. 응답가구 및 응답자 특성,21
+2023,region,Area1,지역,15,15) 경북,O. 응답가구 및 응답자 특성,22
+2023,region,Area1,지역,16,16) 경남,O. 응답가구 및 응답자 특성,23
+2023,region,Area1,지역,17,17) 제주,O. 응답가구 및 응답자 특성,24
+2023,age_group,Age_group,연령대,1,1) 10대,O. 응답가구 및 응답자 특성,288
+2023,age_group,Age_group,연령대,2,2) 20대,O. 응답가구 및 응답자 특성,289
+2023,age_group,Age_group,연령대,3,3) 30대,O. 응답가구 및 응답자 특성,290
+2023,age_group,Age_group,연령대,4,4) 40대,O. 응답가구 및 응답자 특성,291
+2023,age_group,Age_group,연령대,5,5) 50대,O. 응답가구 및 응답자 특성,292
+2023,age_group,Age_group,연령대,6,6) 60대,O. 응답가구 및 응답자 특성,293
+2023,gender,SQ1,SQ1,1,1) 남성,O. 응답가구 및 응답자 특성,294
+2023,gender,SQ1,SQ1,2,2) 여성,O. 응답가구 및 응답자 특성,295
+2023,education,DQ2_1,DQ2_1,1,1) 안 받았음,F. 인구통계학적 배경,19
+2023,education,DQ2_1,DQ2_1,2,2) 초등학교,F. 인구통계학적 배경,20
+2023,education,DQ2_1,DQ2_1,3,3) 중학교,F. 인구통계학적 배경,21
+2023,education,DQ2_1,DQ2_1,4,4) 고등학교,F. 인구통계학적 배경,22
+2023,education,DQ2_1,DQ2_1,5,5) 대학교(4년제 미만),F. 인구통계학적 배경,23
+2023,education,DQ2_1,DQ2_1,6,6) 대학교(4년제 이상),F. 인구통계학적 배경,24
+2023,education,DQ2_1,DQ2_1,7,7) 대학원(석사과정),F. 인구통계학적 배경,25
+2023,education,DQ2_1,DQ2_1,8,8) 대학원(박사과정),F. 인구통계학적 배경,26
+2024,region,Area1,Area1,1,1) 서울,O. 응답가구 및 응답자 특성,4
+2024,region,Area1,Area1,2,2) 부산,O. 응답가구 및 응답자 특성,5
+2024,region,Area1,Area1,3,3) 대구,O. 응답가구 및 응답자 특성,6
+2024,region,Area1,Area1,4,4) 인천,O. 응답가구 및 응답자 특성,7
+2024,region,Area1,Area1,5,5) 광주,O. 응답가구 및 응답자 특성,8
+2024,region,Area1,Area1,6,6) 대전,O. 응답가구 및 응답자 특성,9
+2024,region,Area1,Area1,7,7) 울산,O. 응답가구 및 응답자 특성,10
+2024,region,Area1,Area1,8,8) 세종,O. 응답가구 및 응답자 특성,11
+2024,region,Area1,Area1,9,9) 경기,O. 응답가구 및 응답자 특성,12
+2024,region,Area1,Area1,10,10) 강원,O. 응답가구 및 응답자 특성,13
+2024,region,Area1,Area1,11,11) 충북,O. 응답가구 및 응답자 특성,14
+2024,region,Area1,Area1,12,12) 충남,O. 응답가구 및 응답자 특성,15
+2024,region,Area1,Area1,13,13) 전북,O. 응답가구 및 응답자 특성,16
+2024,region,Area1,Area1,14,14) 전남,O. 응답가구 및 응답자 특성,17
+2024,region,Area1,Area1,15,15) 경북,O. 응답가구 및 응답자 특성,18
+2024,region,Area1,Area1,16,16) 경남,O. 응답가구 및 응답자 특성,19
+2024,region,Area1,Area1,17,17) 제주,O. 응답가구 및 응답자 특성,20
+2024,age_group,Age_group,Ager_group,1,1) 10대,O. 응답가구 및 응답자 특성,21
+2024,age_group,Age_group,Ager_group,2,2) 20대,O. 응답가구 및 응답자 특성,22
+2024,age_group,Age_group,Ager_group,3,3) 30대,O. 응답가구 및 응답자 특성,23
+2024,age_group,Age_group,Ager_group,4,4) 40대,O. 응답가구 및 응답자 특성,24
+2024,age_group,Age_group,Ager_group,5,5) 50대,O. 응답가구 및 응답자 특성,25
+2024,age_group,Age_group,Ager_group,6,6) 60대,O. 응답가구 및 응답자 특성,26
+2024,gender,SQ1,SQ1,1,1) 남성,O. 응답가구 및 응답자 특성,27
+2024,gender,SQ1,SQ1,2,2) 여성,O. 응답가구 및 응답자 특성,28
+2024,education,DQ2_1,DQ2_1,1,1) 안 받았음,F. 인구통계학적 배경,19
+2024,education,DQ2_1,DQ2_1,2,2) 초등학교,F. 인구통계학적 배경,20
+2024,education,DQ2_1,DQ2_1,3,3) 중학교,F. 인구통계학적 배경,21
+2024,education,DQ2_1,DQ2_1,4,4) 고등학교,F. 인구통계학적 배경,22
+2024,education,DQ2_1,DQ2_1,5,5) 대학교(4년제 미만),F. 인구통계학적 배경,23
+2024,education,DQ2_1,DQ2_1,6,6) 대학교(4년제 이상),F. 인구통계학적 배경,24
+2024,education,DQ2_1,DQ2_1,7,7) 대학원(석사과정),F. 인구통계학적 배경,25
+2024,education,DQ2_1,DQ2_1,8,8) 대학원(박사과정),F. 인구통계학적 배경,26
+2025,region,Area1,Area1,1,1) 서울,O. 응답가구 및 응답자 특성,4
+2025,region,Area1,Area1,2,2) 부산,O. 응답가구 및 응답자 특성,5
+2025,region,Area1,Area1,3,3) 대구,O. 응답가구 및 응답자 특성,6
+2025,region,Area1,Area1,4,4) 인천,O. 응답가구 및 응답자 특성,7
+2025,region,Area1,Area1,5,5) 광주,O. 응답가구 및 응답자 특성,8
+2025,region,Area1,Area1,6,6) 대전,O. 응답가구 및 응답자 특성,9
+2025,region,Area1,Area1,7,7) 울산,O. 응답가구 및 응답자 특성,10
+2025,region,Area1,Area1,8,8) 세종,O. 응답가구 및 응답자 특성,11
+2025,region,Area1,Area1,9,9) 경기,O. 응답가구 및 응답자 특성,12
+2025,region,Area1,Area1,10,10) 강원,O. 응답가구 및 응답자 특성,13
+2025,region,Area1,Area1,11,11) 충북,O. 응답가구 및 응답자 특성,14
+2025,region,Area1,Area1,12,12) 충남,O. 응답가구 및 응답자 특성,15
+2025,region,Area1,Area1,13,13) 전북,O. 응답가구 및 응답자 특성,16
+2025,region,Area1,Area1,14,14) 전남,O. 응답가구 및 응답자 특성,17
+2025,region,Area1,Area1,15,15) 경북,O. 응답가구 및 응답자 특성,18
+2025,region,Area1,Area1,16,16) 경남,O. 응답가구 및 응답자 특성,19
+2025,region,Area1,Area1,17,17) 제주,O. 응답가구 및 응답자 특성,20
+2025,age_group,Age_group,Ager_group,1,1) 10대,O. 응답가구 및 응답자 특성,21
+2025,age_group,Age_group,Ager_group,2,2) 20대,O. 응답가구 및 응답자 특성,22
+2025,age_group,Age_group,Ager_group,3,3) 30대,O. 응답가구 및 응답자 특성,23
+2025,age_group,Age_group,Ager_group,4,4) 40대,O. 응답가구 및 응답자 특성,24
+2025,age_group,Age_group,Ager_group,5,5) 50대,O. 응답가구 및 응답자 특성,25
+2025,age_group,Age_group,Ager_group,6,6) 60대,O. 응답가구 및 응답자 특성,26
+2025,gender,SQ1,SQ1,1,1) 남성,O. 응답가구 및 응답자 특성,27
+2025,gender,SQ1,SQ1,2,2) 여성,O. 응답가구 및 응답자 특성,28
+2025,education,DQ2_1,DQ2_1,1,1) 안 받았음,F. 인구통계학적 배경,19
+2025,education,DQ2_1,DQ2_1,2,2) 초등학교,F. 인구통계학적 배경,20
+2025,education,DQ2_1,DQ2_1,3,3) 중학교,F. 인구통계학적 배경,21
+2025,education,DQ2_1,DQ2_1,4,4) 고등학교,F. 인구통계학적 배경,22
+2025,education,DQ2_1,DQ2_1,5,5) 대학교(4년제 미만),F. 인구통계학적 배경,23
+2025,education,DQ2_1,DQ2_1,6,6) 대학교(4년제 이상),F. 인구통계학적 배경,24
+2025,education,DQ2_1,DQ2_1,7,7) 대학원(석사과정),F. 인구통계학적 배경,25
+2025,education,DQ2_1,DQ2_1,8,8) 대학원(박사과정),F. 인구통계학적 배경,26

@@ -1,0 +1,143 @@
+{
+  "status": "passed",
+  "analysis": "retrospective region coding and participant-overlap sensitivity",
+  "sources": [
+    {
+      "year": 2023,
+      "source_filename": "2023_data.xlsx",
+      "sha256": "c38782a595dc9ee898cb64a3ebbdde40099c09cca655454eabc7b02316efb0a9",
+      "rows": 4581,
+      "columns": 307
+    },
+    {
+      "year": 2024,
+      "source_filename": "2024_data.xlsx",
+      "sha256": "65fa040101d784b2225eafea9a7a8e5660c5fca9f1b962e342cd81b9cb689f5c",
+      "rows": 4420,
+      "columns": 307
+    },
+    {
+      "year": 2025,
+      "source_filename": "2025_data.xlsx",
+      "sha256": "16867d676338e22da82a84c72b667fe5764ff266a03d6e8086182de138a2c185",
+      "rows": 4324,
+      "columns": 322
+    }
+  ],
+  "harmonizer_sha256": "9c1b2cc66f29674c4029a425988c59f2d55d120e3f389c7b87798466bd19c396",
+  "script_sha256": "747893cde5282f75ffe7577c5bbb9eaab53eb9eb3f8254017f3412894848b91a",
+  "model_engine_sha256": "aaf3263877a14dbd3876a7ddc25f72bbca98f7d684d19f5035be19a6289dc2da",
+  "sample_overlap": [
+    {
+      "population": "restricted",
+      "development_n": 1565,
+      "evaluation_n": 1520,
+      "shared_n": 641,
+      "disjoint_n": 879,
+      "shared_fraction": 0.4217105263157895
+    },
+    {
+      "population": "full_linked_panel",
+      "development_n": 3895,
+      "evaluation_n": 3741,
+      "shared_n": 3333,
+      "disjoint_n": 408,
+      "shared_fraction": 0.8909382518043304
+    }
+  ],
+  "capital_region_codes": [
+    1,
+    4,
+    9
+  ],
+  "capital_region_labels": [
+    "Seoul",
+    "Incheon",
+    "Gyeonggi"
+  ],
+  "geographic_rule": "Seoul, Incheon, Gyeonggi versus all other valid regions; missing values remain missing",
+  "original_category_meanings_source": "revision/tables/demographic_raw_embedded_codebook_mapping.csv",
+  "development_selection": "same original 5-fold stratified CV, seed 20260907 and original learner grids; evaluated outcomes never tune models",
+  "portfolio_scope": "fixed D and full-information portfolios only; no budget-portfolio reselection",
+  "models_fit": 16,
+  "original_models_reproduced": [
+    {
+      "algorithm": "ridge",
+      "history_available": false,
+      "portfolio": "D",
+      "selected_config_matches": true,
+      "oof_loss_difference": 0.0
+    },
+    {
+      "algorithm": "ridge",
+      "history_available": false,
+      "portfolio": "full",
+      "selected_config_matches": true,
+      "oof_loss_difference": 1.3322676295501878e-15
+    },
+    {
+      "algorithm": "ridge",
+      "history_available": true,
+      "portfolio": "D",
+      "selected_config_matches": true,
+      "oof_loss_difference": 0.0
+    },
+    {
+      "algorithm": "ridge",
+      "history_available": true,
+      "portfolio": "full",
+      "selected_config_matches": true,
+      "oof_loss_difference": -9.992007221626409e-16
+    },
+    {
+      "algorithm": "hgb",
+      "history_available": false,
+      "portfolio": "D",
+      "selected_config_matches": true,
+      "oof_loss_difference": 0.0
+    },
+    {
+      "algorithm": "hgb",
+      "history_available": false,
+      "portfolio": "full",
+      "selected_config_matches": true,
+      "oof_loss_difference": 0.0
+    },
+    {
+      "algorithm": "hgb",
+      "history_available": true,
+      "portfolio": "D",
+      "selected_config_matches": true,
+      "oof_loss_difference": 0.0
+    },
+    {
+      "algorithm": "hgb",
+      "history_available": true,
+      "portfolio": "full",
+      "selected_config_matches": true,
+      "oof_loss_difference": 0.0
+    }
+  ],
+  "compact_comparison_rows": 24,
+  "published_full_model_estimates_compared": 8,
+  "maximum_absolute_published_estimate_difference": 1.077957167971988e-14,
+  "bootstrap_replicates": 5000,
+  "bootstrap_seed": 2026102109,
+  "bootstrap_scope": "paired evaluation participant bootstrap conditional on fitted predictions; shared/disjoint masks use the same whole-evaluation draws and normalize within subgroup",
+  "intervals": "two-sided pointwise basic intervals and centered maximum-deviation simultaneous intervals; primary family sizes 16 model contrasts and 8 coarsening contrasts, separately in each evaluation domain; original full-model diagnostic has family size 4",
+  "cautions": [
+    "Coarsening was motivated by observed distribution changes and is retrospective.",
+    "D still uses four raw questionnaire items; this changes representation, not questionnaire acquisition cost.",
+    "Overlap subgroup differences do not identify the causal effect of participant reuse, restriction, or wording.",
+    "Same evaluation-year wording across subgroups shows that wording change alone is not a sufficient empirical description of the observed heterogeneity, but interaction with composition remains possible.",
+    "This finite sensitivity does not establish performance for other coarsening rules or new populations.",
+    "The analysis repeats tuning for each coding but the inference conditions on the resulting fitted models; it does not include full training/reselection uncertainty."
+  ],
+  "versions": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "sklearn": "1.8.0"
+  },
+  "seconds": 27.085248947143555
+}

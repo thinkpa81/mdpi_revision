@@ -1,0 +1,8448 @@
+[
+  {
+    "algorithm": "ridge",
+    "subset": "H",
+    "blocks": [
+      "H"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 0,
+    "raw_items": 1,
+    "oof_log_loss": 0.6620829888105124
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D",
+    "blocks": [
+      "H",
+      "D"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 4,
+    "raw_items": 5,
+    "oof_log_loss": 0.6396754472363618
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B",
+    "blocks": [
+      "H",
+      "B"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.6578158495921907
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B",
+    "blocks": [
+      "H",
+      "D",
+      "B"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.6379948075675399
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M",
+    "blocks": [
+      "H",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.6622409595761508
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M",
+    "blocks": [
+      "H",
+      "D",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.6397760153074639
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M",
+    "blocks": [
+      "H",
+      "B",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6580088257205885
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6378915085181807
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P",
+    "blocks": [
+      "H",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 11,
+    "raw_items": 12,
+    "oof_log_loss": 0.662450328774536
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P",
+    "blocks": [
+      "H",
+      "D",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.6397389504100328
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P",
+    "blocks": [
+      "H",
+      "B",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6577918321132824
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6375400411253291
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P",
+    "blocks": [
+      "H",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6625724600188355
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6398515673596114
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.657963803376312
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6375985212431627
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_C",
+    "blocks": [
+      "H",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.6624391851158958
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_C",
+    "blocks": [
+      "H",
+      "D",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.6411795164486124
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_C",
+    "blocks": [
+      "H",
+      "B",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6581911682912668
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6393410724180268
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_C",
+    "blocks": [
+      "H",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6625805616898517
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_C",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.641085194221472
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_C",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.6583859138538867
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6392791779703766
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P_C",
+    "blocks": [
+      "H",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6627999109852467
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6411656135944186
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P_C",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6581750886830957
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6389895302013353
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P_C",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.662913843288672
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.641371068926308
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P_C",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6583572548093996
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6391421838930499
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_A",
+    "blocks": [
+      "H",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.6598425482035736
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_A",
+    "blocks": [
+      "H",
+      "D",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.6380071651246797
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_A",
+    "blocks": [
+      "H",
+      "B",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6557119973590803
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6362755316368176
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_A",
+    "blocks": [
+      "H",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6599667537001243
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6380852067170125
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.6558940017566006
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6362310759849575
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P_A",
+    "blocks": [
+      "H",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6602667508879307
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6380894913486092
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P_A",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6558327693862638
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.636039150799616
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P_A",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6603533563864001
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6383114360628088
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.65599403683093
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6362297780478974
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_C_A",
+    "blocks": [
+      "H",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6601953597465929
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.639353117018099
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.6560954026894313
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6376092508168036
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_C_A",
+    "blocks": [
+      "H",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.6603167369235085
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6395031419105079
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 4,
+    "raw_items": 5,
+    "oof_log_loss": 0.6562823083746055
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 8,
+    "raw_items": 9,
+    "oof_log_loss": 0.6376637595050733
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P_C_A",
+    "blocks": [
+      "H",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.660629096618732
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6395779535645535
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6562220537787145
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6375113465906187
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P_C_A",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6607249067951054
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6398229349659593
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.6563962695123899
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 19,
+    "raw_items": 20,
+    "oof_log_loss": 0.6376104231805922
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_K",
+    "blocks": [
+      "H",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 11,
+    "raw_items": 12,
+    "oof_log_loss": 0.6493822290495769
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_K",
+    "blocks": [
+      "H",
+      "D",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.633478707878488
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_K",
+    "blocks": [
+      "H",
+      "B",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6462600809728479
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6322192898000069
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_K",
+    "blocks": [
+      "H",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6492713792388692
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6331673311080751
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6459508800436963
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6316655820951923
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P_K",
+    "blocks": [
+      "H",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 22,
+    "raw_items": 23,
+    "oof_log_loss": 0.649287206076472
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 26,
+    "raw_items": 27,
+    "oof_log_loss": 0.63301703934863
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6455566984754917
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.6311433010160259
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6492351273500917
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.6329664793271298
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6453270306315815
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6309301898432982
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_C_K",
+    "blocks": [
+      "H",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6499278537509775
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6349293288939407
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.646835853149902
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6335561791075445
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_C_K",
+    "blocks": [
+      "H",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6498282628612461
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6345478130702493
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6465282489851105
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6331611805054308
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P_C_K",
+    "blocks": [
+      "H",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6498351025560678
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.6344883691328542
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6461484778753469
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6325759313191416
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P_C_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6497879198322122
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6344081054789056
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.645928330645112
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.6324018603891035
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_A_K",
+    "blocks": [
+      "H",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6468855237332123
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6316089221778484
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.643912205363224
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6303176464587247
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6468072202640086
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6312734488152584
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6436333865037757
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6297690531788611
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P_A_K",
+    "blocks": [
+      "H",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6469364767792163
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.6312895096248884
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.643429881963482
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6294674622760528
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6468966961386979
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6312111678752893
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.6432181679399898
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.6292921291184919
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_C_A_K",
+    "blocks": [
+      "H",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6474531971120571
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6329925665767692
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.644503843674367
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6317384898901335
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_C_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6473691637561733
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6326931392750783
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.644223463114376
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 19,
+    "raw_items": 20,
+    "oof_log_loss": 0.6312491785290301
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_P_C_A_K",
+    "blocks": [
+      "H",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6475160924368945
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6327462080928837
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_P_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.6440360888197865
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.630903105194864
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.6474698579100036
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.6326357923202772
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_B_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 0.1,
+    "additional_items": 26,
+    "raw_items": 27,
+    "oof_log_loss": 0.643812892448034
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "H_D_B_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": 1.0,
+    "additional_items": 30,
+    "raw_items": 31,
+    "oof_log_loss": 0.6307238544876694
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "NONE",
+    "blocks": [],
+    "has_history": false,
+    "best_config": 0.001,
+    "additional_items": 0,
+    "raw_items": 0,
+    "oof_log_loss": 0.6853643289188563
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D",
+    "blocks": [
+      "D"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 4,
+    "raw_items": 4,
+    "oof_log_loss": 0.6621656516928427
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B",
+    "blocks": [
+      "B"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6777381954029948
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B",
+    "blocks": [
+      "D",
+      "B"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.6582120307239033
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M",
+    "blocks": [
+      "M"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6852087154572225
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M",
+    "blocks": [
+      "D",
+      "M"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.6623492629583634
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M",
+    "blocks": [
+      "B",
+      "M"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6779583126099942
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M",
+    "blocks": [
+      "D",
+      "B",
+      "M"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6585610424617269
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P",
+    "blocks": [
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 0.001,
+    "additional_items": 11,
+    "raw_items": 11,
+    "oof_log_loss": 0.6854781554910176
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P",
+    "blocks": [
+      "D",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6622738696105736
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P",
+    "blocks": [
+      "B",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.677878585011541
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P",
+    "blocks": [
+      "D",
+      "B",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6577464526304969
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P",
+    "blocks": [
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 0.001,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.685357518858799
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P",
+    "blocks": [
+      "D",
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.662451084744614
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P",
+    "blocks": [
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6780361516193909
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6580624718382053
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "C",
+    "blocks": [
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6850626975751691
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_C",
+    "blocks": [
+      "D",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.663365546985366
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_C",
+    "blocks": [
+      "B",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.677672893894383
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_C",
+    "blocks": [
+      "D",
+      "B",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6594541941664148
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_C",
+    "blocks": [
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6849257353845106
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_C",
+    "blocks": [
+      "D",
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6636254282527785
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_C",
+    "blocks": [
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.6779412666628245
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_C",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.6597507037177004
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P_C",
+    "blocks": [
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.001,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6853993925537009
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P_C",
+    "blocks": [
+      "D",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6635901146249847
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P_C",
+    "blocks": [
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6777986869657929
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P_C",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6590512991988687
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P_C",
+    "blocks": [
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.001,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6852803698561314
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P_C",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6637450766040225
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P_C",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6780210463346151
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P_C",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6594776813784442
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "A",
+    "blocks": [
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6808642563858034
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_A",
+    "blocks": [
+      "D",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.6582581334178604
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_A",
+    "blocks": [
+      "B",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6736656514353723
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_A",
+    "blocks": [
+      "D",
+      "B",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6545563941969289
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_A",
+    "blocks": [
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6806921645491553
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_A",
+    "blocks": [
+      "D",
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6584548044655671
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_A",
+    "blocks": [
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.6738281710598268
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.6548369451991856
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P_A",
+    "blocks": [
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6814765010355697
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P_A",
+    "blocks": [
+      "D",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6585833608658553
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P_A",
+    "blocks": [
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6739738002404901
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P_A",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.654363857240483
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P_A",
+    "blocks": [
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6812157887804466
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P_A",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6587215109897597
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P_A",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6740873608011265
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6546989810903293
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "C_A",
+    "blocks": [
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6805863410027915
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_C_A",
+    "blocks": [
+      "D",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6593856247495893
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_C_A",
+    "blocks": [
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.6735209745197117
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.6556968128981201
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_C_A",
+    "blocks": [
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.680463603268946
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_C_A",
+    "blocks": [
+      "D",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.6595823011493227
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_C_A",
+    "blocks": [
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 4,
+    "raw_items": 4,
+    "oof_log_loss": 0.6737350136132971
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 8,
+    "raw_items": 8,
+    "oof_log_loss": 0.656029039004183
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P_C_A",
+    "blocks": [
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6811223175840232
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P_C_A",
+    "blocks": [
+      "D",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6597900266276292
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P_C_A",
+    "blocks": [
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6738069592361944
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6554802333874106
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P_C_A",
+    "blocks": [
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.01,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6808896704568617
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P_C_A",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6598969326148573
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P_C_A",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6739940346313386
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 19,
+    "raw_items": 19,
+    "oof_log_loss": 0.6558527360731933
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "K",
+    "blocks": [
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 11,
+    "raw_items": 11,
+    "oof_log_loss": 0.669697766266247
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_K",
+    "blocks": [
+      "D",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6534616584557627
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_K",
+    "blocks": [
+      "B",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6639668470180919
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_K",
+    "blocks": [
+      "D",
+      "B",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6503288258178421
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_K",
+    "blocks": [
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6699785891643407
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_K",
+    "blocks": [
+      "D",
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6537353903769499
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_K",
+    "blocks": [
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.664113310260305
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6505264016533987
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P_K",
+    "blocks": [
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 22,
+    "raw_items": 22,
+    "oof_log_loss": 0.6697886445882665
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P_K",
+    "blocks": [
+      "D",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 26,
+    "raw_items": 26,
+    "oof_log_loss": 0.6528869353216161
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P_K",
+    "blocks": [
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.6633194413068036
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6490564062408024
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P_K",
+    "blocks": [
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.670064278364502
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6533282313174947
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6634975815715906
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6493523079670165
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "C_K",
+    "blocks": [
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6698410834275197
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_C_K",
+    "blocks": [
+      "D",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6546284367911368
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_C_K",
+    "blocks": [
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6641808102988377
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6515473215012775
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_C_K",
+    "blocks": [
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6701320659093889
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_C_K",
+    "blocks": [
+      "D",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6549361820142763
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_C_K",
+    "blocks": [
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6643298448689726
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6517718728926184
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P_C_K",
+    "blocks": [
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.6699249544068876
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P_C_K",
+    "blocks": [
+      "D",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6541342196355429
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P_C_K",
+    "blocks": [
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6635355041609993
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.650367563919362
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P_C_K",
+    "blocks": [
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6702277065638427
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P_C_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6545592683585901
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P_C_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.6637253348768435
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.6506684916270983
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "A_K",
+    "blocks": [
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6650247216444075
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_A_K",
+    "blocks": [
+      "D",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6495521869548352
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_A_K",
+    "blocks": [
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6596940001985669
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6465315444142528
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_A_K",
+    "blocks": [
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6653003794122406
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6497370063584609
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6598454352383608
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6467528583495165
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P_A_K",
+    "blocks": [
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.6652843943967749
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P_A_K",
+    "blocks": [
+      "D",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6491660104836356
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P_A_K",
+    "blocks": [
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6593124457079612
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.645554504910448
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P_A_K",
+    "blocks": [
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6655499684971176
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6495159281278694
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.6594980539768316
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.6459037972933989
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "C_A_K",
+    "blocks": [
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6650986200699053
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_C_A_K",
+    "blocks": [
+      "D",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6505666458810856
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_C_A_K",
+    "blocks": [
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6598656157651931
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6476107633456963
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_C_A_K",
+    "blocks": [
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6654028352976818
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_C_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6508878916517834
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_C_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6600076580529798
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 19,
+    "raw_items": 19,
+    "oof_log_loss": 0.6478442732880747
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "P_C_A_K",
+    "blocks": [
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6653550510612966
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_P_C_A_K",
+    "blocks": [
+      "D",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6503102667612197
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_P_C_A_K",
+    "blocks": [
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.6594812478241739
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_P_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.6467573715027599
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "M_P_C_A_K",
+    "blocks": [
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.6656493294917565
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_M_P_C_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.6506762310696586
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "B_M_P_C_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 0.1,
+    "additional_items": 26,
+    "raw_items": 26,
+    "oof_log_loss": 0.6596695935925857
+  },
+  {
+    "algorithm": "ridge",
+    "subset": "D_B_M_P_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": 1.0,
+    "additional_items": 30,
+    "raw_items": 30,
+    "oof_log_loss": 0.6470515853322324
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H",
+    "blocks": [
+      "H"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 0,
+    "raw_items": 1,
+    "oof_log_loss": 0.6620826133717034
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D",
+    "blocks": [
+      "H",
+      "D"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 4,
+    "raw_items": 5,
+    "oof_log_loss": 0.6440872421067338
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B",
+    "blocks": [
+      "H",
+      "B"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.656149609502737
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B",
+    "blocks": [
+      "H",
+      "D",
+      "B"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.6407149204876604
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M",
+    "blocks": [
+      "H",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.6574903093314285
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M",
+    "blocks": [
+      "H",
+      "D",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.6378678578039242
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M",
+    "blocks": [
+      "H",
+      "B",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6526472365345142
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6363475685984843
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P",
+    "blocks": [
+      "H",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 11,
+    "raw_items": 12,
+    "oof_log_loss": 0.6547926407716381
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P",
+    "blocks": [
+      "H",
+      "D",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.6284341422186445
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P",
+    "blocks": [
+      "H",
+      "B",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.648942154025296
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6287613874583236
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P",
+    "blocks": [
+      "H",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6508401923689486
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6263444622412933
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.645656574276589
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6257706174677631
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_C",
+    "blocks": [
+      "H",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.6623233634817945
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_C",
+    "blocks": [
+      "H",
+      "D",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.6385182763959425
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_C",
+    "blocks": [
+      "H",
+      "B",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6576726687330479
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6364605695345188
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_C",
+    "blocks": [
+      "H",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6573640786608534
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_C",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6362547428334664
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_C",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.6534401604653294
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6345303236085903
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P_C",
+    "blocks": [
+      "H",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.655098691390983
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6289526286926437
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P_C",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6496226234409335
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6281546028627573
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P_C",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6494052689764819
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6278531232363511
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P_C",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6454979356584607
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P_C",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6266398493038015
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_A",
+    "blocks": [
+      "H",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 2,
+    "oof_log_loss": 0.6602422622549169
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_A",
+    "blocks": [
+      "H",
+      "D",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 6,
+    "oof_log_loss": 0.641758650006288
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_A",
+    "blocks": [
+      "H",
+      "B",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.654169707977288
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6396423687725435
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_A",
+    "blocks": [
+      "H",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.6533370183829231
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6353580028168152
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.6499456254601639
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6338305502789827
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P_A",
+    "blocks": [
+      "H",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6530903874514049
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6285871701772281
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P_A",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6472657576456973
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6257299008757918
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P_A",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6485239496802059
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6241806893132597
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6425625531760141
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6250874030452392
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_C_A",
+    "blocks": [
+      "H",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 3,
+    "oof_log_loss": 0.660672313580278
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 7,
+    "oof_log_loss": 0.6383217522108077
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.655155972846597
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6358612151779939
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_C_A",
+    "blocks": [
+      "H",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 4,
+    "oof_log_loss": 0.6543332876174236
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 8,
+    "oof_log_loss": 0.6332706689577972
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 4,
+    "raw_items": 5,
+    "oof_log_loss": 0.6508497021563576
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 8,
+    "raw_items": 9,
+    "oof_log_loss": 0.6314904390595096
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P_C_A",
+    "blocks": [
+      "H",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6534907845991386
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6274583840225614
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6479188594547443
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6259139407361582
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P_C_A",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6473292060300279
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6245078338078603
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P_C_A",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.641853069600681
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P_C_A",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 19,
+    "raw_items": 20,
+    "oof_log_loss": 0.6244005936211106
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_K",
+    "blocks": [
+      "H",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 11,
+    "raw_items": 12,
+    "oof_log_loss": 0.6551165723158504
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_K",
+    "blocks": [
+      "H",
+      "D",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.6373575092655412
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_K",
+    "blocks": [
+      "H",
+      "B",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6492228072668206
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6365962838264457
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_K",
+    "blocks": [
+      "H",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6542403990154226
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6342642884563012
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6487293659129009
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6347062480032359
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P_K",
+    "blocks": [
+      "H",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 22,
+    "raw_items": 23,
+    "oof_log_loss": 0.64593201240606
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 26,
+    "raw_items": 27,
+    "oof_log_loss": 0.6267428742507322
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6424551265262731
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.6269816019848083
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6452704002504069
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.6250808827874816
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6419568848845181
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6261257040842678
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_C_K",
+    "blocks": [
+      "H",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6558194907029433
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6323415491548227
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6498339535856934
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6338575019623552
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_C_K",
+    "blocks": [
+      "H",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6547025786613468
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6308125639693732
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6489257983756357
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6319000781600458
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P_C_K",
+    "blocks": [
+      "H",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6460800195340178
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.624475126256295
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6428963159937501
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6248037058472935
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P_C_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6442834381693988
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6221157681523305
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P_C_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.6423136882856137
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P_C_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.6241557952460349
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_A_K",
+    "blocks": [
+      "H",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 13,
+    "oof_log_loss": 0.6514152746639368
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 17,
+    "oof_log_loss": 0.6359544281197592
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6470298241001402
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6359409971784027
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6503056636477578
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6329011761486733
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6459441878280793
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.631432008052218
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P_A_K",
+    "blocks": [
+      "H",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 24,
+    "oof_log_loss": 0.6446458606686293
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 28,
+    "oof_log_loss": 0.6275555889012663
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6418539796891607
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6276160099700226
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6436314824768528
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6240137163748294
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.6412421445445927
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.6259971587384502
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_C_A_K",
+    "blocks": [
+      "H",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 14,
+    "oof_log_loss": 0.6516389360287916
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 18,
+    "oof_log_loss": 0.6316339199293881
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6474810434365076
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6322112035138269
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_C_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 15,
+    "oof_log_loss": 0.6494036879595376
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 19,
+    "oof_log_loss": 0.6281870225128504
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 16,
+    "oof_log_loss": 0.6462959181251217
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 19,
+    "raw_items": 20,
+    "oof_log_loss": 0.6287625157468868
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_P_C_A_K",
+    "blocks": [
+      "H",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 25,
+    "oof_log_loss": 0.6447547528461542
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 29,
+    "oof_log_loss": 0.6246830211495736
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_P_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.6419792899026956
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.6247995961139475
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 26,
+    "oof_log_loss": 0.6403301621005298
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 30,
+    "oof_log_loss": 0.620817620210149
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_B_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 26,
+    "raw_items": 27,
+    "oof_log_loss": 0.640396046822754
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "H_D_B_M_P_C_A_K",
+    "blocks": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": true,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 30,
+    "raw_items": 31,
+    "oof_log_loss": 0.6241384882930145
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "NONE",
+    "blocks": [],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 0,
+    "raw_items": 0,
+    "oof_log_loss": 0.6853643289188563
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D",
+    "blocks": [
+      "D"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 4,
+    "raw_items": 4,
+    "oof_log_loss": 0.6641680792622449
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B",
+    "blocks": [
+      "B"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6760966845523163
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B",
+    "blocks": [
+      "D",
+      "B"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.6596841683893251
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M",
+    "blocks": [
+      "M"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6852367026596052
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M",
+    "blocks": [
+      "D",
+      "M"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.662034606719102
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M",
+    "blocks": [
+      "B",
+      "M"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6755678697099577
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M",
+    "blocks": [
+      "D",
+      "B",
+      "M"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6570188823277873
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P",
+    "blocks": [
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 11,
+    "raw_items": 11,
+    "oof_log_loss": 0.6783897315032572
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P",
+    "blocks": [
+      "D",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6465103724542357
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P",
+    "blocks": [
+      "B",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6666607127561689
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P",
+    "blocks": [
+      "D",
+      "B",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.646093388300232
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P",
+    "blocks": [
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.671703667244006
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P",
+    "blocks": [
+      "D",
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6459162942811633
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P",
+    "blocks": [
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6629283445293411
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.643490126055774
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "C",
+    "blocks": [
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6852618881748
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_C",
+    "blocks": [
+      "D",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.6579254494910797
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_C",
+    "blocks": [
+      "B",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6783158980594552
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_C",
+    "blocks": [
+      "D",
+      "B",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6529262330125998
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_C",
+    "blocks": [
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6836213261224969
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_C",
+    "blocks": [
+      "D",
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6561856857413993
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_C",
+    "blocks": [
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.6760827048950138
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_C",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.6533541346403067
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P_C",
+    "blocks": [
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6781009480969228
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P_C",
+    "blocks": [
+      "D",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6441902261965382
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P_C",
+    "blocks": [
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6674632106789147
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P_C",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6437370171830192
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P_C",
+    "blocks": [
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.672607874389161
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P_C",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6420461508136724
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P_C",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6638578452468938
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P_C",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6437922295598411
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "A",
+    "blocks": [
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 1,
+    "raw_items": 1,
+    "oof_log_loss": 0.6808852505971232
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_A",
+    "blocks": [
+      "D",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 5,
+    "raw_items": 5,
+    "oof_log_loss": 0.6623660749718976
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_A",
+    "blocks": [
+      "B",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6710019459030957
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_A",
+    "blocks": [
+      "D",
+      "B",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6562386633216322
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_A",
+    "blocks": [
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6772961869538674
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_A",
+    "blocks": [
+      "D",
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6569000724797832
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_A",
+    "blocks": [
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.6681826337714976
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.6525111170703061
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P_A",
+    "blocks": [
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6742481395854778
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P_A",
+    "blocks": [
+      "D",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6456049361312032
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P_A",
+    "blocks": [
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6629140431174951
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P_A",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6414865441001536
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P_A",
+    "blocks": [
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6672475993585311
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P_A",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.640925623536283
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P_A",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6585996226358602
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6388773002068678
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "C_A",
+    "blocks": [
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 2,
+    "raw_items": 2,
+    "oof_log_loss": 0.6806040664278005
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_C_A",
+    "blocks": [
+      "D",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 6,
+    "raw_items": 6,
+    "oof_log_loss": 0.6558876258753392
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_C_A",
+    "blocks": [
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.6720362640243076
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.6510721146678344
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_C_A",
+    "blocks": [
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 3,
+    "raw_items": 3,
+    "oof_log_loss": 0.6767846011196252
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_C_A",
+    "blocks": [
+      "D",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 7,
+    "raw_items": 7,
+    "oof_log_loss": 0.650369538146649
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_C_A",
+    "blocks": [
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 4,
+    "raw_items": 4,
+    "oof_log_loss": 0.6688763161043015
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 8,
+    "raw_items": 8,
+    "oof_log_loss": 0.6485929332417237
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P_C_A",
+    "blocks": [
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6744181263671215
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P_C_A",
+    "blocks": [
+      "D",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6433859098903928
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P_C_A",
+    "blocks": [
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.66398572162648
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6411137925061332
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P_C_A",
+    "blocks": [
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6688804972166953
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P_C_A",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6379512231708448
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P_C_A",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6603418018426453
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P_C_A",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 19,
+    "raw_items": 19,
+    "oof_log_loss": 0.6383627512480679
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "K",
+    "blocks": [
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 11,
+    "raw_items": 11,
+    "oof_log_loss": 0.6727218216307507
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_K",
+    "blocks": [
+      "D",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6540098819509813
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_K",
+    "blocks": [
+      "B",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6651121317352485
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_K",
+    "blocks": [
+      "D",
+      "B",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6524765366393972
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_K",
+    "blocks": [
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6737182905304431
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_K",
+    "blocks": [
+      "D",
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6527632824703552
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_K",
+    "blocks": [
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6655336458357443
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6521749448220446
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P_K",
+    "blocks": [
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 22,
+    "raw_items": 22,
+    "oof_log_loss": 0.6636280943279107
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P_K",
+    "blocks": [
+      "D",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 26,
+    "raw_items": 26,
+    "oof_log_loss": 0.6396158791923879
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P_K",
+    "blocks": [
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.6571878700671222
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6381764214529781
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P_K",
+    "blocks": [
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.6635609346628022
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6384235896513966
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6569770422723052
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6371890870204687
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "C_K",
+    "blocks": [
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6733090557258896
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_C_K",
+    "blocks": [
+      "D",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.65202255362238
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_C_K",
+    "blocks": [
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6657371974381698
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6506168103339054
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_C_K",
+    "blocks": [
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6743142673240284
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_C_K",
+    "blocks": [
+      "D",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6505974612285366
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_C_K",
+    "blocks": [
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.666096352632087
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6507182642106256
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P_C_K",
+    "blocks": [
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.6641574645590496
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P_C_K",
+    "blocks": [
+      "D",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6370776595795395
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P_C_K",
+    "blocks": [
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6578219010742697
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6359320996280466
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P_C_K",
+    "blocks": [
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6640515266159325
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P_C_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6355806648810444
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P_C_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.6574421722928857
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P_C_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.6349730664853964
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "A_K",
+    "blocks": [
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 12,
+    "raw_items": 12,
+    "oof_log_loss": 0.6676616362156436
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_A_K",
+    "blocks": [
+      "D",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 16,
+    "raw_items": 16,
+    "oof_log_loss": 0.6520577069665916
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_A_K",
+    "blocks": [
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6600298718797587
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6496914925417515
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_A_K",
+    "blocks": [
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6677709315413494
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6479361571413184
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6604966110434094
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6469673531200899
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P_A_K",
+    "blocks": [
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 23,
+    "raw_items": 23,
+    "oof_log_loss": 0.6601888050012099
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P_A_K",
+    "blocks": [
+      "D",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 27,
+    "raw_items": 27,
+    "oof_log_loss": 0.6381238607240276
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P_A_K",
+    "blocks": [
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6547088081253956
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6377652927085573
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P_A_K",
+    "blocks": [
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6588393761698403
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6344975802563864
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.6527486511061158
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.6354339109371958
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "C_A_K",
+    "blocks": [
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 13,
+    "raw_items": 13,
+    "oof_log_loss": 0.6681951216630972
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_C_A_K",
+    "blocks": [
+      "D",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 17,
+    "raw_items": 17,
+    "oof_log_loss": 0.6476239436495127
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_C_A_K",
+    "blocks": [
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6607331593915815
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6461760924564014
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_C_A_K",
+    "blocks": [
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 14,
+    "raw_items": 14,
+    "oof_log_loss": 0.6682244627606048
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_C_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 18,
+    "raw_items": 18,
+    "oof_log_loss": 0.6453412278359647
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_C_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 15,
+    "raw_items": 15,
+    "oof_log_loss": 0.6610694927540269
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 19,
+    "raw_items": 19,
+    "oof_log_loss": 0.6448913231466763
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "P_C_A_K",
+    "blocks": [
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 24,
+    "raw_items": 24,
+    "oof_log_loss": 0.6606831093358085
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_P_C_A_K",
+    "blocks": [
+      "D",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 28,
+    "raw_items": 28,
+    "oof_log_loss": 0.6351283038573683
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_P_C_A_K",
+    "blocks": [
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.655070932781892
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_P_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.635951011491861
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "M_P_C_A_K",
+    "blocks": [
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    "additional_items": 25,
+    "raw_items": 25,
+    "oof_log_loss": 0.6592907747915923
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_M_P_C_A_K",
+    "blocks": [
+      "D",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 29,
+    "raw_items": 29,
+    "oof_log_loss": 0.6317969039258379
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "B_M_P_C_A_K",
+    "blocks": [
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 26,
+    "raw_items": 26,
+    "oof_log_loss": 0.6539114224181793
+  },
+  {
+    "algorithm": "hgb",
+    "subset": "D_B_M_P_C_A_K",
+    "blocks": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "has_history": false,
+    "best_config": {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    },
+    "additional_items": 30,
+    "raw_items": 30,
+    "oof_log_loss": 0.6343421651540304
+  }
+]

@@ -1,0 +1,90 @@
+{
+  "restricted_expanded_and_added": {
+    "contrasts": 14,
+    "supported_benefit": 0,
+    "supported_harm": 4
+  },
+  "hesitant_evaluation_all_model_sets": {
+    "contrasts": 32,
+    "supported_benefit": 0,
+    "supported_harm": 7
+  },
+  "hesitant_32_denominator": "4 original restricted-training models + 14 expanded/added restricted-training models + 14 expanded/added full-training models; not 2 x 7 alone",
+  "full_training_groups": {
+    "all": {
+      "contrasts": 14,
+      "supported_benefit": 11,
+      "supported_harm": 0
+    },
+    "person_disjoint": {
+      "contrasts": 14,
+      "supported_benefit": 1,
+      "supported_harm": 0
+    },
+    "other": {
+      "contrasts": 14,
+      "supported_benefit": 13,
+      "supported_harm": 0
+    },
+    "low_or_no_hesitation": {
+      "contrasts": 14,
+      "supported_benefit": 11,
+      "supported_harm": 0
+    },
+    "no_service_experience": {
+      "contrasts": 14,
+      "supported_benefit": 13,
+      "supported_harm": 0
+    }
+  },
+  "budget_policies": {
+    "policy_rows": 248,
+    "supported_benefit": 0,
+    "supported_harm": 191,
+    "unit": "budget policy rows; repeated selected models are not independent tests"
+  },
+  "group_definitions": {
+    "hesitant": "privacy-related purchase hesitation codes 1-2; n=1520",
+    "low_or_no_hesitation": "codes 3-4; n=1995",
+    "no_service_experience": "code 9; n=226",
+    "other": "codes 3,4,9; n=2221; includes participants without service experience"
+  },
+  "interpretation": [
+    "Counts summarize separate simultaneous families; there is no joint 95% guarantee across all 32 or 248 rows.",
+    "No supported benefit is not a demonstration of equivalence or zero predictive benefit.",
+    "A unique participant fraction near 0.632 is a routine consequence of sampling with replacement, not by itself evidence of invalidity.",
+    "Configuration shifts accompany the resampling distribution and lower average loss differences; conditional summaries do not identify a causal contribution to bootstrap bias.",
+    "Smaller ridge C means stronger penalization; fewer HGB leaves means lower tree complexity.",
+    "The broad other group must not be labeled unqualified non-hesitant because it includes code 9."
+  ],
+  "fresh_overlap_analysis": {
+    "status": "passed",
+    "fresh_full_model_fits": 4,
+    "n_development": 1565,
+    "n_evaluation": 1520,
+    "shared_n": 641,
+    "shared_fraction": 0.4217105263157895,
+    "disjoint_n": 879,
+    "bootstrap_repetitions": 5000,
+    "max_absolute_difference_existing_whole_disjoint_results": 2.0032586700580168e-14,
+    "fixed_predictions": true,
+    "refit_in_each_bootstrap": false,
+    "full_panel_overlap_fraction_from_existing_group_counts": 0.8909382518043304,
+    "full_panel_overlap_count_source": "n=3741 all and n=408 person_disjoint in model-family interval tables",
+    "inference_scope": "separate four-model family within each group; a separate four-contrast family for shared-minus-disjoint heterogeneity"
+  },
+  "source_sha256": {
+    "revision/tables/selected_budget_policy_results.csv": "2d82dfe8fb20f8870d36bf951e76e21cb3cb8bdf816458b616c209c87fedf007",
+    "revision/tables/fixedfit_paired_harm_benefit_inference.csv": "0fded32dccc114ec22dce85f3e4e9955acfa3e97b3530e9e20c52bcc06e6cfb1",
+    "revision/tables/model_sensitivity_full_model_intervals.csv": "ba1302c2da7de7f974131d1a99f5603f48c5e4d807a7400a0e056a90ee71177d",
+    "revision/tables/round2_boosting_full_model_intervals.csv": "67d63cfbebacefb404986b76b0e4ef06ea43dc543fa48dd88639d2ed8fb445d7",
+    "revision/tables/full_models_vs_benchmarks.csv": "0788346b9ae05de0bf5b0337d329d8d58abd93b50e611bfdcf75f1467c4fe038",
+    "revision/tables/round2_reselection_bootstrap_replicates.csv": "cb916052fe6af3219c8769085996d9245cd4cc2002c2d8f28be599a813ab56be",
+    "revision/tables/round2_reselection_point_estimates.csv": "5c0e0eaa89b9f7a7e020635b7405e23a0da0d560db80f051abcc800a539ba3d7",
+    "private_development_input": "73345122b741d62bc1070ea94350c0b25b34e46c8a188d8f52f3e91bf31fdca4",
+    "private_evaluation_input": "4d0113fc6ecd61d0123587fd57d5bdc2afd873f5bd33c2c70bf9dea2127d9b14",
+    "revision/audit/original_frozen_configs.json": "396c2dcb5805a8a4add9322df3cfaba3e258cb5c230441b2597177f356b3058a"
+  },
+  "script_sha256": "f2ca026236df941f1c9f1d1d0cde921af803b895043013179aa166d594a01962",
+  "status": "passed"
+}

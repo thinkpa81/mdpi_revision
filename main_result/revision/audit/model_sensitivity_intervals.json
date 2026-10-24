@@ -1,0 +1,12 @@
+{
+  "replicates": 5000,
+  "seed": 2026102017,
+  "conditional_predictions": true,
+  "retraining": false,
+  "selection_repeated": false,
+  "pointwise_interval": "percentile bootstrap 95 percent",
+  "simultaneous_interval": "observed mean plus or minus 95th percentile of maximum absolute centered bootstrap deviations",
+  "family": "8 full model contrasts within each population and evaluation group; family comprises all four algorithms and both history conditions",
+  "sign": "positive=model log loss greater than reference, worse prediction",
+  "code_sha256": "5c0768f0d76dce45cd7df350bd59b2c7313fc14121a34657d4e68a5ee7d8da9c"
+}

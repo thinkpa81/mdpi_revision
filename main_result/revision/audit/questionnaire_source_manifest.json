@@ -1,0 +1,28 @@
+{
+  "sources": [
+    {
+      "year": 2023,
+      "file": "2023_questionnaire.pdf",
+      "bytes": 847435,
+      "sha256": "0b87e50c3f86870ab01b8b57499c5299d40cb77f78eeb01273dc93bb46da25ec",
+      "pdf_pages": 22
+    },
+    {
+      "year": 2024,
+      "file": "2024_questionnaire.pdf",
+      "bytes": 991610,
+      "sha256": "129ada188e76dfe6f89ad5a3d1767717b6eff7a273e86dc6ec308c2ceec3c4dc",
+      "pdf_pages": 25
+    },
+    {
+      "year": 2025,
+      "file": "2025_questionnaire.pdf",
+      "bytes": 1440249,
+      "sha256": "0075dc1a95f2d1e7dbbaa619998246ec9b379f5d523dd88742fd98a57d5ef480",
+      "pdf_pages": 35
+    }
+  ],
+  "paired_bootstrap_replicates": 10000,
+  "paired_bootstrap_seed": 20261020,
+  "measurement_identifiability": "The available single-item, single-instrument-per-wave design does not identify measurement invariance, wording effects, genuine behavior change, or their separate contributions. Response-shift tests and wording audits characterize the threat; they do not remove it."
+}

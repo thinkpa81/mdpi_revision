@@ -1,0 +1,7 @@
+{
+  "bootstrap_replicates": 2000,
+  "seed": 20260909,
+  "rows": 496,
+  "max_absolute_difference": 1.096345236817342e-15,
+  "method": "original unstudentized max centered bootstrap upper bound and original family retained exactly"
+}

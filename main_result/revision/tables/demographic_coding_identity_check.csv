@@ -1,0 +1,9 @@
+﻿variable,reference_year,comparison_year,code_and_label_identity,n_categories_2023,n_categories_comparison,authoritative_source,note
+region,2023,2024,True,17,17,Embedded Codebook sheet in each raw XLSX,
+region,2023,2025,True,17,17,Embedded Codebook sheet in each raw XLSX,
+age_group,2023,2024,True,7,7,Embedded Codebook sheet in each raw XLSX,Standalone codebooks omit category7; embedded codebooks consistently define7 as70s. No age7 observations in linked development/evaluation predictors.
+age_group,2023,2025,True,7,7,Embedded Codebook sheet in each raw XLSX,Standalone codebooks omit category7; embedded codebooks consistently define7 as70s. No age7 observations in linked development/evaluation predictors.
+gender,2023,2024,True,2,2,Embedded Codebook sheet in each raw XLSX,
+gender,2023,2025,True,2,2,Embedded Codebook sheet in each raw XLSX,
+education,2023,2024,True,8,8,Embedded Codebook sheet in each raw XLSX,
+education,2023,2025,True,8,8,Embedded Codebook sheet in each raw XLSX,

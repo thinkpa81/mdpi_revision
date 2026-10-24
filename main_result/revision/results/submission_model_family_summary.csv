@@ -1,0 +1,20 @@
+model_family,training_population,evaluation_group,n,contrasts,supported_benefit,supported_harm,inconclusive,family_size,interval
+expanded_four_learners,full,all,3741,8,7,0,1,8,two-sided 95% simultaneous fixed-prediction interval
+expanded_four_learners,full,hesitant,1520,8,0,0,8,8,two-sided 95% simultaneous fixed-prediction interval
+expanded_four_learners,full,low_or_no_hesitation,1995,8,6,0,2,8,two-sided 95% simultaneous fixed-prediction interval
+expanded_four_learners,full,no_service_experience,226,8,8,0,0,8,two-sided 95% simultaneous fixed-prediction interval
+expanded_four_learners,full,other,2221,8,8,0,0,8,two-sided 95% simultaneous fixed-prediction interval
+expanded_four_learners,full,person_disjoint,408,8,1,0,7,8,two-sided 95% simultaneous fixed-prediction interval
+expanded_four_learners,restricted,all,1520,8,0,3,5,8,two-sided 95% simultaneous fixed-prediction interval
+expanded_four_learners,restricted,person_disjoint,879,8,0,4,4,8,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,full,all,3741,6,4,0,2,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,full,hesitant,1520,6,0,0,6,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,full,low_or_no_hesitation,1995,6,5,0,1,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,full,no_service_experience,226,6,5,0,1,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,full,other,2221,6,5,0,1,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,full,person_disjoint,408,6,0,0,6,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,restricted,all,1520,6,0,1,5,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,restricted,hesitant,1520,6,0,1,5,6,two-sided 95% simultaneous fixed-prediction interval
+additional_three_learners,restricted,person_disjoint,879,6,0,2,4,6,two-sided 95% simultaneous fixed-prediction interval
+original_two_learners,restricted,person_disjoint,879,4,0,3,1,4,two-sided 95% simultaneous fixed-prediction interval
+original_two_learners,restricted,all,1520,4,0,3,1,4,two-sided 95% simultaneous fixed-prediction interval

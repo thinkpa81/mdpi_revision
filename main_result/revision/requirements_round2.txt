@@ -1,0 +1,6 @@
+# Install into an isolated environment alongside the recorded primary runtime.
+xgboost-cpu==3.4.1
+lightgbm==4.7.0
+catboost==1.2.10
+narwhals==2.27.1
+graphviz==0.21

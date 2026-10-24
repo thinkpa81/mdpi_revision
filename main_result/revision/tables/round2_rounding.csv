@@ -1,0 +1,5 @@
+domain,model,n,raw_log_loss,format_5_decimals,format_6_decimals,source,affected_location
+whole,NONE,1520,0.68564354984501674,0.68564,0.685644,"raw-data-refit prediction vector, natural-log loss",cross-check
+whole,P0,1520,0.66062461860971156,0.66062,0.660625,"raw-data-refit prediction vector, natural-log loss",cross-check
+person_disjoint,NONE,879,0.69198512070857876,0.69199,0.691985,"raw-data-refit prediction vector, natural-log loss",Supplement Table S8 note: replace 0.69198 with 0.69199
+person_disjoint,P0,879,0.67929645603524857,0.67930,0.679296,"raw-data-refit prediction vector, natural-log loss",cross-check

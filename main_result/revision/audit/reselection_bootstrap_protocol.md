@@ -1,0 +1,20 @@
+# Focused full-process reselection bootstrap
+
+This post-review sensitivity assesses the uncertainty and selection stability of the complete budget-constrained procedure at budgets of one and four additional questionnaire items. These budgets address the reviewers' specific concerns about the one-item contrast and the four-item demographic selections. The temporal evaluation wave had been examined in the original study. This analysis is therefore a post-review sensitivity, not a new untouched confirmatory test.
+
+## Resampling and selection
+
+1. Construct the union of participant IDs in the 2023–2024 development sample and the 2024–2025 temporal evaluation sample. Draw as many IDs as there are distinct IDs in that union, with replacement. A participant present in both periods receives exactly the same bootstrap multiplicity in both samples.
+2. Within the resampled development data, stratify the distinct sampled participants into five folds using their development outcome. Expand bootstrap multiplicities only after assigning folds. All copies of a participant stay in the same fold. Assertions verify participant disjointness for each training–validation pair.
+3. Refit imputation, standardization, and one-hot encoding within each training fold. These transformations act independently on each feature, so fitting the full feature-wise transformation once per fold and selecting its relevant columns is algebraically equivalent to separate transformations for each portfolio. A direct comparison with the original implementation verified prediction agreement to numerical precision.
+4. Search every original portfolio eligible for budgets one and four: 34 portfolios, including the no-information model. The history-available condition additionally admits P0; the history-unavailable condition excludes portfolios containing H and excludes P0. P0 and the no-information model retain the original Laplace smoothing. The ridge grid is C in {0.001, 0.01, 0.1, 1, 10}; HGB uses 100 iterations, learning rate 0.05, and 3 or 7 leaves, as in the original analysis.
+5. Select each portfolio's hyperparameter using pooled out-of-fold log loss. Within each budget and history condition, select by out-of-fold log loss, then actual additional item count, then portfolio name. Refit on the complete resampled development data and evaluate on the correspondingly resampled temporal data. Both full-information reference models are also retuned and refitted in every replicate.
+6. Repeat 200 times using deterministic independent seeds. The point estimator repeats the same procedure on the original samples with the original development fold seed.
+
+## Reporting and interpretation
+
+The outputs report selected portfolios and hyperparameters, selection frequencies and their Monte Carlo standard errors, temporal log loss, AUC, and differences from the no-additional-collection benchmark and the full-information reference. A positive log-loss difference means worse prediction from the selected procedure.
+
+The 2.5th and 97.5th percentiles form pointwise full-process bootstrap sensitivity intervals for the full restricted temporal evaluation sample (original n = 1,520). These intervals are not estimates for the non-overlapping subgroup or the unrestricted full panel. They incorporate resampling of participants, model refitting, hyperparameter tuning, and portfolio reselection for the two studied budgets. They do not provide simultaneous coverage across budgets, models, or history conditions. The proportion of replicates with a positive difference is a descriptive bootstrap frequency, not a p-value. The finite replicate count also introduces Monte Carlo uncertainty, particularly in the interval tails.
+
+These intervals do not capture uncertainty from sampling a different survey year, redesigning the outcome wording, or choosing different candidate variables. Full-process bootstrap inference for budgets above four was not performed. The broader-budget analysis retains its separately reported conditional-prediction uncertainty.

@@ -1,0 +1,9 @@
+domain,algorithm,history_available,budgets,unique_chosen_models,harm_budgets,benefit_budgets,inconclusive_or_identical_budgets,inference
+disjoint,hgb,False,31,16,27,0,4,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references
+disjoint,hgb,True,31,14,25,0,6,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references
+disjoint,ridge,False,31,11,27,0,4,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references
+disjoint,ridge,True,31,13,27,0,4,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references
+whole,hgb,False,31,16,26,0,5,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references
+whole,hgb,True,31,14,22,0,9,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references
+whole,ridge,False,31,11,11,0,20,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references
+whole,ridge,True,31,13,26,0,5,separate one-sided 95% simultaneous bounds within each original algorithm/history/domain family including both references

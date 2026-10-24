@@ -1,0 +1,323 @@
+{
+  "status": "completed_all",
+  "started_utc": "2026-10-20T16:17:14Z",
+  "elapsed_seconds": 436.4385621547699,
+  "scope": "post-review finite comparison; eight fixed information representations, no budget or subset search",
+  "evaluation_used_for_tuning": false,
+  "folds": 5,
+  "seed": 20261020,
+  "representations": {
+    "H": [
+      "H"
+    ],
+    "B": [
+      "B"
+    ],
+    "H_B": [
+      "H",
+      "B"
+    ],
+    "D": [
+      "D"
+    ],
+    "H_D": [
+      "H",
+      "D"
+    ],
+    "H_D_B": [
+      "H",
+      "D",
+      "B"
+    ],
+    "full_H": [
+      "H",
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ],
+    "full_noH": [
+      "D",
+      "B",
+      "M",
+      "P",
+      "C",
+      "A",
+      "K"
+    ]
+  },
+  "grids": {
+    "xgboost": [
+      {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 100,
+        "max_depth": 2,
+        "reg_lambda": 100.0
+      },
+      {
+        "n_estimators": 100,
+        "max_depth": 4,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 100,
+        "max_depth": 4,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 100,
+        "max_depth": 4,
+        "reg_lambda": 100.0
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 2,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 2,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 2,
+        "reg_lambda": 100.0
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 300,
+        "max_depth": 4,
+        "reg_lambda": 100.0
+      }
+    ],
+    "lightgbm": [
+      {
+        "n_estimators": 100,
+        "num_leaves": 7,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 100,
+        "num_leaves": 7,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 100,
+        "num_leaves": 7,
+        "reg_lambda": 100.0
+      },
+      {
+        "n_estimators": 100,
+        "num_leaves": 15,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 100,
+        "num_leaves": 15,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 100,
+        "num_leaves": 15,
+        "reg_lambda": 100.0
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 7,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 7,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 7,
+        "reg_lambda": 100.0
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 15,
+        "reg_lambda": 1.0
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 15,
+        "reg_lambda": 10.0
+      },
+      {
+        "n_estimators": 300,
+        "num_leaves": 15,
+        "reg_lambda": 100.0
+      }
+    ],
+    "catboost": [
+      {
+        "iterations": 100,
+        "depth": 3,
+        "l2_leaf_reg": 3.0
+      },
+      {
+        "iterations": 100,
+        "depth": 3,
+        "l2_leaf_reg": 30.0
+      },
+      {
+        "iterations": 100,
+        "depth": 3,
+        "l2_leaf_reg": 100.0
+      },
+      {
+        "iterations": 100,
+        "depth": 5,
+        "l2_leaf_reg": 3.0
+      },
+      {
+        "iterations": 100,
+        "depth": 5,
+        "l2_leaf_reg": 30.0
+      },
+      {
+        "iterations": 100,
+        "depth": 5,
+        "l2_leaf_reg": 100.0
+      },
+      {
+        "iterations": 300,
+        "depth": 3,
+        "l2_leaf_reg": 3.0
+      },
+      {
+        "iterations": 300,
+        "depth": 3,
+        "l2_leaf_reg": 30.0
+      },
+      {
+        "iterations": 300,
+        "depth": 3,
+        "l2_leaf_reg": 100.0
+      },
+      {
+        "iterations": 300,
+        "depth": 5,
+        "l2_leaf_reg": 3.0
+      },
+      {
+        "iterations": 300,
+        "depth": 5,
+        "l2_leaf_reg": 30.0
+      },
+      {
+        "iterations": 300,
+        "depth": 5,
+        "l2_leaf_reg": 100.0
+      }
+    ]
+  },
+  "fixed_parameters": {
+    "xgboost": {
+      "learning_rate": 0.05,
+      "objective": "binary:logistic",
+      "eval_metric": "logloss",
+      "tree_method": "hist",
+      "device": "cpu",
+      "min_child_weight": 10.0,
+      "subsample": 1.0,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 0.0,
+      "max_bin": 256,
+      "n_jobs": 1,
+      "random_state": 20261020,
+      "verbosity": 0
+    },
+    "lightgbm": {
+      "learning_rate": 0.05,
+      "objective": "binary",
+      "boosting_type": "gbdt",
+      "min_child_samples": 20,
+      "subsample": 1.0,
+      "subsample_freq": 0,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 0.0,
+      "max_bin": 255,
+      "deterministic": true,
+      "force_col_wise": true,
+      "n_jobs": 1,
+      "random_state": 20261020,
+      "verbosity": -1
+    },
+    "catboost": {
+      "learning_rate": 0.05,
+      "loss_function": "Logloss",
+      "eval_metric": "Logloss",
+      "boosting_type": "Ordered",
+      "task_type": "CPU",
+      "bootstrap_type": "Bayesian",
+      "bagging_temperature": 1.0,
+      "random_strength": 1.0,
+      "border_count": 254,
+      "one_hot_max_size": 2,
+      "thread_count": 1,
+      "random_seed": 20261020,
+      "verbose": false,
+      "allow_writing_files": false
+    }
+  },
+  "expected_final_models": 48,
+  "expected_cv_fits": 2880,
+  "expected_total_fits": 2928,
+  "tuning": "pooled development-only five-fold out-of-fold log loss; first grid member wins exact ties",
+  "preprocessing": "XGBoost/LightGBM fold-fit median+standardization numeric and modal+onehot categorical; CatBoost fold-fit median numeric and modal categorical strings, native categorical handling and Ordered boosting",
+  "early_stopping": false,
+  "class_weights": false,
+  "oversampling": false,
+  "inference": {
+    "replicates": 5000,
+    "seed": 2026102031,
+    "conditional_fixed_predictions": true,
+    "selection_repeated": false,
+    "pointwise": "95% percentile paired bootstrap",
+    "simultaneous": "observed difference plus or minus 95th percentile maximum absolute centered bootstrap deviation",
+    "family": "six new-algorithm full-model contrasts separately within each population and evaluation group; original four-algorithm eight-contrast families unchanged"
+  },
+  "libraries": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0",
+    "sklearn": "1.8.0",
+    "xgboost": "3.4.1",
+    "lightgbm": "4.7.0",
+    "catboost": "1.2.10"
+  },
+  "input_sha256": {
+    "development.csv": "a3beced41c288b5dd4454598b26bde9007e78249ba597cd95a3b6c4234aea022",
+    "evaluation.csv": "24f0af7707c883fc9ebef22186ccfbc5811f05f056a40da883ae56396e1187ce",
+    "full_development.csv": "4fc626857ffc0f8b4ad686db014880ba386f090b7ec7c0c9153703df5b8ac580",
+    "full_evaluation.csv": "a09df60e557825df825cf56a646aa1d9505a6001ad1e6bf7c9a62d3ee898f035"
+  },
+  "code_sha256": "a52d2b6e82f971f34f268cca02f07909faea3c0ca5424b9b26be823717982544"
+}

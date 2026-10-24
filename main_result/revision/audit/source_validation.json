@@ -1,0 +1,45 @@
+{
+  "checks": [
+    {
+      "check": "development_independent_id_set",
+      "pass": true,
+      "n": 1565
+    },
+    {
+      "check": "evaluation_independent_id_set",
+      "pass": true,
+      "n": 1520
+    },
+    {
+      "check": "restricted_overlap_n",
+      "pass": true,
+      "n": 641
+    },
+    {
+      "check": "no_age7_in_development",
+      "pass": true,
+      "n": 0
+    },
+    {
+      "check": "no_age7_in_evaluation",
+      "pass": true,
+      "n": 0
+    },
+    {
+      "check": "no_age7_in_full_development",
+      "pass": true,
+      "n": 0
+    },
+    {
+      "check": "no_age7_in_full_evaluation",
+      "pass": true,
+      "n": 0
+    },
+    {
+      "check": "embedded_demographic_codebook_identity",
+      "pass": true
+    }
+  ],
+  "scope": "The raw authorized XLSX Numeric worksheets were read directly. Harmonization was independently checked by ID sets. No row-level records are included in the public results.",
+  "measurement_limit": "Single self-reported outcome and changed wording are confounded with wave; these diagnostics do not establish measurement invariance."
+}

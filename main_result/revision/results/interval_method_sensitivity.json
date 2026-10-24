@@ -1,0 +1,48 @@
+{
+  "status": "passed",
+  "analysis": "post-review interval-construction sensitivity; original fits unchanged",
+  "input_sha256": {
+    "round2_reselection_bootstrap_replicates.csv": "cb916052fe6af3219c8769085996d9245cd4cc2002c2d8f28be599a813ab56be",
+    "round2_reselection_point_estimates.csv": "5c0e0eaa89b9f7a7e020635b7405e23a0da0d560db80f051abcc800a539ba3d7",
+    "round2_reselection_bootstrap_intervals.csv": "789962b5ed72fd25b5f6901999aceb9a1e66fb391d536a7417449f397e9b8520",
+    "reselection_bootstrap_replicates.csv": "0e132e448c8d16bde2a2b163635668ee58d4fc413b82e633eb7a3cb4b45f9064",
+    "reselection_point_estimates.csv": "5c0e0eaa89b9f7a7e020635b7405e23a0da0d560db80f051abcc800a539ba3d7"
+  },
+  "records": 8000,
+  "procedures_sharing_resamples": 8,
+  "unique_resamples": 1000,
+  "reference_types": 2,
+  "intervals_reported": 16,
+  "quantiles": "NumPy linear 0.025 and 0.975 quantiles",
+  "basic_formula": "[2*point - q0.975, 2*point - q0.025]",
+  "bootstrap_bias_definition": "bootstrap mean minus original-sample point estimate",
+  "reported_summary_max_abs_difference": 7.632783294297951e-17,
+  "first_200_replicates_exactly_match_prior_stage": true,
+  "point_estimator_exactly_matches_prior_stage": true,
+  "summary": {
+    "benchmark": {
+      "procedures": 8,
+      "percentile_includes_zero": 8,
+      "basic_includes_zero": 5,
+      "basic_excludes_zero_benefit": 1,
+      "basic_excludes_zero_harm": 2,
+      "maximum_absolute_bootstrap_bias": 0.0168066886003043
+    },
+    "full": {
+      "procedures": 8,
+      "percentile_includes_zero": 8,
+      "basic_includes_zero": 5,
+      "basic_excludes_zero_benefit": 3,
+      "basic_excludes_zero_harm": 0,
+      "maximum_absolute_bootstrap_bias": 0.03816233439561984
+    }
+  },
+  "interpretation": [
+    "Percentile intervals remain the primary, originally specified full-process sensitivity summaries.",
+    "Basic intervals are an additional diagnostic; disagreement indicates interval-construction sensitivity.",
+    "A nonsignificant interval is not evidence of equality or absence of benefit.",
+    "Neither method is simultaneous across procedures or guaranteed to resolve nonregular model-selection uncertainty.",
+    "Positive bootstrap fractions are descriptive, not p-values or posterior harm probabilities.",
+    "Full-model comparisons address performance relative to a refitted full model and do not by themselves establish collection value relative to P0/NONE."
+  ]
+}

@@ -1,0 +1,5 @@
+algorithm,history_available,full_subset,benchmark,configuration,contrast,delta,simultaneous_low,simultaneous_high,family_size,bootstrap_repetitions,interpretation
+ridge,False,D_B_M_P_C_A_K,NONE,1.0,shared_minus_disjoint_loss_difference,-0.08419686383049362,-0.12834644118804742,-0.04004728647293981,4,5000,conditional predictive heterogeneity; not a causal overlap effect
+ridge,True,H_D_B_M_P_C_A_K,P0,1.0,shared_minus_disjoint_loss_difference,-0.055997307362749486,-0.1001468847203033,-0.011847730005195678,4,5000,conditional predictive heterogeneity; not a causal overlap effect
+hgb,False,D_B_M_P_C_A_K,NONE,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",shared_minus_disjoint_loss_difference,-0.08640678267568158,-0.1305563600332354,-0.04225720531812777,4,5000,conditional predictive heterogeneity; not a causal overlap effect
+hgb,True,H_D_B_M_P_C_A_K,P0,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",shared_minus_disjoint_loss_difference,-0.045443689881948156,-0.08959326723950196,-0.0012941125243943474,4,5000,conditional predictive heterogeneity; not a causal overlap effect

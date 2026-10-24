@@ -1,0 +1,10 @@
+{
+  "status": "retrospective post-review diagnostic using evaluation labels",
+  "identity": "raw log loss = outcome entropy - affine logistic resolution + affine logistic miscalibration",
+  "scope": "This is an affine-score diagnostic; not a full nonparametric calibration/discrimination decomposition. AUC separately measures ranking. Negative slope can reverse ranking.",
+  "apparent_recalibration": "intercept and slope fitted on the same evaluation observations; optimistic diagnostic",
+  "crossfitted_recalibration": "5-fold stratified evaluation split; recalibrator fit on 4 folds and tested on fifth; base model fixed",
+  "bootstrap": "paired evaluation-participant bootstrap; affine calibrator refitted in each draw; trained base prediction model remains fixed",
+  "bootstrap_replicates": 500,
+  "caution": "Recalibration does not identify survey wording effects separately from time, sample composition, or behavior and is not prospective deployment validation."
+}

@@ -1,0 +1,103 @@
+﻿year,variable,raw_variable,code,value_label_ko,source_sheet,excel_row
+2023,region,Area1,1,1) 서울,Codebook,3
+2023,region,Area1,2,2) 부산,Codebook,4
+2023,region,Area1,3,3) 대구,Codebook,5
+2023,region,Area1,4,4) 인천,Codebook,6
+2023,region,Area1,5,5) 광주,Codebook,7
+2023,region,Area1,6,6) 대전,Codebook,8
+2023,region,Area1,7,7) 울산,Codebook,9
+2023,region,Area1,8,8) 세종,Codebook,10
+2023,region,Area1,9,9) 경기,Codebook,11
+2023,region,Area1,10,10) 강원,Codebook,12
+2023,region,Area1,11,11) 충북,Codebook,13
+2023,region,Area1,12,12) 충남,Codebook,14
+2023,region,Area1,13,13) 전북,Codebook,15
+2023,region,Area1,14,14) 전남,Codebook,16
+2023,region,Area1,15,15) 경북,Codebook,17
+2023,region,Area1,16,16) 경남,Codebook,18
+2023,region,Area1,17,17) 제주,Codebook,19
+2023,age_group,Age_group,1,1) 10대,Codebook,21
+2023,age_group,Age_group,2,2) 20대,Codebook,22
+2023,age_group,Age_group,3,3) 30대,Codebook,23
+2023,age_group,Age_group,4,4) 40대,Codebook,24
+2023,age_group,Age_group,5,5) 50대,Codebook,25
+2023,age_group,Age_group,6,6) 60대,Codebook,26
+2023,age_group,Age_group,7,7) 70대,Codebook,27
+2023,gender,SQ1,1,1) 남성,Codebook,29
+2023,gender,SQ1,2,2) 여성,Codebook,30
+2023,education,DQ2_1,1,1) 안 받았음,Codebook,1798
+2023,education,DQ2_1,2,2) 초등학교,Codebook,1799
+2023,education,DQ2_1,3,3) 중학교,Codebook,1800
+2023,education,DQ2_1,4,4) 고등학교,Codebook,1801
+2023,education,DQ2_1,5,5) 대학교(4년제 미만),Codebook,1802
+2023,education,DQ2_1,6,6) 대학교(4년제 이상),Codebook,1803
+2023,education,DQ2_1,7,7) 대학원(석사과정),Codebook,1804
+2023,education,DQ2_1,8,8) 대학원(박사과정),Codebook,1805
+2024,region,Area1,1,1) 서울,Codebook,3
+2024,region,Area1,2,2) 부산,Codebook,4
+2024,region,Area1,3,3) 대구,Codebook,5
+2024,region,Area1,4,4) 인천,Codebook,6
+2024,region,Area1,5,5) 광주,Codebook,7
+2024,region,Area1,6,6) 대전,Codebook,8
+2024,region,Area1,7,7) 울산,Codebook,9
+2024,region,Area1,8,8) 세종,Codebook,10
+2024,region,Area1,9,9) 경기,Codebook,11
+2024,region,Area1,10,10) 강원,Codebook,12
+2024,region,Area1,11,11) 충북,Codebook,13
+2024,region,Area1,12,12) 충남,Codebook,14
+2024,region,Area1,13,13) 전북,Codebook,15
+2024,region,Area1,14,14) 전남,Codebook,16
+2024,region,Area1,15,15) 경북,Codebook,17
+2024,region,Area1,16,16) 경남,Codebook,18
+2024,region,Area1,17,17) 제주,Codebook,19
+2024,age_group,Age_group,1,1) 10대,Codebook,21
+2024,age_group,Age_group,2,2) 20대,Codebook,22
+2024,age_group,Age_group,3,3) 30대,Codebook,23
+2024,age_group,Age_group,4,4) 40대,Codebook,24
+2024,age_group,Age_group,5,5) 50대,Codebook,25
+2024,age_group,Age_group,6,6) 60대,Codebook,26
+2024,age_group,Age_group,7,7) 70대,Codebook,27
+2024,gender,SQ1,1,1) 남성,Codebook,29
+2024,gender,SQ1,2,2) 여성,Codebook,30
+2024,education,DQ2_1,1,1) 안 받았음,Codebook,1871
+2024,education,DQ2_1,2,2) 초등학교,Codebook,1872
+2024,education,DQ2_1,3,3) 중학교,Codebook,1873
+2024,education,DQ2_1,4,4) 고등학교,Codebook,1874
+2024,education,DQ2_1,5,5) 대학교(4년제 미만),Codebook,1875
+2024,education,DQ2_1,6,6) 대학교(4년제 이상),Codebook,1876
+2024,education,DQ2_1,7,7) 대학원(석사과정),Codebook,1877
+2024,education,DQ2_1,8,8) 대학원(박사과정),Codebook,1878
+2025,region,Area1,1,1) 서울,Codebook,3
+2025,region,Area1,2,2) 부산,Codebook,4
+2025,region,Area1,3,3) 대구,Codebook,5
+2025,region,Area1,4,4) 인천,Codebook,6
+2025,region,Area1,5,5) 광주,Codebook,7
+2025,region,Area1,6,6) 대전,Codebook,8
+2025,region,Area1,7,7) 울산,Codebook,9
+2025,region,Area1,8,8) 세종,Codebook,10
+2025,region,Area1,9,9) 경기,Codebook,11
+2025,region,Area1,10,10) 강원,Codebook,12
+2025,region,Area1,11,11) 충북,Codebook,13
+2025,region,Area1,12,12) 충남,Codebook,14
+2025,region,Area1,13,13) 전북,Codebook,15
+2025,region,Area1,14,14) 전남,Codebook,16
+2025,region,Area1,15,15) 경북,Codebook,17
+2025,region,Area1,16,16) 경남,Codebook,18
+2025,region,Area1,17,17) 제주,Codebook,19
+2025,age_group,Age_group,1,1) 10대,Codebook,21
+2025,age_group,Age_group,2,2) 20대,Codebook,22
+2025,age_group,Age_group,3,3) 30대,Codebook,23
+2025,age_group,Age_group,4,4) 40대,Codebook,24
+2025,age_group,Age_group,5,5) 50대,Codebook,25
+2025,age_group,Age_group,6,6) 60대,Codebook,26
+2025,age_group,Age_group,7,7) 70대,Codebook,27
+2025,gender,SQ1,1,1) 남성,Codebook,29
+2025,gender,SQ1,2,2) 여성,Codebook,30
+2025,education,DQ2_1,1,1) 안 받았음,Codebook,1992
+2025,education,DQ2_1,2,2) 초등학교,Codebook,1993
+2025,education,DQ2_1,3,3) 중학교,Codebook,1994
+2025,education,DQ2_1,4,4) 고등학교,Codebook,1995
+2025,education,DQ2_1,5,5) 대학교(4년제 미만),Codebook,1996
+2025,education,DQ2_1,6,6) 대학교(4년제 이상),Codebook,1997
+2025,education,DQ2_1,7,7) 대학원(석사과정),Codebook,1998
+2025,education,DQ2_1,8,8) 대학원(박사과정),Codebook,1999

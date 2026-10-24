@@ -1,0 +1,5 @@
+﻿variable,paired_n,valid_pairs,changed_n,changed_proportion
+gender,641,641,0,0.0
+age_group,641,641,82,0.12792511700468018
+education,641,641,2,0.0031201248049922
+region,641,641,0,0.0

@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "replicates": 200,
+  "procedures": 8,
+  "total_rows": 1600,
+  "portfolio_frequency_sums_one": true,
+  "budget_constraints_satisfied": true,
+  "history_unavailable_excludes_H_and_P0": true,
+  "reported_differences_recomputed": true,
+  "all_replicates_have_duplicate_participants": true,
+  "duplicate_group_disjoint_assertions": "Executed inside every development CV split",
+  "input_development_sha256": "a3beced41c288b5dd4454598b26bde9007e78249ba597cd95a3b6c4234aea022",
+  "input_evaluation_sha256": "24f0af7707c883fc9ebef22186ccfbc5811f05f056a40da883ae56396e1187ce",
+  "maximum_frequency_monte_carlo_se": 0.0348407089480108,
+  "bootstrap_file_sha256": "0e132e448c8d16bde2a2b163635668ee58d4fc413b82e633eb7a3cb4b45f9064"
+}

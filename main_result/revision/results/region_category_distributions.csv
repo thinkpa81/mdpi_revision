@@ -1,0 +1,77 @@
+sample,coding,code,label,n,denominator,proportion
+development,region17,1,Seoul,266,1565,0.16996805111821087
+development,region17,2,Busan,156,1565,0.09968051118210862
+development,region17,3,Daegu,30,1565,0.019169329073482427
+development,region17,4,Incheon,93,1565,0.05942492012779553
+development,region17,5,Gwangju,82,1565,0.0523961661341853
+development,region17,6,Daejeon,44,1565,0.028115015974440896
+development,region17,7,Ulsan,9,1565,0.005750798722044728
+development,region17,8,Sejong,27,1565,0.017252396166134186
+development,region17,9,Gyeonggi,336,1565,0.2146964856230032
+development,region17,10,Gangwon,35,1565,0.022364217252396165
+development,region17,11,Chungbuk,31,1565,0.019808306709265176
+development,region17,12,Chungnam,63,1565,0.040255591054313096
+development,region17,13,Jeonbuk,67,1565,0.04281150159744409
+development,region17,14,Jeonnam,102,1565,0.06517571884984026
+development,region17,15,Gyeongbuk,66,1565,0.042172523961661344
+development,region17,16,Gyeongnam,145,1565,0.0926517571884984
+development,region17,17,Jeju,13,1565,0.008306709265175719
+development,capital_noncapital,1,Capital area,695,1565,0.4440894568690096
+development,capital_noncapital,0,Noncapital area,870,1565,0.5559105431309904
+evaluation,region17,1,Seoul,409,1520,0.26907894736842103
+evaluation,region17,2,Busan,152,1520,0.1
+evaluation,region17,3,Daegu,55,1520,0.03618421052631579
+evaluation,region17,4,Incheon,26,1520,0.017105263157894738
+evaluation,region17,5,Gwangju,75,1520,0.049342105263157895
+evaluation,region17,6,Daejeon,47,1520,0.030921052631578946
+evaluation,region17,7,Ulsan,25,1520,0.01644736842105263
+evaluation,region17,8,Sejong,32,1520,0.021052631578947368
+evaluation,region17,9,Gyeonggi,249,1520,0.16381578947368422
+evaluation,region17,10,Gangwon,18,1520,0.011842105263157895
+evaluation,region17,11,Chungbuk,17,1520,0.01118421052631579
+evaluation,region17,12,Chungnam,93,1520,0.06118421052631579
+evaluation,region17,13,Jeonbuk,55,1520,0.03618421052631579
+evaluation,region17,14,Jeonnam,71,1520,0.04671052631578947
+evaluation,region17,15,Gyeongbuk,66,1520,0.04342105263157895
+evaluation,region17,16,Gyeongnam,122,1520,0.08026315789473684
+evaluation,region17,17,Jeju,8,1520,0.005263157894736842
+evaluation,capital_noncapital,1,Capital area,684,1520,0.45
+evaluation,capital_noncapital,0,Noncapital area,836,1520,0.55
+evaluation_shared,region17,1,Seoul,122,641,0.19032761310452417
+evaluation_shared,region17,2,Busan,80,641,0.12480499219968799
+evaluation_shared,region17,3,Daegu,8,641,0.0124804992199688
+evaluation_shared,region17,4,Incheon,16,641,0.0249609984399376
+evaluation_shared,region17,5,Gwangju,49,641,0.07644305772230889
+evaluation_shared,region17,6,Daejeon,23,641,0.0358814352574103
+evaluation_shared,region17,7,Ulsan,2,641,0.0031201248049922
+evaluation_shared,region17,8,Sejong,18,641,0.028081123244929798
+evaluation_shared,region17,9,Gyeonggi,95,641,0.1482059282371295
+evaluation_shared,region17,10,Gangwon,9,641,0.014040561622464899
+evaluation_shared,region17,11,Chungbuk,10,641,0.015600624024960999
+evaluation_shared,region17,12,Chungnam,29,641,0.0452418096723869
+evaluation_shared,region17,13,Jeonbuk,25,641,0.0390015600624025
+evaluation_shared,region17,14,Jeonnam,48,641,0.0748829953198128
+evaluation_shared,region17,15,Gyeongbuk,33,641,0.0514820592823713
+evaluation_shared,region17,16,Gyeongnam,69,641,0.10764430577223089
+evaluation_shared,region17,17,Jeju,5,641,0.0078003120124804995
+evaluation_shared,capital_noncapital,1,Capital area,233,641,0.36349453978159124
+evaluation_shared,capital_noncapital,0,Noncapital area,408,641,0.6365054602184087
+evaluation_disjoint,region17,1,Seoul,287,879,0.3265073947667804
+evaluation_disjoint,region17,2,Busan,72,879,0.08191126279863481
+evaluation_disjoint,region17,3,Daegu,47,879,0.053469852104664393
+evaluation_disjoint,region17,4,Incheon,10,879,0.011376564277588168
+evaluation_disjoint,region17,5,Gwangju,26,879,0.02957906712172924
+evaluation_disjoint,region17,6,Daejeon,24,879,0.027303754266211604
+evaluation_disjoint,region17,7,Ulsan,23,879,0.026166097838452786
+evaluation_disjoint,region17,8,Sejong,14,879,0.015927189988623434
+evaluation_disjoint,region17,9,Gyeonggi,154,879,0.1751990898748578
+evaluation_disjoint,region17,10,Gangwon,9,879,0.010238907849829351
+evaluation_disjoint,region17,11,Chungbuk,7,879,0.007963594994311717
+evaluation_disjoint,region17,12,Chungnam,64,879,0.07281001137656427
+evaluation_disjoint,region17,13,Jeonbuk,30,879,0.034129692832764506
+evaluation_disjoint,region17,14,Jeonnam,23,879,0.026166097838452786
+evaluation_disjoint,region17,15,Gyeongbuk,33,879,0.03754266211604096
+evaluation_disjoint,region17,16,Gyeongnam,53,879,0.06029579067121729
+evaluation_disjoint,region17,17,Jeju,3,879,0.0034129692832764505
+evaluation_disjoint,capital_noncapital,1,Capital area,451,879,0.5130830489192264
+evaluation_disjoint,capital_noncapital,0,Noncapital area,428,879,0.4869169510807736

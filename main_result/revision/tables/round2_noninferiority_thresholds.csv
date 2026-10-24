@@ -1,0 +1,33 @@
+algorithm,history_available,model,reference,delta_log_loss,simultaneous_upper95_one_sided,margin,passes,interpretation
+ridge,False,ridge::B,ridge::D_B_M_P_C_A_K,-0.031671172147181403,-0.0088819347169995008,0,True,zero allowance; same strict criterion as superiority
+ridge,False,ridge::B,ridge::D_B_M_P_C_A_K,-0.031671172147181403,-0.0088819347169995008,0.0025000000000000001,True,positive retrospective non-inferiority allowance
+ridge,False,ridge::B,ridge::D_B_M_P_C_A_K,-0.031671172147181403,-0.0088819347169995008,0.0050000000000000001,True,positive retrospective non-inferiority allowance
+ridge,False,ridge::B,ridge::D_B_M_P_C_A_K,-0.031671172147181403,-0.0088819347169995008,0.01,True,positive retrospective non-inferiority allowance
+ridge,False,ridge::B,ridge::NONE,-0.0082037558184828996,0.014585481611698901,0,False,zero allowance; same strict criterion as superiority
+ridge,False,ridge::B,ridge::NONE,-0.0082037558184828996,0.014585481611698901,0.0025000000000000001,False,positive retrospective non-inferiority allowance
+ridge,False,ridge::B,ridge::NONE,-0.0082037558184828996,0.014585481611698901,0.0050000000000000001,False,positive retrospective non-inferiority allowance
+ridge,False,ridge::B,ridge::NONE,-0.0082037558184828996,0.014585481611698901,0.01,False,positive retrospective non-inferiority allowance
+ridge,True,ridge::H_B,ridge::H_D_B_M_P_C_A_K,-0.042368104208891498,-0.020345976023442101,0,True,zero allowance; same strict criterion as superiority
+ridge,True,ridge::H_B,ridge::H_D_B_M_P_C_A_K,-0.042368104208891498,-0.020345976023442101,0.0025000000000000001,True,positive retrospective non-inferiority allowance
+ridge,True,ridge::H_B,ridge::H_D_B_M_P_C_A_K,-0.042368104208891498,-0.020345976023442101,0.0050000000000000001,True,positive retrospective non-inferiority allowance
+ridge,True,ridge::H_B,ridge::H_D_B_M_P_C_A_K,-0.042368104208891498,-0.020345976023442101,0.01,True,positive retrospective non-inferiority allowance
+ridge,True,ridge::H_B,P0,-0.0033808865008013002,0.018641241684648001,0,False,zero allowance; same strict criterion as superiority
+ridge,True,ridge::H_B,P0,-0.0033808865008013002,0.018641241684648001,0.0025000000000000001,False,positive retrospective non-inferiority allowance
+ridge,True,ridge::H_B,P0,-0.0033808865008013002,0.018641241684648001,0.0050000000000000001,False,positive retrospective non-inferiority allowance
+ridge,True,ridge::H_B,P0,-0.0033808865008013002,0.018641241684648001,0.01,False,positive retrospective non-inferiority allowance
+hgb,False,hgb::B,hgb::D_B_M_P_C_A_K,-0.030908911021171499,-0.0085382416965825002,0,True,zero allowance; same strict criterion as superiority
+hgb,False,hgb::B,hgb::D_B_M_P_C_A_K,-0.030908911021171499,-0.0085382416965825002,0.0025000000000000001,True,positive retrospective non-inferiority allowance
+hgb,False,hgb::B,hgb::D_B_M_P_C_A_K,-0.030908911021171499,-0.0085382416965825002,0.0050000000000000001,True,positive retrospective non-inferiority allowance
+hgb,False,hgb::B,hgb::D_B_M_P_C_A_K,-0.030908911021171499,-0.0085382416965825002,0.01,True,positive retrospective non-inferiority allowance
+hgb,False,hgb::B,hgb::NONE,-0.0037471572888205002,0.0186235120357684,0,False,zero allowance; same strict criterion as superiority
+hgb,False,hgb::B,hgb::NONE,-0.0037471572888205002,0.0186235120357684,0.0025000000000000001,False,positive retrospective non-inferiority allowance
+hgb,False,hgb::B,hgb::NONE,-0.0037471572888205002,0.0186235120357684,0.0050000000000000001,False,positive retrospective non-inferiority allowance
+hgb,False,hgb::B,hgb::NONE,-0.0037471572888205002,0.0186235120357684,0.01,False,positive retrospective non-inferiority allowance
+hgb,True,hgb::H_B,hgb::H_D_B_M_P_C_A_K,-0.0137559148539561,0.0066692725173000001,0,False,zero allowance; same strict criterion as superiority
+hgb,True,hgb::H_B,hgb::H_D_B_M_P_C_A_K,-0.0137559148539561,0.0066692725173000001,0.0025000000000000001,False,positive retrospective non-inferiority allowance
+hgb,True,hgb::H_B,hgb::H_D_B_M_P_C_A_K,-0.0137559148539561,0.0066692725173000001,0.0050000000000000001,False,positive retrospective non-inferiority allowance
+hgb,True,hgb::H_B,hgb::H_D_B_M_P_C_A_K,-0.0137559148539561,0.0066692725173000001,0.01,True,positive retrospective non-inferiority allowance
+hgb,True,hgb::H_B,P0,-0.0037543412207696998,0.0166708461504863,0,False,zero allowance; same strict criterion as superiority
+hgb,True,hgb::H_B,P0,-0.0037543412207696998,0.0166708461504863,0.0025000000000000001,False,positive retrospective non-inferiority allowance
+hgb,True,hgb::H_B,P0,-0.0037543412207696998,0.0166708461504863,0.0050000000000000001,False,positive retrospective non-inferiority allowance
+hgb,True,hgb::H_B,P0,-0.0037543412207696998,0.0166708461504863,0.01,False,positive retrospective non-inferiority allowance

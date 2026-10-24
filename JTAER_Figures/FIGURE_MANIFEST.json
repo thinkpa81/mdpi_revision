@@ -1,0 +1,647 @@
+{
+  "schema_version": 1,
+  "figure_count": 11,
+  "main_count": 7,
+  "supplementary_count": 4,
+  "documents": {
+    "main": {
+      "filename": "rev_1_JTAER_Main_Manuscript_MDPI.docx",
+      "sha256": "e905276dab9f5320a6f992ebd35a17bada510b1830766d2d422db04884caaf24",
+      "inline_figures": 7
+    },
+    "supplement": {
+      "filename": "rev_2_JTAER_Supplementary_Materials.docx",
+      "sha256": "70f0d940ef30a174221349b87ce1f219015ad879d6a1a64b2c0262320f874a94",
+      "inline_figures": 4
+    }
+  },
+  "figures": [
+    {
+      "number": "1",
+      "title": "Study design and analysis workflow.",
+      "caption": "The original development and temporal cohorts are reconstructed from the 2023–2025 KISDI panel. Development-only selection precedes later-period scoring; participant-union resampling repeats the complete focal-budget procedure. Additional analyses examine calibration, prediction population, expanded learner searches including XGBoost, LightGBM and CatBoost, regional recoding, and adjacent-service response changes. The temporal period was already examined in the submitted study.",
+      "analytical_source_stem": "Round2_Figure_01_Workflow",
+      "files": {
+        "png": {
+          "path": "Main/Figure_01.png",
+          "sha256": "bae66209608650deb889ea75b78628db7515fffba26326bd47c62038ccae449f",
+          "bytes": 1082727
+        },
+        "pdf": {
+          "path": "Main/Figure_01.pdf",
+          "sha256": "7ce92f0781067f92ee15c5db3a35aa6fb118084cfb24ae19c7e34ce89613a49f",
+          "bytes": 29592
+        },
+        "svg": {
+          "path": "Main/Figure_01.svg",
+          "sha256": "c0ddd0b679e5a7737146aef298bb8f71b54244471dff591008daba0a29b65fe6",
+          "bytes": 13794
+        },
+        "csv": {
+          "path": "data/Main/Figure_01.csv",
+          "sha256": "f1c396a1feaa04491eb822c8d48254d3161e3b87408f030845198de0479b8275",
+          "bytes": 1453,
+          "rows": 8,
+          "columns": [
+            "node",
+            "title",
+            "body"
+          ]
+        }
+      },
+      "png_dimensions": [
+        5136,
+        4836
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Round2_Figure_01_Workflow.csv"
+    },
+    {
+      "number": "2",
+      "title": "Development and temporal performance across item budgets.",
+      "caption": "The development curve is the mean of two retained nested cross-validation repetitions. Its shaded range spans the two repetition-specific means and is descriptive. Temporal bands are pointwise 95% participant-bootstrap intervals for fixed predictions (5,000 draws; seed 2026102002); they do not include tuning or selection uncertainty and do not provide joint coverage over budgets. Lower log loss is better. The dashed reference identifies temporal P0 or NONE. See source CSV for all 31 budgets.",
+      "analytical_source_stem": "Round2_Figure_02_Development_Temporal",
+      "files": {
+        "png": {
+          "path": "Main/Figure_02.png",
+          "sha256": "cb5d8400232a127312a470a279f9e182f57828e9d046b739b341336ad681ad87",
+          "bytes": 552225
+        },
+        "pdf": {
+          "path": "Main/Figure_02.pdf",
+          "sha256": "59c9e84dccd6dc330b4e42bd2ad6832adadfc13075111d7e54e1ef2759398603",
+          "bytes": 20962
+        },
+        "svg": {
+          "path": "Main/Figure_02.svg",
+          "sha256": "6da4ae41bbc6625a21d8637b492285c707729c6692cf6cc6b4d1edf76e1691d4",
+          "bytes": 67837
+        },
+        "csv": {
+          "path": "data/Main/Figure_02.csv",
+          "sha256": "ba8281f02b81ae8c6857a1f6c2c9c3d99f0904b922aed0b30467e0ea150eede4",
+          "bytes": 65312,
+          "rows": 124,
+          "columns": [
+            "policy_id",
+            "algorithm",
+            "availability",
+            "budget",
+            "selected_subset",
+            "selected_additional_items",
+            "development_oof_log_loss",
+            "nested_log_loss_mean",
+            "nested_log_loss_repeat_min",
+            "nested_log_loss_repeat_max",
+            "nested_minus_non_nested_log_loss",
+            "nested_benchmark_log_loss_mean",
+            "nested_delta_benchmark",
+            "nested_roc_auc_mean",
+            "nested_brier_mean",
+            "selection_unique_subsets",
+            "selection_modal_subset",
+            "selection_modal_count_out_of10",
+            "selection_matches_final_count_out_of10",
+            "selection_uses_history_count_out_of10",
+            "selection_actual_items_mean",
+            "source_model",
+            "log_loss",
+            "benchmark",
+            "benchmark_log_loss",
+            "temporal_lower95",
+            "temporal_upper95",
+            "temporal_interval",
+            "nested_range"
+          ]
+        }
+      },
+      "png_dimensions": [
+        5686,
+        4154
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Round2_Figure_02_Development_Temporal.csv"
+    },
+    {
+      "number": "3",
+      "title": "Temporal loss differences of focal original selections.",
+      "caption": "Positive Δ indicates higher loss than P0 (H available) or NONE (H unavailable). Bars are two-sided simultaneous 95% maximum-absolute centered-bootstrap intervals, separately within each original algorithm × history-availability family containing all selected budgets and both references; 5,000 paired evaluation resamples, n=1,520. The eight displayed contrasts are not a newly restricted pooled family. Predictions are fixed.",
+      "analytical_source_stem": "Figure_02",
+      "files": {
+        "png": {
+          "path": "Main/Figure_03.png",
+          "sha256": "1059ccde7af479969922ad8960fb44b5e42f30a9db11c9d4f7cd37d50e02e086",
+          "bytes": 243442
+        },
+        "pdf": {
+          "path": "Main/Figure_03.pdf",
+          "sha256": "a838dcefdd6c7c65f0a67a748fd44ba2ae64d1116489977785ec989455a52201",
+          "bytes": 13129
+        },
+        "svg": {
+          "path": "Main/Figure_03.svg",
+          "sha256": "dc3b3792d91ccc387e5e1669f380c516eb74f890c4ce6e5b569b0a5c95a82eb5",
+          "bytes": 18492
+        },
+        "csv": {
+          "path": "data/Main/Figure_03.csv",
+          "sha256": "ac670401f2eb7e2de9e142ad308e45f4e4467d02e4924941527723914565de15",
+          "bytes": 645,
+          "rows": 8,
+          "columns": [
+            "algorithm",
+            "history_available",
+            "budget",
+            "subset",
+            "delta",
+            "lower",
+            "upper"
+          ]
+        }
+      },
+      "png_dimensions": [
+        6094,
+        2793
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Figure_02.csv"
+    },
+    {
+      "number": "4",
+      "title": "Selection recurrence and uncertainty after repeating model development.",
+      "caption": "Left: frequency of the original portfolio across 1,000 participant-union bootstrap repetitions. Right: original point estimate and pointwise 95% percentile interval for the complete procedure against P0 or NONE. Shared participants receive common multiplicities across periods; duplicate copies remain together in inner folds. Selection, original-grid tuning, preprocessing, and fitting are repeated for budgets 1 and 4. These exploratory intervals are not multiplicity-adjusted and have finite Monte Carlo precision. The displayed intervals use the primary percentile method; Table S12 reports basic-interval sensitivity and bootstrap bias.",
+      "analytical_source_stem": "Round2_Figure_04_Selection_Uncertainty",
+      "files": {
+        "png": {
+          "path": "Main/Figure_04.png",
+          "sha256": "2f90b52a357e1fe9cd3bbdb755dc112a1ffd46f1afe9fca73f826c37724221cc",
+          "bytes": 533723
+        },
+        "pdf": {
+          "path": "Main/Figure_04.pdf",
+          "sha256": "3120b04bb033ac8fed6934e43065bd42471807ac035109862da36a132c840796",
+          "bytes": 14680
+        },
+        "svg": {
+          "path": "Main/Figure_04.svg",
+          "sha256": "7792147ab715468d122b8575077c326777d4583fe62a12091eea4e2099f9260d",
+          "bytes": 20910
+        },
+        "csv": {
+          "path": "data/Main/Figure_04.csv",
+          "sha256": "3ec60dd75382d2e911aa9aa030366d6110ff334f10ce343b17e842c5f569f840",
+          "bytes": 3987,
+          "rows": 8,
+          "columns": [
+            "algorithm",
+            "history_available",
+            "budget",
+            "replicates",
+            "point_subset",
+            "point_items",
+            "temporal_log_loss_point",
+            "temporal_log_loss_bootstrap_mean",
+            "temporal_log_loss_lower_025",
+            "temporal_log_loss_upper_975",
+            "temporal_log_loss_bootstrap_sd",
+            "delta_vs_benchmark_point",
+            "delta_vs_benchmark_bootstrap_mean",
+            "delta_vs_benchmark_lower_025",
+            "delta_vs_benchmark_upper_975",
+            "delta_vs_benchmark_bootstrap_sd",
+            "delta_vs_full_point",
+            "delta_vs_full_bootstrap_mean",
+            "delta_vs_full_lower_025",
+            "delta_vs_full_upper_975",
+            "delta_vs_full_bootstrap_sd",
+            "roc_auc_point",
+            "roc_auc_bootstrap_mean",
+            "roc_auc_lower_025",
+            "roc_auc_upper_975",
+            "roc_auc_bootstrap_sd",
+            "fraction_delta_vs_benchmark_positive",
+            "original_portfolio_selection_frequency"
+          ]
+        }
+      },
+      "png_dimensions": [
+        7305,
+        3585
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Round2_Figure_04_Selection_Uncertainty.csv"
+    },
+    {
+      "number": "5",
+      "title": "Within-period and later-period performance at matched training size.",
+      "caption": "Twenty stratified 70/30 development splits repeat inner five-fold tuning and budget-4 selection. Each trained model is applied to its 470-person within-period holdout and the later 1,520-person cohort. Points are mean model-minus-benchmark loss differences; bars are 2.5th–97.5th split percentiles. They summarize overlapping-split variability, not confidence intervals. Wording, time, and sample composition change together.",
+      "analytical_source_stem": "Figure_05",
+      "files": {
+        "png": {
+          "path": "Main/Figure_05.png",
+          "sha256": "8ae21edce00df064946e64b48d96bc2a346d6b7300c9c488c4559a90bd5d5507",
+          "bytes": 211852
+        },
+        "pdf": {
+          "path": "Main/Figure_05.pdf",
+          "sha256": "c7d22575c444dc25991d1059291e13ea96d52a6bdf6302f86c8834c587748fed",
+          "bytes": 13456
+        },
+        "svg": {
+          "path": "Main/Figure_05.svg",
+          "sha256": "9462a8a990756cf39803d1b41e13248de70deec2b1a75f7f7d71475b7259852f",
+          "bytes": 19210
+        },
+        "csv": {
+          "path": "data/Main/Figure_05.csv",
+          "sha256": "49000bf947327dd04c84f521b182570f21a3eef1fafbc1c3208e53b0c5437249",
+          "bytes": 3301,
+          "rows": 8,
+          "columns": [
+            "algorithm",
+            "availability",
+            "policy",
+            "sample",
+            "repeats",
+            "log_loss_mean",
+            "log_loss_split_sd",
+            "log_loss_split_q025",
+            "log_loss_split_q975",
+            "roc_auc_mean",
+            "roc_auc_split_sd",
+            "roc_auc_split_q025",
+            "roc_auc_split_q975",
+            "brier_mean",
+            "brier_split_sd",
+            "brier_split_q025",
+            "brier_split_q975",
+            "delta_log_loss_vs_benchmark_mean",
+            "delta_log_loss_vs_benchmark_split_sd",
+            "delta_log_loss_vs_benchmark_split_q025",
+            "delta_log_loss_vs_benchmark_split_q975"
+          ]
+        }
+      },
+      "png_dimensions": [
+        6093,
+        2506
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Figure_05.csv"
+    },
+    {
+      "number": "6",
+      "title": "Additional-information value varies by model and prediction population.",
+      "caption": "Four algorithms use development-only expanded searches. Each panel contains a separate eight-contrast family: full with H versus P0 and full without H versus NONE, across four learners. Bars are two-sided simultaneous 95% maximum-absolute centered paired-bootstrap intervals within each panel (5,000 repetitions), conditional on fitted models. Development/evaluation n=1,565/1,520 for the restricted population and 3,895/3,741 for all linked respondents. These are retrospective sensitivity comparisons.",
+      "analytical_source_stem": "Figure_07",
+      "files": {
+        "png": {
+          "path": "Main/Figure_06.png",
+          "sha256": "d8ab897c45a3e7667bebc9e1493c7a56486bb114267de167300df7ad05d03760",
+          "bytes": 328232
+        },
+        "pdf": {
+          "path": "Main/Figure_06.pdf",
+          "sha256": "e4df56a70080d72069082efe361aecad303d47df4946c99aab484a736cd4041c",
+          "bytes": 15607
+        },
+        "svg": {
+          "path": "Main/Figure_06.svg",
+          "sha256": "e5e595af70e996265e1eaa9473e24b0e219ec3886573eefac3ef0456068bfa4b",
+          "bytes": 28085
+        },
+        "csv": {
+          "path": "data/Main/Figure_06.csv",
+          "sha256": "ec8f6ebd230addb2052a0aedbd5976b0d65aff91ca17140cf1abae7ecb51268c",
+          "bytes": 2774,
+          "rows": 16,
+          "columns": [
+            "population",
+            "algorithm",
+            "representation",
+            "benchmark",
+            "evaluation_group",
+            "n",
+            "replicates",
+            "delta_log_loss",
+            "pointwise_low",
+            "pointwise_high",
+            "bootstrap_se",
+            "in_full_model_family",
+            "simultaneous_low",
+            "simultaneous_high"
+          ]
+        }
+      },
+      "png_dimensions": [
+        6693,
+        3333
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Figure_07.csv"
+    },
+    {
+      "number": "7",
+      "title": "Block contributions across development and temporal evaluation.",
+      "caption": "Exact seven-block loss-reduction allocations per original item for the two original learners and both history settings. Positive values indicate improved prediction. All 84 cells share one color scale. The 28 development cells reuse tuning-fold out-of-fold predictions and are descriptive. The 56 temporal cells use fixed fitted predictions. Outlined cells mark temporal allocations whose 56-contrast simultaneous 95% intervals exclude zero; all seven indicate higher loss. No positive allocation has an interval excluding zero. Full interval estimates appear in Table S21 and person-disjoint Figure S4. Development, whole temporal, and person-disjoint sample sizes are 1,565, 1,520, and 879. H is fixed present or absent. Per-item allocation is an efficiency diagnostic, not a causal effect or a cost-weighted Shapley game.",
+      "analytical_source_stem": "Submission_Figure_07_Block_Heatmap",
+      "files": {
+        "png": {
+          "path": "Main/Figure_07.png",
+          "sha256": "d5b6628b52fd9bed5839bca33545f6600db3f21683eefd3b6be03f0496345b77",
+          "bytes": 829328
+        },
+        "pdf": {
+          "path": "Main/Figure_07.pdf",
+          "sha256": "be2c4e20fec7fc068c006cb654a5d5bce941b45d1a9da73a3db4da6965baf369",
+          "bytes": 77198
+        },
+        "svg": {
+          "path": "Main/Figure_07.svg",
+          "sha256": "e981fa3f870c39f95119f04f3dbfd3a2fb103aa4f0c373e27884e4f226841440",
+          "bytes": 123953
+        },
+        "csv": {
+          "path": "data/Main/Figure_07.csv",
+          "sha256": "4cb6ef4c955c9e441b683374695d4a87de1d29b33415ee1694ae66201ad758d5",
+          "bytes": 13122,
+          "rows": 84,
+          "columns": [
+            "algorithm",
+            "history_fixed",
+            "block",
+            "items",
+            "domain",
+            "loss_reduction_per_item",
+            "simultaneous_lower_per_item",
+            "simultaneous_upper_per_item",
+            "scope",
+            "reference",
+            "interval_excludes_zero",
+            "outlined"
+          ]
+        }
+      },
+      "png_dimensions": [
+        4389,
+        4258
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "revision/results/submission_block_heatmap.csv"
+    },
+    {
+      "number": "S1",
+      "title": "Absolute losses of original full models and no-additional-collection benchmarks.",
+      "caption": "Original configurations were refitted from the source workbooks. Temporal evaluation n=1,520. Bars are pointwise 95% participant-bootstrap intervals conditional on fitted predictions (2,000 repetitions). Paired contrast tests provide the inferential comparisons between models. H denotes prior self-reported use.",
+      "analytical_source_stem": "Figure_01",
+      "files": {
+        "png": {
+          "path": "Supplementary/Figure_S1.png",
+          "sha256": "919f7e4be8ab92409238e30bea4b464f3625df6bc0f4027b8f8d560e3b3bc656",
+          "bytes": 222481
+        },
+        "pdf": {
+          "path": "Supplementary/Figure_S1.pdf",
+          "sha256": "8677736b348a61e33a4a419791ab9a3bab3d834d208f85ab51b00624ce85ca3f",
+          "bytes": 13612
+        },
+        "svg": {
+          "path": "Supplementary/Figure_S1.svg",
+          "sha256": "1ca586bf4170f22382ae0010b565b875be9c8de4a9a9296e7d7e03b65ffca2d6",
+          "bytes": 12110
+        },
+        "csv": {
+          "path": "data/Supplementary/Figure_S1.csv",
+          "sha256": "da8a82183227f65458eeadafde19d5c33ee2215d81d0f0876e07bced61594d93",
+          "bytes": 2029,
+          "rows": 6,
+          "columns": [
+            "model",
+            "algorithm",
+            "history_available",
+            "domain",
+            "n",
+            "events",
+            "event_rate",
+            "log_loss",
+            "brier",
+            "roc_auc",
+            "average_precision",
+            "calibration_intercept",
+            "calibration_slope",
+            "auc_lower95",
+            "auc_upper95",
+            "log_loss_lower95",
+            "log_loss_upper95",
+            "ci_replicates",
+            "ci_method"
+          ]
+        }
+      },
+      "png_dimensions": [
+        4893,
+        2613
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Figure_01.csv"
+    },
+    {
+      "number": "S2",
+      "title": "Affine calibration and ranking diagnostics.",
+      "caption": "Raw log loss equals empirical evaluation outcome entropy minus affine resolution plus affine miscalibration. Components are relative to apparent intercept-and-slope logistic recalibration, not a nonparametric decomposition. Bars are pointwise 95% percentile intervals from 500 resamples that refit the recalibrator while keeping base predictions fixed. Cross-fitted recalibration in Table S14 limits reliance on optimistic apparent gains. All diagnostics use evaluation outcomes.",
+      "analytical_source_stem": "Figure_04",
+      "files": {
+        "png": {
+          "path": "Supplementary/Figure_S2.png",
+          "sha256": "f1734378be389cb8fb52bf3081958ff249907e4a48bc4246e802276945813359",
+          "bytes": 280775
+        },
+        "pdf": {
+          "path": "Supplementary/Figure_S2.pdf",
+          "sha256": "d80f556f4af9623f200ca7f9e16bdddf7ca9b7008ef92ac959928e806a2ca14e",
+          "bytes": 15087
+        },
+        "svg": {
+          "path": "Supplementary/Figure_S2.svg",
+          "sha256": "ae90f54e360497326a0855f4431b2e6c9ca9fae13df42c36a897f83ad823a447",
+          "bytes": 26221
+        },
+        "csv": {
+          "path": "data/Supplementary/Figure_S2.csv",
+          "sha256": "242adead816ac3200b7c6dd95c945d6043911a54c2a99be2aa21f1a38e94166a",
+          "bytes": 4109,
+          "rows": 8,
+          "columns": [
+            "source_model",
+            "sample",
+            "n",
+            "raw_log_loss",
+            "outcome_entropy",
+            "intercept_only_apparent_log_loss",
+            "intercept_slope_apparent_log_loss",
+            "intercept_only_crossfit_log_loss",
+            "intercept_slope_crossfit_log_loss",
+            "calibration_intercept",
+            "calibration_slope",
+            "offset_intercept",
+            "raw_auc",
+            "apparent_recal_auc",
+            "affine_miscalibration_component",
+            "affine_resolution_component",
+            "decomposition_residual",
+            "calibration_intercept_ci_low",
+            "calibration_intercept_ci_high",
+            "calibration_slope_ci_low",
+            "calibration_slope_ci_high",
+            "affine_miscalibration_component_ci_low",
+            "affine_miscalibration_component_ci_high",
+            "affine_resolution_component_ci_low",
+            "affine_resolution_component_ci_high",
+            "bootstrap_replicates"
+          ]
+        }
+      },
+      "png_dimensions": [
+        6693,
+        3093
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Figure_04.csv"
+    },
+    {
+      "number": "S3",
+      "title": "Hesitation-related predictive heterogeneity under common full-panel-trained models.",
+      "caption": "Hesitant respondents (n=1,520; codes 1–2) are compared with other linked respondents (n=2,221; codes 3, 4, and 9). Positive contrasts indicate less benefit or greater harm from full information in the hesitant group. Bars are two-sided simultaneous 95% intervals across eight full-model contrasts, using 5,000 bootstrap resamples independently within each group. This is conditional predictive heterogeneity, not a causal moderator effect.",
+      "analytical_source_stem": "Figure_08",
+      "files": {
+        "png": {
+          "path": "Supplementary/Figure_S3.png",
+          "sha256": "6dade487c78dc2cc4083cf7611ccab00452831f4640517a3d3eab3c1d4391294",
+          "bytes": 263022
+        },
+        "pdf": {
+          "path": "Supplementary/Figure_S3.pdf",
+          "sha256": "443411f019b5ee075ab26ef6867bb1eff1ddba26922e693ae899e9f35a3fce31",
+          "bytes": 12987
+        },
+        "svg": {
+          "path": "Supplementary/Figure_S3.svg",
+          "sha256": "7216063e064af5d355d1c5a1c196867a47016f2f8a04617cb708ecdc44f6ef8b",
+          "bytes": 14107
+        },
+        "csv": {
+          "path": "data/Supplementary/Figure_S3.csv",
+          "sha256": "b00c3d5187c5b51ea1f29258f1733a124afd521e016edc5beb346e84ddbd1bd2",
+          "bytes": 1447,
+          "rows": 8,
+          "columns": [
+            "algorithm",
+            "representation",
+            "population",
+            "benchmark",
+            "contrast",
+            "difference",
+            "pointwise_low",
+            "pointwise_high",
+            "in_full_model_family",
+            "simultaneous_low",
+            "simultaneous_high",
+            "replicates"
+          ]
+        }
+      },
+      "png_dimensions": [
+        5253,
+        3093
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Figure_08.csv"
+    },
+    {
+      "number": "S4",
+      "title": "Block contributions in person-disjoint evaluation.",
+      "caption": "Exact seven-block loss-reduction allocations in the 879-person subset, in total and per-original-item units. Positive values indicate improved prediction. H is fixed present or absent. Bars use the same simultaneous 56-contrast family covering both evaluation domains, algorithms, history settings, and blocks (5,000 fixed-prediction resamples). Total and per-item panels use separate common scales; main Figure 7 compares development, whole temporal, and person-disjoint per-item values.",
+      "analytical_source_stem": "Round2_Figure_03_Person_Disjoint_Importance",
+      "files": {
+        "png": {
+          "path": "Supplementary/Figure_S4.png",
+          "sha256": "09764a2acafa0ed1bc80aada9a49115c7db6818e2a4272e031d969307d7dfddc",
+          "bytes": 610980
+        },
+        "pdf": {
+          "path": "Supplementary/Figure_S4.pdf",
+          "sha256": "d4620405b2e36b5f91f654340ed2e6ece791deb9c04f72c84925dfa1dcefa4e4",
+          "bytes": 22958
+        },
+        "svg": {
+          "path": "Supplementary/Figure_S4.svg",
+          "sha256": "24814a3bbf7e59e09d1193c965a44152b5ee8adf24398358cb0184b27a660808",
+          "bytes": 58143
+        },
+        "csv": {
+          "path": "data/Supplementary/Figure_S4.csv",
+          "sha256": "91ca95bf4f04414f7c74ff9918be39ce7a1726c482877ca9a56645a0e6799a49",
+          "bytes": 6678,
+          "rows": 28,
+          "columns": [
+            "algorithm",
+            "history_fixed",
+            "block",
+            "items",
+            "domain",
+            "n",
+            "loss_reduction",
+            "ci95_lower",
+            "ci95_upper",
+            "simultaneous95_lower",
+            "simultaneous95_upper",
+            "loss_reduction_per_item",
+            "per_item_ci95_lower",
+            "per_item_ci95_upper",
+            "per_item_simultaneous95_lower",
+            "per_item_simultaneous95_upper"
+          ]
+        }
+      },
+      "png_dimensions": [
+        5993,
+        4589
+      ],
+      "png_dpi": [
+        599.9988,
+        599.9988
+      ],
+      "source_csv": "JTAER_Figures/data/Round2_Figure_03_Person_Disjoint_Importance.csv"
+    }
+  ]
+}

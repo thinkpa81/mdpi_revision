@@ -1,0 +1,105 @@
+{
+  "sources": [
+    {
+      "year": 2023,
+      "file": "2023_codebook.xlsx",
+      "sha256": "1cd1372075f4288ca812de290f0dd7f3af8e97ac853c67e77db2b82835e65baa",
+      "bytes": 110786
+    },
+    {
+      "year": 2024,
+      "file": "2024_codebook.xlsx",
+      "sha256": "227a2e9af089c86e5562b1a7ea999771243d2605ea6ffc57aeb243e171124d5f",
+      "bytes": 88389
+    },
+    {
+      "year": 2025,
+      "file": "2025_codebook.xlsx",
+      "sha256": "aa05556364d6818499350aa1f23189643d3594324208b19802bec743b8ab1c3b",
+      "bytes": 99311
+    }
+  ],
+  "coding_checks": [
+    {
+      "variable": "region",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 17,
+      "n_categories_comparison": 17,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "region",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 17,
+      "n_categories_comparison": 17,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "age_group",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 7,
+      "n_categories_comparison": 7,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": "Standalone codebooks omit category7; embedded codebooks consistently define7 as70s. No age7 observations in linked development/evaluation predictors."
+    },
+    {
+      "variable": "age_group",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 7,
+      "n_categories_comparison": 7,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": "Standalone codebooks omit category7; embedded codebooks consistently define7 as70s. No age7 observations in linked development/evaluation predictors."
+    },
+    {
+      "variable": "gender",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 2,
+      "n_categories_comparison": 2,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "gender",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 2,
+      "n_categories_comparison": 2,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "education",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 8,
+      "n_categories_comparison": 8,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "education",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 8,
+      "n_categories_comparison": 8,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    }
+  ],
+  "scope": "Embedded raw XLSX Codebook sheets verify 2 gender,7 age,8 education,and17 region categories with identical code meanings. Standalone codebooks omit age7 but embedded sources label it 70s. Label identity does not establish stability of conditional predictive relationships."
+}

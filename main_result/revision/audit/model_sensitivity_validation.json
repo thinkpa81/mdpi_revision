@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "validated_fitted_models": 64,
+  "model_metrics_rows": 192,
+  "tuning_configurations": 784,
+  "five_fold_fits": 3920,
+  "max_log_loss_reconstruction_difference": 0,
+  "max_auc_reconstruction_difference": 2.220446049250313e-16,
+  "existing_HD_scenario_rows": 216,
+  "full_model_bootstrap_family_count": 8,
+  "each_family_contrasts": 8,
+  "bootstrap_replicates": 5000,
+  "probabilities_finite_and_bounded": true,
+  "minimum_cv_loss_configuration_selected": true,
+  "evaluation_id_order_matches": true,
+  "code_sha256": "f4f8c3775cb939046eb2acbd50881a400aeb62506a85797e9a8c8a44c68e60bd"
+}

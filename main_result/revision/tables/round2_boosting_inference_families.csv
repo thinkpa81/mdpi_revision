@@ -1,0 +1,10 @@
+population,evaluation_group,n,replicates,family_size,critical,family,statistic
+restricted,all,1520,5000,6,0.021741215822370118,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+restricted,person_disjoint,879,5000,6,0.029691934717593155,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+restricted,hesitant,1520,5000,6,0.021995308604741685,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+full,all,3741,5000,6,0.01452814813809865,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+full,person_disjoint,408,5000,6,0.04186124103911665,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+full,hesitant,1520,5000,6,0.023075903027374757,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+full,other,2221,5000,6,0.019173355765089474,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+full,low_or_no_hesitation,1995,5000,6,0.01944069664527504,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference
+full,no_service_experience,226,5000,6,0.06913814533735005,"3 added algorithms x [full_H vs P0, full_noH vs NONE]",maximum absolute centered paired bootstrap mean loss difference

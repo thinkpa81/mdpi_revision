@@ -1,0 +1,165 @@
+{
+  "status": "passed",
+  "sources": [
+    {
+      "year": 2023,
+      "file": "2023_data.xlsx",
+      "sha256": "c38782a595dc9ee898cb64a3ebbdde40099c09cca655454eabc7b02316efb0a9",
+      "rows": 4581
+    },
+    {
+      "year": 2024,
+      "file": "2024_data.xlsx",
+      "sha256": "65fa040101d784b2225eafea9a7a8e5660c5fca9f1b962e342cd81b9cb689f5c",
+      "rows": 4420
+    },
+    {
+      "year": 2025,
+      "file": "2025_data.xlsx",
+      "sha256": "16867d676338e22da82a84c72b667fe5764ff266a03d6e8086182de138a2c185",
+      "rows": 4324
+    }
+  ],
+  "questionnaire_sources": [
+    {
+      "year": 2023,
+      "file": "2023_questionnaire.pdf",
+      "sha256": "0b87e50c3f86870ab01b8b57499c5299d40cb77f78eeb01273dc93bb46da25ec"
+    },
+    {
+      "year": 2024,
+      "file": "2024_questionnaire.pdf",
+      "sha256": "129ada188e76dfe6f89ad5a3d1767717b6eff7a273e86dc6ec308c2ceec3c4dc"
+    },
+    {
+      "year": 2025,
+      "file": "2025_questionnaire.pdf",
+      "sha256": "0075dc1a95f2d1e7dbbaa619998246ec9b379f5d523dd88742fd98a57d5ef480"
+    }
+  ],
+  "cohorts": {
+    "restricted_shared": 641,
+    "full_three_wave_panel": 3333
+  },
+  "complete_case_rule": "Observed in all three years with valid responses to Q1_7, Q1_8 and Q1_9 in every year.",
+  "restricted_shared_rule": "The complete three-wave panel additionally has purchase-hesitation codes 1 or 2 in both 2023 and 2024.",
+  "missing_adjacent_responses_among_three_wave_panel": 0,
+  "original_S31_exact_count_rows_reproduced": 9,
+  "paired_contrast_definition": "Within each participant, change in consumer response minus change in adjacent-domain response; acceleration subtracts the 2023–2024 contrast from 2024–2025.",
+  "bootstrap": {
+    "repetitions": 10000,
+    "seed_restricted": 2026102131,
+    "seed_full": 2026102132,
+    "unit": "participant, retaining all nine year/domain responses and all thresholds",
+    "simultaneous_family": "18 two-sided contrasts within each cohort: 3 thresholds x 2 adjacent domains x 3 period contrasts",
+    "critical_value": "95th linear quantile of max absolute centered bootstrap mean divided by original standard error",
+    "quantiles": "NumPy method=linear",
+    "survey_weights": false
+  },
+  "conditional_logistic": {
+    "response": "consumer-service binary response",
+    "covariates": "Categorical four-pattern leisure/work response and categorical year",
+    "covariance": "Participant-cluster sandwich, independent working correlation, no finite-cluster correction",
+    "interaction_diagnostic": "Wald joint test of six year-by-observed-pattern interaction coefficients",
+    "multiplicity": "Holm across 12 conditional tests within each cohort",
+    "fit_checks": {
+      "restricted_shared": [
+        {
+          "threshold": "past_year",
+          "additive_max_abs_score": 3.7192471324942744e-14,
+          "saturated_max_abs_score": 2.90878432451791e-14,
+          "additive_hessian_condition": 23.435593300938677,
+          "saturated_hessian_condition": 265.4857203176473,
+          "saturated_fitted_probability_max_abs_difference_from_group_means": 2.220446049250313e-16
+        },
+        {
+          "threshold": "monthly",
+          "additive_max_abs_score": 3.008704396734174e-14,
+          "saturated_max_abs_score": 3.5083047578154947e-14,
+          "additive_hessian_condition": 27.746128029020582,
+          "saturated_hessian_condition": 307.57376568447,
+          "saturated_fitted_probability_max_abs_difference_from_group_means": 2.220446049250313e-16
+        },
+        {
+          "threshold": "weekly",
+          "additive_max_abs_score": 4.374278717023117e-14,
+          "saturated_max_abs_score": 2.398081733190338e-14,
+          "additive_hessian_condition": 45.645292897367604,
+          "saturated_hessian_condition": 454.7630689036276,
+          "saturated_fitted_probability_max_abs_difference_from_group_means": 2.220446049250313e-16
+        }
+      ],
+      "full_three_wave_panel": [
+        {
+          "threshold": "past_year",
+          "additive_max_abs_score": 1.8945955915228296e-13,
+          "saturated_max_abs_score": 2.2687407508215074e-13,
+          "additive_hessian_condition": 20.312465475205258,
+          "saturated_hessian_condition": 245.26663556932237,
+          "saturated_fitted_probability_max_abs_difference_from_group_means": 3.3306690738754696e-16
+        },
+        {
+          "threshold": "monthly",
+          "additive_max_abs_score": 7.238099009043708e-13,
+          "saturated_max_abs_score": 9.563461134121098e-13,
+          "additive_hessian_condition": 27.158497418910763,
+          "saturated_hessian_condition": 303.38340291970036,
+          "saturated_fitted_probability_max_abs_difference_from_group_means": 3.885780586188048e-16
+        },
+        {
+          "threshold": "weekly",
+          "additive_max_abs_score": 8.732459200189169e-13,
+          "saturated_max_abs_score": 4.727329638853917e-13,
+          "additive_hessian_condition": 30.05151326438214,
+          "saturated_hessian_condition": 371.8594063833641,
+          "saturated_fitted_probability_max_abs_difference_from_group_means": 8.049116928532385e-16
+        }
+      ]
+    }
+  },
+  "identification": {
+    "formal_measurement_invariance_established": false,
+    "causal_wording_effect_identified": false,
+    "adjacent_domains_are_validated_invariant_anchors": false,
+    "reasons": [
+      "Adjacent services are different behaviors, not validated parallel indicators of one latent construct.",
+      "Leisure wording changes in 2024; work wording changes in 2025; the 2025 questionnaire contains extended explanations for all three domains. Individual exposure and administration are unobserved.",
+      "Year-specific genuine use changes and measurement changes remain observationally confounded.",
+      "The 2023–2024 interval is a historical comparison, not an untreated negative-control period."
+    ]
+  },
+  "runtime": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "script_sha256": "a940aaca0ced762a4c577dee5465b9e33d80fcd14fb01dc67f544f2c6e24272c",
+  "public_outputs": [
+    {
+      "file": "adjacent_domain_rates.csv",
+      "rows": 54,
+      "sha256": "c83dc800d95c2bfa8f8741a8d4012367ed2cc6633a5f5545ff0425c39f0cbb1d"
+    },
+    {
+      "file": "adjacent_domain_differences.csv",
+      "rows": 36,
+      "sha256": "d65791b7600392354d137e724ee81b0a4b2ccb51ca9f06bf5d0e17fdd4d46cc0"
+    },
+    {
+      "file": "adjacent_conditional_year_tests.csv",
+      "rows": 24,
+      "sha256": "ef7f91adb46ea42c106cbb6f6b0aa80decf394db5799f687faad672b825602ab"
+    },
+    {
+      "file": "adjacent_logistic_coefficients.csv",
+      "rows": 36,
+      "sha256": "d45e70f591edef14849277e6fd7926c3f773196d8e9c96a46ddd43db64386132"
+    },
+    {
+      "file": "adjacent_service_table.csv",
+      "rows": 18,
+      "sha256": "9d59a1b5e43f762427f21f6843491ddf1e2b604effe139e30c4688e55dbe35bf"
+    }
+  ]
+}

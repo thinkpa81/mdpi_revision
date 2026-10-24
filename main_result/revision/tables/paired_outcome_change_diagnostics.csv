@@ -1,0 +1,4 @@
+﻿outcome,paired_n,prevalence_2024,prevalence_2025,change_2025_minus_2024,no_to_yes,yes_to_no,discordant_n,mcnemar_exact_two_sided_p,interpretation,change_percentile95_lower,change_percentile95_upper,mcnemar_holm_p_three_thresholds
+outcome_any_use,641,0.6661466458658346,0.5959438377535101,-0.0702028081123244,83,128,211,0.0023734958764439,Paired response change; time and wording effects cannot be separated,-0.11544461778471139,-0.0265210608424337,0.0023734958764439
+outcome_monthly_use,641,0.5709828393135725,0.4180967238689547,-0.1528861154446177,81,179,260,1.148988924013112e-09,Paired response change; time and wording effects cannot be separated,-0.1996879875195008,-0.10452418096723869,3.446966772039336e-09
+outcome_regular_use,641,0.2948517940717629,0.188767550702028,-0.1060842433697348,71,139,210,3.12734290004147e-06,Paired response change; time and wording effects cannot be separated,-0.15132605304212168,-0.062402496099843996,6.25468580008294e-06

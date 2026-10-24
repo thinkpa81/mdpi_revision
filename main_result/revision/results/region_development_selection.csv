@@ -1,0 +1,17 @@
+region_coding,algorithm,history_available,portfolio,subset,additional_items,encoded_columns,selected_config,development_oof_log_loss
+region17,ridge,False,D,D,4,31,1.0,0.6621656516928427
+region17,ridge,False,full,D_B_M_P_C_A_K,30,40,1.0,0.6470515853322337
+region17,ridge,True,D,H_D,4,32,1.0,0.6396754472363618
+region17,ridge,True,full,H_D_B_M_P_C_A_K,30,41,1.0,0.6307238544876684
+region17,hgb,False,D,D,4,31,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.6641680792622449
+region17,hgb,False,full,D_B_M_P_C_A_K,30,40,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.6343421651540304
+region17,hgb,True,D,H_D,4,32,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.6440872421067338
+region17,hgb,True,full,H_D_B_M_P_C_A_K,30,41,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.6241384882930145
+capital_noncapital,ridge,False,D,D,4,16,0.1,0.6724194551477349
+capital_noncapital,ridge,False,full,D_B_M_P_C_A_K,30,25,0.1,0.6534791071602687
+capital_noncapital,ridge,True,D,H_D,4,17,0.1,0.6496773507535142
+capital_noncapital,ridge,True,full,H_D_B_M_P_C_A_K,30,26,0.1,0.637369843529362
+capital_noncapital,hgb,False,D,D,4,16,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 3}",0.6750578169443764
+capital_noncapital,hgb,False,full,D_B_M_P_C_A_K,30,25,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.644672044861982
+capital_noncapital,hgb,True,D,H_D,4,17,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 3}",0.6515185666758857
+capital_noncapital,hgb,True,full,H_D_B_M_P_C_A_K,30,26,"{""learning_rate"": 0.05, ""max_leaf_nodes"": 7}",0.632382237104151

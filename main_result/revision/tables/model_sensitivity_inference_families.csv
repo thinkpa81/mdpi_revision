@@ -1,0 +1,9 @@
+population,evaluation_group,n,replicates,family_size,critical,family,statistic
+restricted,all,1520,5000,8,0.023364884813253925,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference
+restricted,person_disjoint,879,5000,8,0.031245164365399314,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference
+full,all,3741,5000,8,0.013943459901702638,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference
+full,person_disjoint,408,5000,8,0.03968467784668271,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference
+full,hesitant,1520,5000,8,0.021143926676618022,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference
+full,other,2221,5000,8,0.018265640564610643,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference
+full,low_or_no_hesitation,1995,5000,8,0.018465998143841846,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference
+full,no_service_experience,226,5000,8,0.07064637976390696,4 algorithms x full_H vs P0 and full_noH vs NONE,maximum absolute centered paired bootstrap mean loss difference

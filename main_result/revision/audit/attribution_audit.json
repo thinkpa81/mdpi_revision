@@ -1,0 +1,33 @@
+{
+  "repetitions": 5000,
+  "seed": 2026102021,
+  "conditional_on_fitted_predictions": true,
+  "family_size": 56,
+  "simultaneous_method": "95th percentile of max absolute centered paired bootstrap deviation across 56 block/domain/model contrasts",
+  "critical_value": 0.02250719530724871,
+  "efficiency": [
+    {
+      "algorithm": "ridge",
+      "history_fixed": true,
+      "max_efficiency_error": 8.881784197001252e-16
+    },
+    {
+      "algorithm": "ridge",
+      "history_fixed": false,
+      "max_efficiency_error": 8.881784197001252e-16
+    },
+    {
+      "algorithm": "hgb",
+      "history_fixed": true,
+      "max_efficiency_error": 5.551115123125783e-16
+    },
+    {
+      "algorithm": "hgb",
+      "history_fixed": false,
+      "max_efficiency_error": 8.881784197001252e-16
+    }
+  ],
+  "positive": "reduction in log loss",
+  "per_item": "Each block allocation divided by original item count; not a cost-weighted Shapley game.",
+  "predictions_sha256": "2ef94b21638f068f065182d02d9ba71fbcc7d99b6dc497069b502ae468b253f9"
+}

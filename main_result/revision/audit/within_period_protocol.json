@@ -1,0 +1,35 @@
+{
+  "status": "post-review sensitivity; temporal outcomes previously examined",
+  "repeats": 20,
+  "seed": 202610200,
+  "outer_split": "stratified 70 percent train 30 percent holdout",
+  "inner_cv": "5-fold stratified on outer training only",
+  "algorithms": [
+    "ridge",
+    "hgb"
+  ],
+  "ridge_grid": [
+    0.001,
+    0.01,
+    0.1,
+    1.0,
+    10.0
+  ],
+  "hgb_grid": [
+    {
+      "max_leaf_nodes": 3,
+      "learning_rate": 0.05
+    },
+    {
+      "max_leaf_nodes": 7,
+      "learning_rate": 0.05
+    }
+  ],
+  "candidate_space": "all original block subsets eligible for budgets 1 and 4 plus both full-information models; P0 included",
+  "evaluation_selection_access": false,
+  "matched_temporal": "same model trained in each holdout split evaluated on 2024 to 2025",
+  "uncertainty": "split quantiles and SD describe split variability, not confidence intervals because repeats overlap",
+  "training_sizes": [
+    1095
+  ]
+}

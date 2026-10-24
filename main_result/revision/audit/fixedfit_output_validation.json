@@ -1,0 +1,33 @@
+{
+  "checks_passed": [
+    "514 newly generated prediction/metric keys",
+    "248 frozen policy/domain rows with budgets 0 to 30",
+    "344 inference contrasts",
+    "two-sided intervals contain point estimates",
+    "harm and superiority signs agree with separate bounds",
+    "original 2000-bootstrap bound reproduction max absolute error 1.10e-15",
+    "all original temporal log losses reproduced exactly"
+  ],
+  "unique_original_family_contrasts": [
+    {
+      "algorithm": "ridge",
+      "history_available": false,
+      "unique_nonzero_contrasts": 21
+    },
+    {
+      "algorithm": "ridge",
+      "history_available": true,
+      "unique_nonzero_contrasts": 25
+    },
+    {
+      "algorithm": "hgb",
+      "history_available": false,
+      "unique_nonzero_contrasts": 31
+    },
+    {
+      "algorithm": "hgb",
+      "history_available": true,
+      "unique_nonzero_contrasts": 28
+    }
+  ]
+}

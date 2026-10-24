@@ -1,0 +1,9 @@
+node,title,body
+waves,Three annual KISDI survey waves,2023 baseline → 2024 outcome / baseline → 2025 outcome; Baseline privacy hesitation and next-wave linkage define the restricted cohorts
+development,Development · 2023 → 2024,"1,565 respondents; 880 events; H + seven candidate information blocks"
+evaluation,Temporal evaluation · 2024 → 2025,"1,520 respondents; 853 events; 641 shared; 879 person-disjoint"
+selection,Select using development data,Ridge / HGB; item budgets 0–30; Five-fold tuning and portfolio selection; Original nested CV: 2 × 5 outer folds
+frozen,"Freeze, refit, and evaluate",Fit selected configurations on all development data; Assess whole and person-disjoint samples; Keep the full-information reference explicit
+contrasts,Two paired comparisons answer different questions,Incremental value: selected model versus P0 (H available) or NONE (H unavailable); Preservation: selected model versus the full-information model; Positive model-minus-reference log loss indicates worse prediction
+uncertainty,Uncertainty and measurement checks,Paired fixed-fit bootstrap; full-process reselection; Calibration and within-period holdouts; Adjacent-service response diagnostics; Post hoc capital-region recoding
+sensitivity,Added sensitivity analyses,"Wider Ridge/HGB searches; random forest; extra trees; XGBoost, LightGBM, and CatBoost; Full linked panel; weights; H+D already held; Block contributions, total and per item"
