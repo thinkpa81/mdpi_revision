@@ -32,9 +32,15 @@ python run_reproduction.py --dry-run
 
 KISDI의 이용 조건에 따라 원자료를 별도로 확보한 후 `main_result/README.md`를 따릅니다. 재실행은 별도 작업 사본에서 수행하십시오. 새 결과와 기록이 생성되면 배포본 해시와 달라집니다.
 
-보충자료 Table S26에 기재된 이전 실행 스크립트 이름 `run_all_round2.py`에 해당하는 배포용 진입점은 `main_result/run_reproduction.py`입니다. 이 파일의 `--stage` 옵션으로 순서대로 실행할 수 있습니다.
+공개 실행 진입점은 보충자료 Table S26과 동일한 `main_result/run_reproduction.py`입니다. 표의 `../../run_reproduction.py`는 `main_result/revision/code/`를 기준으로 한 상대 경로입니다. 이 파일의 `--stage` 옵션을 안내된 순서로 실행합니다.
 
 재생성 그림은 `main_result/JTAER_Figures/`에 분석용 이름으로 저장됩니다. 저장소 최상위 `JTAER_Figures/`에는 논문 번호를 적용한 최종 그림이 있으며, 두 이름의 대응은 `FIGURE_CROSSWALK.csv`에 있습니다.
+
+## 2026년 10월 24일 원자료 재검증
+
+이용 권한이 있는 원자료·코드북·조사표 9개 파일의 SHA-256이 공개 기록과 일치했습니다. 별도 작업 사본에서 `source_audit.py`, `codebook_audit.py`, `questionnaire_audit.py`, `adjacent_service_diagnostics.py`를 실행했습니다. 분석 표본 4개의 재구성 파일 해시가 기존 기록과 일치했고, 재생성한 집계 CSV 20개도 배포본과 바이트 단위로 일치했습니다. 인접 서비스 진단은 코호트별 참여자 부트스트랩 10,000회, 대조 36개, 조건부 검정 24개를 다시 계산했습니다. 범위와 결과는 [SOURCE_RECHECK_20261024.json](SOURCE_RECHECK_20261024.json)에 기록했습니다.
+
+이번 재검증에서 예측 모델 적합이나 전체 개발 절차 부트스트랩 1,000회를 다시 실행하지는 않았습니다. 기존 실행 기록과 원본 패키지 파일 234개는 유지했습니다. 개인별 원자료와 논문·보충자료·답변서는 추가하지 않았습니다.
 
 ## 버전과 기존 저장소
 

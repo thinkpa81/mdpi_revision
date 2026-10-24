@@ -50,7 +50,7 @@ The supplied validator reconstructs interval and frequency summaries from 8,000 
 
 Source microdata must be obtained from the KISDI AI Service User Policy Archive under the provider's access conditions. Place authorized workbooks at `main_result/private_raw/2023_data.xlsx`, `2024_data.xlsx`, and `2025_data.xlsx`. Source-audit stages also require the corresponding `YYYY_questionnaire.pdf` and `YYYY_codebook.xlsx`. Follow [main_result/README.md](main_result/README.md) for the complete execution stages and recorded environment. Additional boosting dependencies are in [requirements_round2.txt](main_result/revision/requirements_round2.txt).
 
-The public execution entry point is `main_result/run_reproduction.py`. Supplementary Table S26 calls the earlier orchestration script `run_all_round2.py`; the distributed package uses `run_reproduction.py` instead. Use the distributed entry point and its `--stage` options. No missing script of the earlier name is required.
+The public execution entry point is `main_result/run_reproduction.py`, as listed in Supplementary Table S26. The table writes it as `../../run_reproduction.py` relative to `main_result/revision/code/`. Use its `--stage` options in the documented order.
 
 Run a fresh analysis in a separate working copy. Recalculation writes new results and execution receipts, so the original release hashes will then differ. Do not use Python `-O` or `-OO`, which disables analytical assertions.
 
@@ -59,6 +59,12 @@ The analysis figure stage writes analytical filenames into `main_result/JTAER_Fi
 ## Data scope
 
 The distributed files contain code, metadata, and aggregate results. Respondent records, identifiers, row-level derived data, individual predictions, participant-specific resampling multiplicities, fold assignments, fitted models, and private caches are excluded. The ignore rules help keep locally regenerated private inputs and intermediates outside Git; uploads through other interfaces must follow the same scope. Provider microdata and questionnaire/codebook originals are not redistributed.
+
+## Source recheck on 24 October 2026
+
+The nine authorized source workbooks, codebooks and questionnaires matched the published SHA-256 values. In an isolated working copy, `source_audit.py`, `codebook_audit.py`, `questionnaire_audit.py`, and `adjacent_service_diagnostics.py` were rerun. The four reconstructed analysis datasets matched their recorded hashes, and all 20 regenerated aggregate CSV files were byte-identical to the release. The adjacent-domain check repeated 10,000 participant bootstrap draws per cohort, 36 contrasts, and 24 conditional tests. See [SOURCE_RECHECK_20261024.json](SOURCE_RECHECK_20261024.json) for the scope, script hashes and results.
+
+This check did not refit the predictive models or repeat the 1,000-repetition development bootstrap. The historical execution receipts and the 234 source-package files remain unchanged. No private source files or submission documents were added.
 
 ## Verification and provenance
 

@@ -1,0 +1,348 @@
+{
+  "date": "2026-10-24",
+  "status": "passed",
+  "base_repository_commit": "488bbd50232eecdee4992a4eff4a16d1b3e4cc75",
+  "scope": "Nine authorized source files were matched to the published SHA-256 values. Sample reconstruction, demographic/codebook/questionnaire checks, and adjacent-service response diagnostics were rerun in an isolated working copy. Predictive model fitting and the 1,000-repetition full development procedure were not rerun in this check.",
+  "source_checks": [
+    {
+      "file": "2023_data.xlsx",
+      "sha256": "c38782a595dc9ee898cb64a3ebbdde40099c09cca655454eabc7b02316efb0a9",
+      "matches_published_source": true
+    },
+    {
+      "file": "2024_data.xlsx",
+      "sha256": "65fa040101d784b2225eafea9a7a8e5660c5fca9f1b962e342cd81b9cb689f5c",
+      "matches_published_source": true
+    },
+    {
+      "file": "2025_data.xlsx",
+      "sha256": "16867d676338e22da82a84c72b667fe5764ff266a03d6e8086182de138a2c185",
+      "matches_published_source": true
+    },
+    {
+      "file": "2023_codebook.xlsx",
+      "sha256": "1cd1372075f4288ca812de290f0dd7f3af8e97ac853c67e77db2b82835e65baa",
+      "matches_published_source": true
+    },
+    {
+      "file": "2024_codebook.xlsx",
+      "sha256": "227a2e9af089c86e5562b1a7ea999771243d2605ea6ffc57aeb243e171124d5f",
+      "matches_published_source": true
+    },
+    {
+      "file": "2025_codebook.xlsx",
+      "sha256": "aa05556364d6818499350aa1f23189643d3594324208b19802bec743b8ab1c3b",
+      "matches_published_source": true
+    },
+    {
+      "file": "2023_questionnaire.pdf",
+      "sha256": "0b87e50c3f86870ab01b8b57499c5299d40cb77f78eeb01273dc93bb46da25ec",
+      "matches_published_source": true
+    },
+    {
+      "file": "2024_questionnaire.pdf",
+      "sha256": "129ada188e76dfe6f89ad5a3d1767717b6eff7a273e86dc6ec308c2ceec3c4dc",
+      "matches_published_source": true
+    },
+    {
+      "file": "2025_questionnaire.pdf",
+      "sha256": "0075dc1a95f2d1e7dbbaa619998246ec9b379f5d523dd88742fd98a57d5ef480",
+      "matches_published_source": true
+    }
+  ],
+  "rerun_scripts": [
+    {
+      "path": "main_result/revision/code/source_audit.py",
+      "sha256": "d045d6a6beea23c35f53bdeeae94fae2936c38784f9931d5f3acbfd137f1db1e"
+    },
+    {
+      "path": "main_result/revision/code/codebook_audit.py",
+      "sha256": "31cffab9df59e416ac70a2de2257ff6a046e6f0c8705e77d8c82cfbd80988ec0"
+    },
+    {
+      "path": "main_result/revision/code/questionnaire_audit.py",
+      "sha256": "772e3a8f134ec977b95eda76216a1ce67b65636f511db5be23ffa673ef5981ed"
+    },
+    {
+      "path": "main_result/revision/code/adjacent_service_diagnostics.py",
+      "sha256": "3b7519353b08e3f82f93bfd022e3e31bcc0b0788b5aae2567c30fc0f8c3f3560"
+    }
+  ],
+  "analysis_samples": {
+    "development": {
+      "n": 1565,
+      "events": 880,
+      "event_rate": 0.5623003194888179,
+      "monthly_events": 674,
+      "valid_longitudinal_weight_n": 1565,
+      "missing_predictor_cells": 53,
+      "sha256": "a3beced41c288b5dd4454598b26bde9007e78249ba597cd95a3b6c4234aea022"
+    },
+    "evaluation": {
+      "n": 1520,
+      "events": 853,
+      "event_rate": 0.5611842105263158,
+      "monthly_events": 594,
+      "valid_longitudinal_weight_n": 1369,
+      "missing_predictor_cells": 59,
+      "sha256": "24f0af7707c883fc9ebef22186ccfbc5811f05f056a40da883ae56396e1187ce"
+    },
+    "full_development": {
+      "n": 3895,
+      "events": 2215,
+      "event_rate": 0.5686777920410783,
+      "monthly_events": 1653,
+      "valid_longitudinal_weight_n": 3895,
+      "missing_predictor_cells": 145,
+      "sha256": "4fc626857ffc0f8b4ad686db014880ba386f090b7ec7c0c9153703df5b8ac580"
+    },
+    "full_evaluation": {
+      "n": 3741,
+      "events": 2125,
+      "event_rate": 0.5680299385191125,
+      "monthly_events": 1570,
+      "valid_longitudinal_weight_n": 3333,
+      "missing_predictor_cells": 198,
+      "sha256": "a09df60e557825df825cf56a646aa1d9505a6001ad1e6bf7c9a62d3ee898f035"
+    }
+  },
+  "source_validation_checks": [
+    {
+      "check": "development_independent_id_set",
+      "pass": true,
+      "n": 1565
+    },
+    {
+      "check": "evaluation_independent_id_set",
+      "pass": true,
+      "n": 1520
+    },
+    {
+      "check": "restricted_overlap_n",
+      "pass": true,
+      "n": 641
+    },
+    {
+      "check": "no_age7_in_development",
+      "pass": true,
+      "n": 0
+    },
+    {
+      "check": "no_age7_in_evaluation",
+      "pass": true,
+      "n": 0
+    },
+    {
+      "check": "no_age7_in_full_development",
+      "pass": true,
+      "n": 0
+    },
+    {
+      "check": "no_age7_in_full_evaluation",
+      "pass": true,
+      "n": 0
+    }
+  ],
+  "embedded_codebook_identity_checks": [
+    {
+      "variable": "region",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 17,
+      "n_categories_comparison": 17,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "region",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 17,
+      "n_categories_comparison": 17,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "age_group",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 7,
+      "n_categories_comparison": 7,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": "Standalone codebooks omit category7; embedded codebooks consistently define7 as70s. No age7 observations in linked development/evaluation predictors."
+    },
+    {
+      "variable": "age_group",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 7,
+      "n_categories_comparison": 7,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": "Standalone codebooks omit category7; embedded codebooks consistently define7 as70s. No age7 observations in linked development/evaluation predictors."
+    },
+    {
+      "variable": "gender",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 2,
+      "n_categories_comparison": 2,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "gender",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 2,
+      "n_categories_comparison": 2,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "education",
+      "reference_year": 2023,
+      "comparison_year": 2024,
+      "code_and_label_identity": true,
+      "n_categories_2023": 8,
+      "n_categories_comparison": 8,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    },
+    {
+      "variable": "education",
+      "reference_year": 2023,
+      "comparison_year": 2025,
+      "code_and_label_identity": true,
+      "n_categories_2023": 8,
+      "n_categories_comparison": 8,
+      "authoritative_source": "Embedded Codebook sheet in each raw XLSX",
+      "note": ""
+    }
+  ],
+  "adjacent_diagnostics": {
+    "cohorts": {
+      "restricted_shared": 641,
+      "full_three_wave_panel": 3333
+    },
+    "bootstrap_repetitions_per_cohort": 10000,
+    "paired_contrasts": 36,
+    "conditional_tests": 24
+  },
+  "reproduced_aggregate_files": [
+    {
+      "path": "main_result/revision/tables/demographic_category_distributions.csv",
+      "sha256": "b9e5bfbdd53bd529e7421c8cecd2c746a6bad482672f8e46ef0e1119d043861b",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/demographic_codebook_mapping.csv",
+      "sha256": "ad7b8045be757c6defcbff2ee728a04343fbe4b55b77028e52b7c733c63b8e90",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/demographic_coding_identity_check.csv",
+      "sha256": "15a0c87291c287e986b865703b301ecfbdc4f8c43f5f4cd8ab4f40752dadc95c",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/demographic_raw_embedded_codebook_mapping.csv",
+      "sha256": "a111504d0926e4ffae8a57bfe53747f0945de6d4295752f1526594227360a0b8",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/demographic_within_person_changes.csv",
+      "sha256": "145d970024e1bca45fde436cfd1dbb289cc80ce54af01dbd7e44b11cda7deb40",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/demographic_within_person_transitions.csv",
+      "sha256": "9e79ee7957877853c186c62362431389ba11252728e925a4accc4f7418326537",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/evaluation_entry_decomposition.csv",
+      "sha256": "34776b4ccc83d247f00bf4a6aef4aae087296f113f8f90587e42defac9e29045",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/outcome_codebook_wording.csv",
+      "sha256": "8ed808dcb6fc5c99c6c821ce15869d13efd1710a99fbc34f7a053f1d38369387",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/outcome_frequency_distribution_revision.csv",
+      "sha256": "4f30440bbfc095ecb23002475b954450335e00527b925bc69954eb04977b6d28",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/overlap_and_full_panel_comparison.csv",
+      "sha256": "61fc29236f7aee34e06809f2ef53509051fe189189dcb41052865557855b449a",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/paired_outcome_change_diagnostics.csv",
+      "sha256": "1c8fec6f27a60ead571c81c574f083d14f0dde320cdc69a39462dc41cb35e58d",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/paired_outcome_frequency_transitions.csv",
+      "sha256": "38a69f819522f4b475ab05402164d483a527fb2c00e42826277b62d855a2722a",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/questionnaire_comparability_audit.csv",
+      "sha256": "5256e11638a0cccf2f3824fa12dc1e5db633f46184c7982c8d948da43dc8a971",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/tables/sample_reconstruction.csv",
+      "sha256": "f22b9180d35738a4bdca654dd7d0c0d19d274b6ad37b56ff31f855387a25a33b",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/results/adjacent_questionnaire_anchor_audit.csv",
+      "sha256": "568f17332fd5242f5e5645f562c3d102a91221050474fc48567a9a8d6b28ae3f",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/results/adjacent_domain_rates.csv",
+      "sha256": "c83dc800d95c2bfa8f8741a8d4012367ed2cc6633a5f5545ff0425c39f0cbb1d",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/results/adjacent_logistic_coefficients.csv",
+      "sha256": "d45e70f591edef14849277e6fd7926c3f773196d8e9c96a46ddd43db64386132",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/results/adjacent_conditional_year_tests.csv",
+      "sha256": "ef7f91adb46ea42c106cbb6f6b0aa80decf394db5799f687faad672b825602ab",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/results/adjacent_service_table.csv",
+      "sha256": "9d59a1b5e43f762427f21f6843491ddf1e2b604effe139e30c4688e55dbe35bf",
+      "byte_identical": true
+    },
+    {
+      "path": "main_result/revision/results/adjacent_domain_differences.csv",
+      "sha256": "d65791b7600392354d137e724ee81b0a4b2ccb51ca9f06bf5d0e17fdd4d46cc0",
+      "byte_identical": true
+    }
+  ],
+  "aggregate_file_count": 20,
+  "historical_receipts": "Historical audit records are retained. The regenerated source_manifest source-script hash corresponds to the distributed normalized script; all source-wave metadata and analysis-sample hashes match the historical receipt. The embedded-codebook check is independently reproduced by codebook_audit.py.",
+  "environment": {
+    "python": "3.12.14",
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.17.0"
+  },
+  "public_data_scope": "Only file hashes, aggregate counts, checks and environment metadata are included. No source workbooks, questionnaires, respondent records, identifiers, predictions, manuscripts, supplements or response letters are added."
+}
