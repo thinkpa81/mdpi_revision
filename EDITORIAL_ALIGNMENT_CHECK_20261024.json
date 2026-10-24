@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "alignment_date": "2026-10-24",
+  "base_commit": "162919c804880c6e6b29a7d6a4d3a5b09e93f3ec",
+  "numerical_source_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
+  "scope": "Editorial clarification of seven submission documents, response-locator verification, and public document/figure metadata alignment.",
+  "documents": {
+    "main": {
+      "filename": "261024_1_JTAER_Manuscript.docx",
+      "sha256": "485c96df3addd83cdc49ae6fa8f08e09e9f4fd11348825bd44727ff29a8514ec",
+      "bytes": 3060208,
+      "rendered_pages": 29,
+      "document_distributed_in_repository": false
+    },
+    "main_red": {
+      "filename": "261024_1_JTAER_Manuscript_Changes_marked_Red.docx",
+      "sha256": "08dac8894a510371affe459cb6ee557dcb24e063189fd3269cf8eaddb0be8898",
+      "bytes": 3061436,
+      "rendered_pages": 29,
+      "document_distributed_in_repository": false
+    },
+    "supp": {
+      "filename": "261024_2_JTAER_Supplementary.docx",
+      "sha256": "3c75a9836f4d46cd6c4777055fa8505e12a7f4412d5b7b8e8513fb965580a72c",
+      "bytes": 1077454,
+      "rendered_pages": 34,
+      "document_distributed_in_repository": false
+    },
+    "supp_red": {
+      "filename": "261024_2_JTAER_Supplementary_Changes_marked_Red.docx",
+      "sha256": "ef60a0dba0173c2ac15d1aa8b030cd4a8c88a58fb5c604c42f61c0188f7b9064",
+      "bytes": 1103475,
+      "rendered_pages": 34,
+      "document_distributed_in_repository": false
+    },
+    "editor": {
+      "filename": "261024_3_Response_to_Editor.docx",
+      "sha256": "2c38c41aa46cb9be95372ea8e5c253cd6fb65b25af5973e30be309bd5bb89e77",
+      "bytes": 97309,
+      "rendered_pages": 5,
+      "document_distributed_in_repository": false
+    },
+    "r1": {
+      "filename": "261024_4_Response_to_Reviewer_1.docx",
+      "sha256": "abe9f4eefffe069b117be85bbb29cdba62e684e4c1f3dd7f07d37a542949fa16",
+      "bytes": 112252,
+      "rendered_pages": 16,
+      "document_distributed_in_repository": false
+    },
+    "r2": {
+      "filename": "261024_5_Response_to_Reviewer_2.docx",
+      "sha256": "aea007633b200781f60f3bca193f9c1bd12b2b9d9c1d9b77966ef066e7bf4ade",
+      "bytes": 114308,
+      "rendered_pages": 18,
+      "document_distributed_in_repository": false
+    }
+  },
+  "editorial_changes": [
+    "Describe the work as a retrospective, exploratory secondary analysis; retain prior examination of later-period outcomes and development-only tuning, and describe evaluation-cohort reuse without review-process wording.",
+    "Distinguish original comparison families from separately reported sensitivity analyses; retain pointwise-versus-simultaneous interval scopes and the dependence of overlapping repetitions.",
+    "Replace repetitive generic future-assessment statements with specific limits or validation designs; retain prospective evaluation with validated short forms, measured acquisition costs, and explicit collection policies.",
+    "Retain Table S28 with headings distinguishing evidence from this study and interpretation/validation scope; identify the concurrent wording study as proposed and not implemented.",
+    "Consolidate repository, privacy, and figure-location information in the Data Availability Statement, Supplementary Section S10/Table S26, and repository documentation.",
+    "Align the three response letters and their detailed locations with the revised manuscript and supplement; standardize minus-sign typography in the marked supplement to its clean counterpart."
+  ],
+  "checks": {
+    "reproduced_comments_unchanged": 34,
+    "detailed_response_locators_verified": 105,
+    "response_locations_updated": 23,
+    "unresolved_response_locators": 0,
+    "clean_marked_document_pairs": {
+      "main": {
+        "paragraph_text_including_math_equal": true,
+        "page_count_equal": true,
+        "rendered_body_text_equal_ignoring_spacing": true
+      },
+      "supp": {
+        "paragraph_text_including_math_equal": true,
+        "page_count_equal": true,
+        "rendered_body_text_equal_ignoring_spacing": true
+      }
+    },
+    "main_numeric_table_tokens_unchanged": true,
+    "supplement_numeric_table_tokens_unchanged": true,
+    "clean_document_equations_unchanged": true,
+    "figure_checks": [
+      {
+        "figure": "1",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "2",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "3",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "4",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "5",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "6",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "7",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "S1",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "S2",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "S3",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      },
+      {
+        "figure": "S4",
+        "embedded_png_matches_manifest": true,
+        "caption_matches_document": true
+      }
+    ],
+    "documents_rendered_and_visually_reviewed": 7,
+    "repository_change_scope": "Seven documentation/metadata files; scientific code, aggregate results, figure captions, images, and plot data are preserved."
+  },
+  "not_performed_in_this_editorial_step": [
+    "Model refitting",
+    "Access to source microdata",
+    "New bootstrap runs or numerical reaggregation",
+    "Complete repository reproduction or validator execution"
+  ],
+  "preceding_checks": {
+    "response_audit": "RESPONSE_ALIGNMENT_CHECK_20261024.json",
+    "source_recheck": "SOURCE_RECHECK_20261024.json",
+    "release_alignment": "FINAL_ALIGNMENT_CHECK.json"
+  },
+  "public_scope": "Only document identities, verification summaries, code, aggregate research outputs, and figure metadata are public. Submission documents, reviewer-comment text, correspondence, respondent records, identifiers, and individual predictions are not included."
+}
