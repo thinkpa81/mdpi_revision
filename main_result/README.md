@@ -1,4 +1,4 @@
-# Questionnaire collection and incremental prediction — v4
+# Questionnaire collection and incremental prediction — final analysis materials
 
 This research release contains executable analysis code and aggregate results for the temporal evaluation of self-reported AI-enabled consumer-service use in the Korean KISDI panel. It covers the original restricted-cohort models, expanded model searches, full-panel comparisons, complete-procedure bootstrap, and additional measurement and representation diagnostics.
 
@@ -9,7 +9,6 @@ This research release contains executable analysis code and aggregate results fo
 - `revision/results`: interval-construction, regularization, cohort, adjacent-service, and region-coding diagnostics supplied with this version.
 - `revision/audit`: scientific protocols, source hashes, software versions, and analytical completion records.
 - `original_results`: selected original analytical sources and aggregate results required by the reproducibility pipeline.
-- `historical_source`: earlier analytical procedures, with comments and docstrings removed and formatting standardized for this release. Original byte hashes and the transformation checks are retained in the release manifest; these files are not byte-identical archival copies.
 - `validate_public_release.py`: file-integrity and numerical reconstruction checks that need no private data.
 - `run_reproduction.py`: ordered execution entry point for a fresh analysis.
 
@@ -25,11 +24,11 @@ python validate_public_release.py
 python run_reproduction.py --dry-run
 ```
 
-The first check verifies the delivered bytes and independently reaggregates all 8,000 stored complete-procedure records. It is a numerical consistency check, not new model fitting. Preserve a copy of the delivered archive before recomputation: fresh runs deliberately write their own results and provenance, so the original file-integrity manifest will subsequently differ.
+The first check verifies the delivered bytes and independently reaggregates all 8,000 stored complete-procedure records. It is a numerical consistency check, not new model fitting. Preserve a copy of the checked repository snapshot before recomputation: fresh runs deliberately write their own results and provenance, so the original file-integrity manifest will subsequently differ.
 
 ## Fresh analysis
 
-Run in a clean extracted project directory containing the authorized source files. Existing private caches from different source bytes, model grids, code, seeds, or library versions must not be reused. Task-cache and bootstrap-checkpoint checks reject mismatched or incomplete receipts.
+Run in a separate clean working copy containing the authorized source files. Existing private caches from different source bytes, model grids, code, seeds, or library versions must not be reused. Task-cache and bootstrap-checkpoint checks reject mismatched or incomplete receipts.
 
 ```bash
 python run_reproduction.py --stage base --jobs 4
@@ -46,16 +45,14 @@ The complete-procedure bootstrap applies to budgets 1 and 4, the original ridge/
 
 The additional diagnostics can also be run individually with `--help`; their scripts record inputs, seeds, model choices, and output schema. The `supplementary` stage writes participant-level intermediate files only inside `private_data`.
 
-Figure code writes PNG, PDF, and SVG versions plus source CSVs to `JTAER_Figures`. The separate figure archive accompanying the manuscript supplies the manuscript-numbered exports. Reproducing the analytical charts does not require editorial response files or document-generation scripts.
+Figure code writes PNG, PDF, and SVG versions plus source CSVs to `JTAER_Figures`. The repository-level `../JTAER_Figures/` directory supplies the manuscript-numbered exports and aggregate plot data. Reproducing the analytical charts does not require editorial response files or document-generation scripts.
 
-## Result provenance
+## Result provenance and current scope
 
-The original repository release is identified by commit `f3b0a46b86f8ab0a7e6093f17105d0f38d281824` at https://github.com/thinkpa81/mdpi. Current source files and delivered results are identified by `PUBLIC_RELEASE_MANIFEST.json` and `SHA256SUMS.json`. Historical execution records preserve generating-code hashes; current execution code can include validated cache or numerical-acceptance safeguards. This distinction does not imply that every stored analysis was newly rerun with the current source.
+The current implementation is in `revision/code/`. The retained `original_results/` files support source harmonization, original-fit checks, nested cross-validation displays, threshold-specific results in Supplementary Table S25, and numerical traceability. They remain part of the evidence for the final paper. The historical 200 bootstrap repetitions and their validation records support the documented extension to 1,000 repetitions and remain available.
 
-## Version 5 scope
+Earlier implementation copies from `historical_source/` are archived at [the manuscript-cited snapshot](https://github.com/thinkpa81/mdpi_revision/tree/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source). They are not imported by the current execution pipeline and have been removed from the current tree. The same snapshot preserves the original package manifest, normalization records, and generating-code history. Current files and hashes are listed in `PUBLIC_RELEASE_MANIFEST.json` and `SHA256SUMS.json`.
 
-This version draws significant temporal heatmap cells along their full boundaries. The same seven cells are outlined, using the existing 56-contrast simultaneous 95% intervals. All stored CSV files and scientific estimates are unchanged from version 4. The adjacent-service analyses remain diagnostics of observed response changes; they do not establish longitudinal measurement equivalence or isolate a wording effect. Region recoding remains post hoc.
+The original analysis release is commit `f3b0a46b86f8ab0a7e6093f17105d0f38d281824` at https://github.com/thinkpa81/mdpi. The preceding public revision is `research_release_20261021/` at commit `34f4172e3bebdb97fe5d5044dd51b237a7c82881` in that repository. These archived sources distinguish retained historical outputs from newly executed analyses.
 
-The historical_source directory contains normalized executable copies of earlier procedures, not byte-identical archived originals. The original source hashes and normalization records are retained in the manifest. Original bytes remain available in the preceding public release. Python files retain command-line help and contain no comments or docstrings.
-
-This package accompanies the manuscript as supplementary analysis material. Its source and aggregate outputs are identified by the included file manifest. The preceding public revision is available at commit `34f4172e3bebdb97fe5d5044dd51b237a7c82881`, under `research_release_20261021/`; that commit identifies version 3. Version 5 has no assigned repository commit before its separate publication. Record the actual commit after upload.
+The final repository alignment changes documentation, figure captions, metadata, and redundant historical copies. Current analysis code, aggregate numerical results, figure-data CSVs, and PNG/PDF/SVG exports are preserved. Recorded execution receipts describe their original runs; they are not claims that all analyses were rerun during this alignment. See `../FINAL_ALIGNMENT_CHECK.json` for the final document identities, removals, and validation results, and `../SOURCE_RECHECK_20261024.json` for the separate source reconstruction and adjacent-service recheck.

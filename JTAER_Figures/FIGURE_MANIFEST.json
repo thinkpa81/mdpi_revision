@@ -1,18 +1,20 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "figure_count": 11,
   "main_count": 7,
   "supplementary_count": 4,
   "documents": {
     "main": {
-      "filename": "rev_1_JTAER_Main_Manuscript_MDPI.docx",
-      "sha256": "e905276dab9f5320a6f992ebd35a17bada510b1830766d2d422db04884caaf24",
-      "inline_figures": 7
+      "filename": "261024_1_JTAER_Manuscript_Clean(1).docx",
+      "sha256": "f3b21525fc96101f927b06702d58102857e9acf937e1d4b02c77871a6ac3198a",
+      "inline_figures": 7,
+      "document_distributed": false
     },
     "supplement": {
-      "filename": "rev_2_JTAER_Supplementary_Materials.docx",
-      "sha256": "70f0d940ef30a174221349b87ce1f219015ad879d6a1a64b2c0262320f874a94",
-      "inline_figures": 4
+      "filename": "261024_2_JTAER_Supplementary_Clean(1).docx",
+      "sha256": "0be10b86ec3afb8600859857bea2e261532732c417591665469e12fac0e32273",
+      "inline_figures": 4,
+      "document_distributed": false
     }
   },
   "figures": [
@@ -62,7 +64,7 @@
     {
       "number": "2",
       "title": "Development and temporal performance across item budgets.",
-      "caption": "The development curve is the mean of two retained nested cross-validation repetitions. Its shaded range spans the two repetition-specific means and is descriptive. Temporal bands are pointwise 95% participant-bootstrap intervals for fixed predictions (5,000 draws; seed 2026102002); they do not include tuning or selection uncertainty and do not provide joint coverage over budgets. Lower log loss is better. The dashed reference identifies temporal P0 or NONE. See source CSV for all 31 budgets.",
+      "caption": "The development curve is the mean of two retained nested cross-validation repetitions. Its shaded range spans the two repetition-specific means and is descriptive. Temporal bands are pointwise 95% participant-bootstrap intervals for fixed predictions (5,000 draws; seed 2026102002); they describe evaluation-sample uncertainty conditional on the fitted models and selected portfolios at each budget. Lower log loss is better. The dashed reference identifies temporal P0 or NONE. Aggregate results for all 31 budgets are available in the public GitHub repository as the source data for Figure 2.",
       "analytical_source_stem": "Round2_Figure_02_Development_Temporal",
       "files": {
         "png": {
@@ -131,7 +133,7 @@
     {
       "number": "3",
       "title": "Temporal loss differences of focal original selections.",
-      "caption": "Positive Δ indicates higher loss than P0 (H available) or NONE (H unavailable). Bars are two-sided simultaneous 95% maximum-absolute centered-bootstrap intervals, separately within each original algorithm × history-availability family containing all selected budgets and both references; 5,000 paired evaluation resamples, n=1,520. The eight displayed contrasts are not a newly restricted pooled family. Predictions are fixed.",
+      "caption": "Positive Δ indicates higher loss than P0 (H available) or NONE (H unavailable). Bars are two-sided simultaneous 95% maximum-absolute centered-bootstrap intervals, separately within each original algorithm × history-availability family containing all selected budgets and both references; 5,000 paired evaluation resamples, n=1,520. The eight displayed contrasts retain their original family memberships. Predictions are fixed.",
       "analytical_source_stem": "Figure_02",
       "files": {
         "png": {
@@ -178,7 +180,7 @@
     {
       "number": "4",
       "title": "Selection recurrence and uncertainty after repeating model development.",
-      "caption": "Left: frequency of the original portfolio across 1,000 participant-union bootstrap repetitions. Right: original point estimate and pointwise 95% percentile interval for the complete procedure against P0 or NONE. Shared participants receive common multiplicities across periods; duplicate copies remain together in inner folds. Selection, original-grid tuning, preprocessing, and fitting are repeated for budgets 1 and 4. These exploratory intervals are not multiplicity-adjusted and have finite Monte Carlo precision. The displayed intervals use the primary percentile method; Table S12 reports basic-interval sensitivity and bootstrap bias.",
+      "caption": "Left: frequency of the original portfolio across 1,000 participant-union bootstrap repetitions. Right: original point estimate and pointwise 95% percentile interval for the complete procedure against P0 or NONE. Shared participants receive common multiplicities across periods; duplicate copies remain together in inner folds. Selection, original-grid tuning, preprocessing, and fitting are repeated for budgets 1 and 4. These exploratory intervals are not multiplicity-adjusted and have finite Monte Carlo precision. The displayed intervals use the primary percentile method; Supplementary Table S12 reports basic-interval sensitivity and bootstrap bias.",
       "analytical_source_stem": "Round2_Figure_04_Selection_Uncertainty",
       "files": {
         "png": {
@@ -246,7 +248,7 @@
     {
       "number": "5",
       "title": "Within-period and later-period performance at matched training size.",
-      "caption": "Twenty stratified 70/30 development splits repeat inner five-fold tuning and budget-4 selection. Each trained model is applied to its 470-person within-period holdout and the later 1,520-person cohort. Points are mean model-minus-benchmark loss differences; bars are 2.5th–97.5th split percentiles. They summarize overlapping-split variability, not confidence intervals. Wording, time, and sample composition change together.",
+      "caption": "Twenty stratified 70/30 development splits repeat inner five-fold tuning and budget-4 selection. Each trained model is applied to its 470-person within-period holdout and the later 1,520-person cohort. Points are mean model-minus-benchmark loss differences; bars are 2.5th–97.5th split percentiles. They provide descriptive summaries of variability across overlapping splits. Wording, time, and sample composition change together.",
       "analytical_source_stem": "Figure_05",
       "files": {
         "png": {
@@ -361,7 +363,7 @@
     {
       "number": "7",
       "title": "Block contributions across development and temporal evaluation.",
-      "caption": "Exact seven-block loss-reduction allocations per original item for the two original learners and both history settings. Positive values indicate improved prediction. All 84 cells share one color scale. The 28 development cells reuse tuning-fold out-of-fold predictions and are descriptive. The 56 temporal cells use fixed fitted predictions. Outlined cells mark temporal allocations whose 56-contrast simultaneous 95% intervals exclude zero; all seven indicate higher loss. No positive allocation has an interval excluding zero. Full interval estimates appear in Table S21 and person-disjoint Figure S4. Development, whole temporal, and person-disjoint sample sizes are 1,565, 1,520, and 879. H is fixed present or absent. Per-item allocation is an efficiency diagnostic, not a causal effect or a cost-weighted Shapley game.",
+      "caption": "Exact seven-block loss-reduction allocations per original item for the two original learners and both history settings. Positive values indicate improved prediction. All 84 cells share one color scale. The 28 development cells reuse tuning-fold out-of-fold predictions and are descriptive. The 56 temporal cells use fixed fitted predictions. Outlined cells mark temporal allocations whose 56-contrast simultaneous 95% intervals exclude zero; all seven indicate higher loss. All positive allocations have intervals that include zero. Full interval estimates appear in Supplementary Table S21; Supplementary Figure S4 presents the person-disjoint results. Development, whole temporal, and person-disjoint sample sizes are 1,565, 1,520, and 879. H is fixed present or absent. Per-item allocation summarizes predictive efficiency within the original Shapley game; causal effects and cost-weighted allocations are separate estimands.",
       "analytical_source_stem": "Submission_Figure_07_Block_Heatmap",
       "files": {
         "png": {
@@ -472,7 +474,7 @@
     {
       "number": "S2",
       "title": "Affine calibration and ranking diagnostics.",
-      "caption": "Raw log loss equals empirical evaluation outcome entropy minus affine resolution plus affine miscalibration. Components are relative to apparent intercept-and-slope logistic recalibration, not a nonparametric decomposition. Bars are pointwise 95% percentile intervals from 500 resamples that refit the recalibrator while keeping base predictions fixed. Cross-fitted recalibration in Table S14 limits reliance on optimistic apparent gains. All diagnostics use evaluation outcomes.",
+      "caption": "Raw log loss equals empirical evaluation outcome entropy minus affine resolution plus affine miscalibration. Components are defined within the apparent intercept-and-slope logistic recalibration family. Bars are pointwise 95% percentile intervals from 500 resamples that refit the recalibrator while keeping base predictions fixed. Cross-fitted recalibration in Table S14 limits reliance on optimistic apparent gains. All diagnostics use evaluation outcomes.",
       "analytical_source_stem": "Figure_04",
       "files": {
         "png": {
@@ -538,7 +540,7 @@
     {
       "number": "S3",
       "title": "Hesitation-related predictive heterogeneity under common full-panel-trained models.",
-      "caption": "Hesitant respondents (n=1,520; codes 1–2) are compared with other linked respondents (n=2,221; codes 3, 4, and 9). Positive contrasts indicate less benefit or greater harm from full information in the hesitant group. Bars are two-sided simultaneous 95% intervals across eight full-model contrasts, using 5,000 bootstrap resamples independently within each group. This is conditional predictive heterogeneity, not a causal moderator effect.",
+      "caption": "Hesitant respondents (n=1,520; codes 1–2) are compared with other linked respondents (n=2,221; codes 3, 4, and 9). Positive contrasts indicate less benefit or greater harm from full information in the hesitant group. Bars are two-sided simultaneous 95% intervals across eight full-model contrasts, using 5,000 bootstrap resamples independently within each group. These intervals quantify conditional predictive heterogeneity across the observed groups.",
       "analytical_source_stem": "Figure_08",
       "files": {
         "png": {
@@ -643,5 +645,7 @@
       ],
       "source_csv": "JTAER_Figures/data/Round2_Figure_03_Person_Disjoint_Importance.csv"
     }
-  ]
+  ],
+  "alignment_date": "2026-10-24",
+  "preceding_manifest_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/JTAER_Figures/FIGURE_MANIFEST.json"
 }

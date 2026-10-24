@@ -1,77 +1,61 @@
-# JTAER major-revision research materials
+# JTAER final research materials
 
 **Questionnaire Collection Volume and Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Evidence from a Korean Panel**
 
 Soonho Jang and Eung-Kyo Suh, Dankook University.
 
-This repository publishes the analytical materials accompanying the October 2026 JTAER revision. It contains the extracted contents of the supplied `main_result.zip` and `JTAER_Figures.zip`: analysis code, aggregate results, execution records, and manuscript-numbered figures. The 234 source files are preserved byte for byte. The repository-level documentation and verification files were added on 24 October 2026.
+This repository contains the analysis code, aggregate results, provenance, and figure data supporting the final 24 October 2026 manuscript and supplementary materials. The final documents were checked by their contents and SHA-256 hashes; renaming them did not change their contents. Document identities and the alignment checks are recorded in [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json). The manuscript and supplementary documents themselves are not included.
 
 [한국어 안내](README_KO.md)
 
-## Repository contents
+## Contents
 
-| Path | Contents |
+| Path | Purpose |
 | --- | --- |
-| [main_result/revision/code](main_result/revision/code) | Current analysis procedures: reconstruction, original model refits, inference, resampling, model/population sensitivity, measurement diagnostics, and plotting |
-| [main_result/revision/tables](main_result/revision/tables) | Aggregate model results, bootstrap summaries and replicate-level aggregate statistics |
-| [main_result/revision/results](main_result/revision/results) | Interval-method, selection, participant-overlap, regional-coding, and adjacent-service diagnostics |
-| [main_result/revision/audit](main_result/revision/audit) | Source hashes, protocols, recorded versions, and historical execution receipts |
-| [main_result/original_results](main_result/original_results) | Selected earlier code and aggregate outputs required by the revision pipeline |
-| [main_result/historical_source](main_result/historical_source) | Earlier procedures retained to document result provenance; see the supplied manifest for normalization details |
-| [JTAER_Figures/Main](JTAER_Figures/Main) | Main Figures 1–7, each in PNG, PDF and SVG |
-| [JTAER_Figures/Supplementary](JTAER_Figures/Supplementary) | Supplementary Figures S1–S4, each in PNG, PDF and SVG |
-| [JTAER_Figures/data](JTAER_Figures/data) | Aggregate figure data and workflow-diagram text |
-| [JTAER_Figures/FIGURE_CROSSWALK.csv](JTAER_Figures/FIGURE_CROSSWALK.csv) | Manuscript numbers, analytical source names, and captions |
-| [RELEASE_VALIDATION.json](RELEASE_VALIDATION.json) | Checks performed when preparing this GitHub release |
-| [FILE_MANIFEST_SHA256.json](FILE_MANIFEST_SHA256.json) | Integrity manifest for the released files |
+| [main_result/revision/code](main_result/revision/code) | Current reconstruction, model, inference, bootstrap, sensitivity, diagnostic, and plotting code |
+| [main_result/revision/tables](main_result/revision/tables) | Aggregate model results and bootstrap/holdout summaries |
+| [main_result/revision/results](main_result/revision/results) | Interval, selection, overlap, regional, and adjacent-service diagnostics |
+| [main_result/revision/audit](main_result/revision/audit) | Source hashes, protocols, recorded versions, and execution receipts |
+| [main_result/original_results](main_result/original_results) | Original code and aggregate evidence required for harmonization, numerical comparisons, retained nested results, and Supplementary Table S25 |
+| [JTAER_Figures](JTAER_Figures) | Main Figures 1–7 and Supplementary Figures S1–S4, aggregate plot data, and the final figure crosswalk |
+| [SOURCE_RECHECK_20261024.json](SOURCE_RECHECK_20261024.json) | Source reconstruction and adjacent-service recheck cited in Supplementary Section S10 |
+| [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json) | Final-document alignment, archived removals, and current verification scope |
+| [FILE_MANIFEST_SHA256.json](FILE_MANIFEST_SHA256.json) | Current repository file hashes |
 
-The archive layout is retained because code and recorded provenance refer to these relative paths. Earlier inputs under `original_results` and `historical_source` support the current results and are not a second recommended execution pipeline. Manuscript Word files, marked drafts, correspondence, original ZIPs, and redundant copies of the entire earlier repository are outside this release.
+Supplementary Table S26 maps the analysis groups to these scripts and outputs. Existing relative paths are preserved so that the documented pipeline continues to resolve its inputs. The earlier 200-repetition bootstrap records remain because the 1,000-repetition analysis and public validator compare against them. Their role is provenance and numerical verification, rather than an additional independent sample.
 
-## Verify without private data
-
-Python 3.12 is the recorded analysis interpreter. The repository integrity check uses only the Python standard library:
+## Verify the public materials
 
 ```bash
 python verify_release.py
-```
-
-To independently reaggregate the stored bootstrap statistics, use an isolated environment with the recorded analysis dependencies:
-
-```bash
 python -m pip install -r main_result/revision/requirements.txt
 cd main_result
 python validate_public_release.py
 python run_reproduction.py --dry-run
 ```
 
-The supplied validator reconstructs interval and frequency summaries from 8,000 aggregate procedure records: eight settings with 1,000 repetitions each. These rows describe bootstrap-level statistics, not individual respondents. It also checks that the historical 200 repetitions are the corresponding initial segment of the 1,000-repetition sequence. This verification does not refit models.
+The integrity check uses only the Python standard library. The numerical validator reaggregates the 8,000 procedure-level bootstrap records, checks the initial 200-repetition segment, and reconstructs interval and selection-frequency summaries. These records summarize analysis repetitions; they contain no respondent rows. This verification does not refit models.
 
 ## Reproduce with authorized source data
 
-Source microdata must be obtained from the KISDI AI Service User Policy Archive under the provider's access conditions. Place authorized workbooks at `main_result/private_raw/2023_data.xlsx`, `2024_data.xlsx`, and `2025_data.xlsx`. Source-audit stages also require the corresponding `YYYY_questionnaire.pdf` and `YYYY_codebook.xlsx`. Follow [main_result/README.md](main_result/README.md) for the complete execution stages and recorded environment. Additional boosting dependencies are in [requirements_round2.txt](main_result/revision/requirements_round2.txt).
+Obtain the 2023–2025 workbooks from the KISDI AI Service User Policy Archive under the provider's access conditions. Place the authorized `YYYY_data.xlsx`, `YYYY_codebook.xlsx`, and `YYYY_questionnaire.pdf` files in `main_result/private_raw/`. Follow [main_result/README.md](main_result/README.md) for dependencies, scope, and execution order. Additional boosting dependencies are listed in `main_result/revision/requirements_round2.txt`.
 
-The public execution entry point is `main_result/run_reproduction.py`, as listed in Supplementary Table S26. The table writes it as `../../run_reproduction.py` relative to `main_result/revision/code/`. Use its `--stage` options in the documented order.
+The execution entry point is `main_result/run_reproduction.py`, written as `../../run_reproduction.py` relative to `main_result/revision/code/` in Supplementary Table S26. Run the stages in a separate working copy; fresh execution replaces results and execution receipts. Run Python without `-O` or `-OO` so the analytical assertions remain active.
 
-Run a fresh analysis in a separate working copy. Recalculation writes new results and execution receipts, so the original release hashes will then differ. Do not use Python `-O` or `-OO`, which disables analytical assertions.
+The analysis figure stage writes to `main_result/JTAER_Figures/`. The checked publication exports are in the top-level [JTAER_Figures](JTAER_Figures) directory. Its [FIGURE_CROSSWALK.csv](JTAER_Figures/FIGURE_CROSSWALK.csv) maps analytical filenames to publication numbers and available aggregate plot data. Figure captions now match the final documents; all image and plot-data bytes remain unchanged.
 
-The analysis figure stage writes analytical filenames into `main_result/JTAER_Figures/`. The top-level `JTAER_Figures/` contains the supplied, manuscript-numbered publication exports. Use `FIGURE_CROSSWALK.csv` to map analytical stems to publication numbers. Its `analytical_source_csv` column records locations in the analytical workspace; its `data_csv` column points to the released, numbered source data.
+## Public-data boundary
 
-## Data scope
+Published materials consist of code, metadata, aggregate statistics, and figures. Respondent records, identifiers, individual predictions, participant-specific resampling multiplicities, fold assignments, fitted objects, and private caches are excluded. The original provider workbooks, questionnaires, and codebooks must be obtained separately. Manuscripts, supplementary-document files, response letters, correspondence, and source ZIP copies are excluded. Ignore rules reinforce this boundary for local Git use; the same scope applies to uploads through other interfaces.
 
-The distributed files contain code, metadata, and aggregate results. Respondent records, identifiers, row-level derived data, individual predictions, participant-specific resampling multiplicities, fold assignments, fitted models, and private caches are excluded. The ignore rules help keep locally regenerated private inputs and intermediates outside Git; uploads through other interfaces must follow the same scope. Provider microdata and questionnaire/codebook originals are not redistributed.
+## Source recheck and analysis scope
 
-## Source recheck on 24 October 2026
+The separate 24 October source recheck confirmed the hashes of nine authorized workbooks, codebooks, and questionnaires. Reruns of `source_audit.py`, `codebook_audit.py`, `questionnaire_audit.py`, and `adjacent_service_diagnostics.py` reproduced four private analysis-dataset hashes and 20 released aggregate CSVs exactly. The adjacent-service check repeated 10,000 participant draws per cohort, 36 contrasts, and 24 conditional tests. Details are in [SOURCE_RECHECK_20261024.json](SOURCE_RECHECK_20261024.json).
 
-The nine authorized source workbooks, codebooks and questionnaires matched the published SHA-256 values. In an isolated working copy, `source_audit.py`, `codebook_audit.py`, `questionnaire_audit.py`, and `adjacent_service_diagnostics.py` were rerun. The four reconstructed analysis datasets matched their recorded hashes, and all 20 regenerated aggregate CSV files were byte-identical to the release. The adjacent-domain check repeated 10,000 participant bootstrap draws per cohort, 36 contrasts, and 24 conditional tests. See [SOURCE_RECHECK_20261024.json](SOURCE_RECHECK_20261024.json) for the scope, script hashes and results.
+That check did not refit all predictive models or repeat the 1,000-repetition development bootstrap. This final repository alignment also preserves existing scientific results. The full-process bootstrap covers budgets 1 and 4 with the original ridge/HGB grids and the restricted whole evaluation cohort. Other result files retain their stated inference scopes. Measurement and adjacent-service diagnostics support the interpretations described in the paper; formal longitudinal measurement invariance and causal wording effects are separate questions.
 
-This check did not refit the predictive models or repeat the 1,000-repetition development bootstrap. The historical execution receipts and the 234 source-package files remain unchanged. No private source files or submission documents were added.
+## Archived provenance and citation
 
-## Verification and provenance
+The final documents cite commit [`af06ecda65c0f5768cbe2b3449bb46ebf229edca`](https://github.com/thinkpa81/mdpi_revision/commit/af06ecda65c0f5768cbe2b3449bb46ebf229edca). That immutable snapshot remains available and is the numerical source of this alignment. The current tree removes eight unused earlier implementation copies, one redundant editorial caption file, and one superseded upload-preparation receipt. Each removed file and its archived URL are recorded in [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json). Required historical aggregate results and scientific execution receipts remain in the current tree.
 
-For this publication, all 232 checksums in the two source manifests passed, all 46 Python files parsed, and all 36 JSON files loaded. The supplied aggregate validator passed with a maximum absolute reconstruction difference of approximately `9.93e-17`. The execution dry run listed 30 commands successfully. All 11 released PNGs exactly matched the embedded images in the attached 24 October 2026 manuscript and supplementary document. No model training, microdata reconstruction, or participant-level resampling was rerun for this upload.
-
-The supplied `main_result/README.md` contains historical version-4/version-5 text. Its `PUBLIC_RELEASE_MANIFEST.json` retains the original pre-upload status and null repository commit. These are unmodified source-package records; this top-level README and `RELEASE_VALIDATION.json` describe the GitHub publication. Use the actual commit shown in this repository when citing a particular release.
-
-The preceding repository remains available at [thinkpa81/mdpi](https://github.com/thinkpa81/mdpi). The manuscript identifies the original analysis by commit [`f3b0a46b86f8ab0a7e6093f17105d0f38d281824`](https://github.com/thinkpa81/mdpi/commit/f3b0a46b86f8ab0a7e6093f17105d0f38d281824). An earlier revision is archived at commit [`34f4172e3bebdb97fe5d5044dd51b237a7c82881`](https://github.com/thinkpa81/mdpi/tree/34f4172e3bebdb97fe5d5044dd51b237a7c82881/research_release_20261021). That revision predates the version-5 packages published here. The earlier repository was not changed by this upload.
-
-No new software license or rights to redistribute provider data are granted by this packaging step.
+The original analysis is available in [thinkpa81/mdpi](https://github.com/thinkpa81/mdpi) at commit `f3b0a46b86f8ab0a7e6093f17105d0f38d281824`; the preceding revision is under `research_release_20261021/` at commit `34f4172e3bebdb97fe5d5044dd51b237a7c82881`. The earlier repository is unchanged. Cite the actual GitHub commit for the snapshot used. No additional software license or provider-data redistribution rights are granted by this alignment.

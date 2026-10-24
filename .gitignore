@@ -22,3 +22,15 @@ venv/
 .DS_Store
 /main_result/analysis/
 /main_result/JTAER_Figures/
+
+# Submission documents and provider/archive packages are not public artifacts.
+*.docx
+*.doc
+*.odt
+*.rtf
+*.zip
+*.7z
+*.rar
+*.pdf
+!JTAER_Figures/Main/Figure_*.pdf
+!JTAER_Figures/Supplementary/Figure_S*.pdf

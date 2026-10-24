@@ -1,0 +1,468 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "repository": "https://github.com/thinkpa81/mdpi_revision",
+  "base_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
+  "documents_checked": {
+    "main": {
+      "filename": "261024_1_JTAER_Manuscript_Clean(1).docx",
+      "sha256": "f3b21525fc96101f927b06702d58102857e9acf937e1d4b02c77871a6ac3198a",
+      "inline_figures": 7,
+      "document_distributed": false
+    },
+    "supplement": {
+      "filename": "261024_2_JTAER_Supplementary_Clean(1).docx",
+      "sha256": "0be10b86ec3afb8600859857bea2e261532732c417591665469e12fac0e32273",
+      "inline_figures": 4,
+      "document_distributed": false
+    }
+  },
+  "document_content_unchanged_from_previous_final_files": true,
+  "documents_distributed": false,
+  "removed_from_current_tree": [
+    {
+      "path": "main_result/historical_source/check_preprocess_equivalence.py",
+      "sha256": "1a34b58ff115ea95af2ee2a94ca5484521e80633c151d4de8e808d39258bcc85",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/check_preprocess_equivalence.py"
+    },
+    {
+      "path": "main_result/historical_source/holdout_calibration.py",
+      "sha256": "d23e5860dc213e42e9a5ed2bd49325a34129bbc22a9cfc03e0c5eca6f63fbb92",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/holdout_calibration.py"
+    },
+    {
+      "path": "main_result/historical_source/model_sensitivity_intervals.py",
+      "sha256": "b3a87b118023b0cb745f914868d2730d082be63abc66d7b8544ac770588cf907",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/model_sensitivity_intervals.py"
+    },
+    {
+      "path": "main_result/historical_source/round2_boosting.py",
+      "sha256": "1e6e1a36ada7b2651b562b3ab9153a978a8dfc8bac05b0074347dbbe57c0244a",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/round2_boosting.py"
+    },
+    {
+      "path": "main_result/historical_source/round2_run_selection_bootstrap.py",
+      "sha256": "b4603dc33fb46daf745b5e1c4afec6157447e808dadc5e4df9e334d214f23cf2",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/round2_run_selection_bootstrap.py"
+    },
+    {
+      "path": "main_result/historical_source/run_model_sensitivity.py",
+      "sha256": "128d754245f6a4549d666aafe56ad20732d815123cde79f351bde0cdd9f5e840",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/run_model_sensitivity.py"
+    },
+    {
+      "path": "main_result/historical_source/run_selection_bootstrap.py",
+      "sha256": "b87b6274444c9e7f6e7f3e9b6f9d3f81416e048ceb4c0689329890688e904c4f",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/run_selection_bootstrap.py"
+    },
+    {
+      "path": "main_result/historical_source/validate_holdout_calibration.py",
+      "sha256": "ec3d72d7d02767c94d893e44f5f967cba9c8c64d2f613c8916c877086326d324",
+      "reason": "Earlier implementation copy; current pipeline imports revision/code, while this version remains in the cited immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source/validate_holdout_calibration.py"
+    },
+    {
+      "path": "JTAER_Figures/FIGURE_CAPTIONS.md",
+      "sha256": "d9e28859a873bf1575606b79b647e3484427b70813a98d515d146442df6ea83c",
+      "reason": "Redundant editorial caption copy; final figure captions are maintained in FIGURE_CROSSWALK.csv and FIGURE_MANIFEST.json.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/JTAER_Figures/FIGURE_CAPTIONS.md"
+    },
+    {
+      "path": "RELEASE_VALIDATION.json",
+      "sha256": "3fcb6157f34419837d72b14c05c84886fa88694878456752dde2f82a17078a05",
+      "reason": "Superseded upload-preparation receipt for earlier document versions; preserved in the immutable snapshot.",
+      "archived_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/RELEASE_VALIDATION.json"
+    }
+  ],
+  "removal_policy": "Remove redundant historical copies and superseded editorial/packaging material from the current tree; preserve all required original inputs, analysis code, scientific outputs, and immutable Git history.",
+  "final_caption_updates": [
+    "Figure 2",
+    "Figure 3",
+    "Figure 4",
+    "Figure 5",
+    "Figure 7",
+    "Figure S2",
+    "Figure S3"
+  ],
+  "all_11_captions_match_final_documents": true,
+  "embedded_figure_checks": [
+    {
+      "path": "JTAER_Figures/Main/Figure_01.png",
+      "sha256": "bae66209608650deb889ea75b78628db7515fffba26326bd47c62038ccae449f",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Main/Figure_02.png",
+      "sha256": "cb5d8400232a127312a470a279f9e182f57828e9d046b739b341336ad681ad87",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Main/Figure_03.png",
+      "sha256": "1059ccde7af479969922ad8960fb44b5e42f30a9db11c9d4f7cd37d50e02e086",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Main/Figure_04.png",
+      "sha256": "2f90b52a357e1fe9cd3bbdb755dc112a1ffd46f1afe9fca73f826c37724221cc",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Main/Figure_05.png",
+      "sha256": "8ae21edce00df064946e64b48d96bc2a346d6b7300c9c488c4559a90bd5d5507",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Main/Figure_06.png",
+      "sha256": "d8ab897c45a3e7667bebc9e1493c7a56486bb114267de167300df7ad05d03760",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Main/Figure_07.png",
+      "sha256": "d5b6628b52fd9bed5839bca33545f6600db3f21683eefd3b6be03f0496345b77",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Supplementary/Figure_S1.png",
+      "sha256": "919f7e4be8ab92409238e30bea4b464f3625df6bc0f4027b8f8d560e3b3bc656",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Supplementary/Figure_S2.png",
+      "sha256": "f1734378be389cb8fb52bf3081958ff249907e4a48bc4246e802276945813359",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Supplementary/Figure_S3.png",
+      "sha256": "6dade487c78dc2cc4083cf7611ccab00452831f4640517a3d3eab3c1d4391294",
+      "exact_embedded_image_match": true
+    },
+    {
+      "path": "JTAER_Figures/Supplementary/Figure_S4.png",
+      "sha256": "09764a2acafa0ed1bc80aada9a49115c7db6818e2a4272e031d969307d7dfddc",
+      "exact_embedded_image_match": true
+    }
+  ],
+  "supplementary_table_S26": {
+    "script_paths_verified": [
+      "main_result/revision/code/source_audit.py",
+      "main_result/revision/code/codebook_audit.py",
+      "main_result/revision/code/questionnaire_audit.py",
+      "main_result/revision/code/original_model_engine.py",
+      "main_result/revision/code/refit_and_inference.py",
+      "main_result/revision/code/summarize_fixedfit_results.py",
+      "main_result/revision/code/round2_run_selection_bootstrap.py",
+      "main_result/revision/code/round2_validate_selection_bootstrap.py",
+      "main_result/revision/code/round2_reselection_report.py",
+      "main_result/revision/code/holdout_calibration.py",
+      "main_result/revision/code/validate_holdout_calibration.py",
+      "main_result/revision/code/run_model_sensitivity.py",
+      "main_result/revision/code/model_sensitivity_intervals.py",
+      "main_result/revision/code/full_panel_hesitancy_subgroups.py",
+      "main_result/revision/code/round2_boosting.py",
+      "main_result/revision/code/round2_numerical_traceability.py",
+      "main_result/revision/code/run_attribution.py",
+      "main_result/revision/code/refit_and_inference.py",
+      "main_result/revision/code/plot_revision_figures.py",
+      "main_result/revision/code/round2_figures.py",
+      "main_result/revision/code/round2_bootstrap_figure.py",
+      "main_result/run_reproduction.py",
+      "main_result/revision/code/audit_interval_sensitivity.py",
+      "main_result/revision/code/diagnose_selection_and_harm.py",
+      "main_result/revision/code/region_overlap_sensitivity.py",
+      "main_result/revision/code/adjacent_service_diagnostics.py",
+      "main_result/revision/code/plot_submission_block_heatmap.py"
+    ],
+    "result_specs_verified": [
+      {
+        "specification": "sample_reconstruction.csv",
+        "matched_paths": [
+          "main_result/revision/tables/sample_reconstruction.csv"
+        ]
+      },
+      {
+        "specification": "demographic_*",
+        "matched_paths": [
+          "main_result/revision/tables/demographic_category_distributions.csv",
+          "main_result/revision/tables/demographic_codebook_mapping.csv",
+          "main_result/revision/tables/demographic_coding_identity_check.csv",
+          "main_result/revision/tables/demographic_raw_embedded_codebook_mapping.csv",
+          "main_result/revision/tables/demographic_within_person_changes.csv",
+          "main_result/revision/tables/demographic_within_person_transitions.csv"
+        ]
+      },
+      {
+        "specification": "questionnaire_comparability_audit.csv",
+        "matched_paths": [
+          "main_result/revision/tables/questionnaire_comparability_audit.csv"
+        ]
+      },
+      {
+        "specification": "full_models_vs_benchmarks.csv",
+        "matched_paths": [
+          "main_result/revision/tables/full_models_vs_benchmarks.csv"
+        ]
+      },
+      {
+        "specification": "selected_budget_policy_results.csv",
+        "matched_paths": [
+          "main_result/revision/tables/selected_budget_policy_results.csv"
+        ]
+      },
+      {
+        "specification": "fixedfit_*",
+        "matched_paths": [
+          "main_result/revision/tables/fixedfit_inference_families.csv",
+          "main_result/revision/tables/fixedfit_paired_harm_benefit_inference.csv"
+        ]
+      },
+      {
+        "specification": "round2_reselection_bootstrap_*",
+        "matched_paths": [
+          "main_result/revision/tables/round2_reselection_bootstrap_frequencies.csv",
+          "main_result/revision/tables/round2_reselection_bootstrap_intervals.csv",
+          "main_result/revision/tables/round2_reselection_bootstrap_replicates.csv"
+        ]
+      },
+      {
+        "specification": "round2_reselection_monte_carlo_*",
+        "matched_paths": [
+          "main_result/revision/tables/round2_reselection_monte_carlo_batches.csv",
+          "main_result/revision/tables/round2_reselection_monte_carlo_convergence.csv"
+        ]
+      },
+      {
+        "specification": "round2_reselection_point_estimates.csv",
+        "matched_paths": [
+          "main_result/revision/tables/round2_reselection_point_estimates.csv"
+        ]
+      },
+      {
+        "specification": "within_period_holdout_*",
+        "matched_paths": [
+          "main_result/revision/tables/within_period_holdout_repetitions.csv",
+          "main_result/revision/tables/within_period_holdout_selections.csv",
+          "main_result/revision/tables/within_period_holdout_summary.csv"
+        ]
+      },
+      {
+        "specification": "calibration_decomposition.csv",
+        "matched_paths": [
+          "main_result/revision/tables/calibration_decomposition.csv"
+        ]
+      },
+      {
+        "specification": "model_sensitivity_*",
+        "matched_paths": [
+          "main_result/revision/tables/model_sensitivity_benchmarks.csv",
+          "main_result/revision/tables/model_sensitivity_full_model_intervals.csv",
+          "main_result/revision/tables/model_sensitivity_hesitancy_heterogeneity.csv",
+          "main_result/revision/tables/model_sensitivity_inference_families.csv",
+          "main_result/revision/tables/model_sensitivity_metrics.csv",
+          "main_result/revision/tables/model_sensitivity_paired_bootstrap.csv",
+          "main_result/revision/tables/model_sensitivity_tuning.csv"
+        ]
+      },
+      {
+        "specification": "full_panel_hesitancy_subgroup_metrics.csv",
+        "matched_paths": [
+          "main_result/revision/tables/full_panel_hesitancy_subgroup_metrics.csv"
+        ]
+      },
+      {
+        "specification": "existing_HD_budget_frontier.csv",
+        "matched_paths": [
+          "main_result/revision/tables/existing_HD_budget_frontier.csv"
+        ]
+      },
+      {
+        "specification": "round2_boosting_metrics.csv",
+        "matched_paths": [
+          "main_result/revision/tables/round2_boosting_metrics.csv"
+        ]
+      },
+      {
+        "specification": "round2_boosting_tuning.csv",
+        "matched_paths": [
+          "main_result/revision/tables/round2_boosting_tuning.csv"
+        ]
+      },
+      {
+        "specification": "round2_boosting_full_model_intervals.csv",
+        "matched_paths": [
+          "main_result/revision/tables/round2_boosting_full_model_intervals.csv"
+        ]
+      },
+      {
+        "specification": "round2_mde_one_item.csv",
+        "matched_paths": [
+          "main_result/revision/tables/round2_mde_one_item.csv"
+        ]
+      },
+      {
+        "specification": "round2_bootstrap_count_seed.csv",
+        "matched_paths": [
+          "main_result/revision/tables/round2_bootstrap_count_seed.csv"
+        ]
+      },
+      {
+        "specification": "round2_rare_and_no_experience.csv",
+        "matched_paths": [
+          "main_result/revision/tables/round2_rare_and_no_experience.csv"
+        ]
+      },
+      {
+        "specification": "attribution_per_item.csv",
+        "matched_paths": [
+          "main_result/revision/tables/attribution_per_item.csv"
+        ]
+      },
+      {
+        "specification": "longitudinal_weight_sensitivity.csv",
+        "matched_paths": [
+          "main_result/revision/tables/longitudinal_weight_sensitivity.csv"
+        ]
+      },
+      {
+        "specification": "Repository root: JTAER_Figures/data/; JTAER_Figures/FIGURE_CROSSWALK.csv",
+        "matched_paths": [
+          "JTAER_Figures/data",
+          "JTAER_Figures/FIGURE_CROSSWALK.csv"
+        ]
+      },
+      {
+        "specification": "interval_method_sensitivity.csv",
+        "matched_paths": [
+          "main_result/revision/results/interval_method_sensitivity.csv"
+        ]
+      },
+      {
+        "specification": "submission_budget_*",
+        "matched_paths": [
+          "main_result/revision/results/submission_budget_bounds.csv",
+          "main_result/revision/results/submission_budget_harm_summary.csv"
+        ]
+      },
+      {
+        "specification": "submission_selection_*",
+        "matched_paths": [
+          "main_result/revision/results/submission_selection_configuration_summary.csv",
+          "main_result/revision/results/submission_selection_regularization_summary.csv"
+        ]
+      },
+      {
+        "specification": "submission_overlap_*",
+        "matched_paths": [
+          "main_result/revision/results/submission_overlap_full_models.csv",
+          "main_result/revision/results/submission_overlap_heterogeneity.csv"
+        ]
+      },
+      {
+        "specification": "region_*",
+        "matched_paths": [
+          "main_result/revision/results/region_category_distributions.csv",
+          "main_result/revision/results/region_coarsening_paired_contrasts.csv",
+          "main_result/revision/results/region_compact_comparison.csv",
+          "main_result/revision/results/region_development_selection.csv",
+          "main_result/revision/results/region_model_comparisons.csv",
+          "main_result/revision/results/region_overlap_analysis.json"
+        ]
+      },
+      {
+        "specification": "adjacent_*",
+        "matched_paths": [
+          "main_result/revision/results/adjacent_conditional_year_tests.csv",
+          "main_result/revision/results/adjacent_domain_differences.csv",
+          "main_result/revision/results/adjacent_domain_rates.csv",
+          "main_result/revision/results/adjacent_logistic_coefficients.csv",
+          "main_result/revision/results/adjacent_methods.json",
+          "main_result/revision/results/adjacent_questionnaire_anchor_audit.csv",
+          "main_result/revision/results/adjacent_service_table.csv"
+        ]
+      },
+      {
+        "specification": "submission_block_heatmap.csv",
+        "matched_paths": [
+          "main_result/revision/results/submission_block_heatmap.csv"
+        ]
+      }
+    ],
+    "entry_point": "main_result/run_reproduction.py"
+  },
+  "byte_preservation_checks": {
+    "current_analysis_code": {
+      "file_count": 33,
+      "all_byte_identical": true
+    },
+    "original_evidence": {
+      "file_count": 16,
+      "all_byte_identical": true
+    },
+    "aggregate_tables": {
+      "file_count": 60,
+      "all_byte_identical": true
+    },
+    "additional_diagnostics": {
+      "file_count": 29,
+      "all_byte_identical": true
+    },
+    "scientific_execution_receipts": {
+      "file_count": 31,
+      "all_byte_identical": true
+    },
+    "aggregate_figure_data": {
+      "file_count": 11,
+      "all_byte_identical": true
+    },
+    "figure_images": {
+      "file_count": 33,
+      "all_byte_identical": true
+    }
+  },
+  "source_recheck_record_preserved": true,
+  "scope_review": "Unchanged scientific files inherit the previously recorded schema/scope review. Changed files contain documentation, figure captions, checksums, and validation metadata only. No source microdata, respondent records, identifier lists, individual predictions, manuscript/supplement documents, correspondence, or fitted models are distributed.",
+  "execution_scope": "Repository integrity, syntax, path/caption/image consistency, aggregate numerical reconstruction, and execution dry run. No new model fitting or full-process bootstrap.",
+  "validation": {
+    "status": "passed",
+    "integrity_and_syntax": {
+      "status": "passed",
+      "released_files_checked": 231,
+      "python_files_parsed": 39,
+      "json_files_parsed": 38,
+      "scope": "File integrity and syntax; no analytical code execution or model fitting."
+    },
+    "aggregate_reconstruction": {
+      "status": "passed",
+      "file_hashes": 176,
+      "python_files": 38,
+      "bootstrap_records": 8000,
+      "procedures": 8,
+      "replicates_per_procedure": 1000,
+      "interval_method_contrasts": 16,
+      "first_200_preserved": true,
+      "maximum_numeric_error": 9.93129189996722e-17,
+      "scope": "File integrity and aggregate numerical reconstruction; no model refitting."
+    },
+    "execution_dry_run": {
+      "commands": 30,
+      "all_referenced_scripts_exist": true,
+      "models_executed": false
+    },
+    "inventory_and_scope": {
+      "exact_file_inventory": 232,
+      "all_three_hash_manifests_complete": true,
+      "public_manifest_paths_and_hashes": 175,
+      "relative_markdown_links_verified": 18,
+      "csv_schemas_checked": 111,
+      "only_figure_pdfs": 11,
+      "removed_files_archived": 10,
+      "private_and_submission_ignore_cases": 8
+    }
+  }
+}
