@@ -5,7 +5,7 @@
   "files": {
     ".gitignore": "d8c4cd31b85215871055eb3967ebf42be5713f78e3b69984d2238e27d95888b8",
     "FINAL_ALIGNMENT_CHECK.json": "117d4ec90de0647069b5186873aa10a995e291b061032562f154ad5dbbc20169",
-    "JTAER_Figures/FIGURE_CROSSWALK.csv": "a25454394965fc790991709f822744b486687cd87d343aa9c47c43827f22d08d",
+    "JTAER_Figures/FIGURE_CROSSWALK.csv": "5e576483e070d62591d68f24603e1f43224199c70d7a5c0008d286e374745a93",
     "JTAER_Figures/FIGURE_MANIFEST.json": "9ba37c1f0c1cb7528b07b4a5de608c12148754cbe6b97c35e2653dbd08f1f54f",
     "JTAER_Figures/Main/Figure_01.pdf": "7ce92f0781067f92ee15c5db3a35aa6fb118084cfb24ae19c7e34ce89613a49f",
     "JTAER_Figures/Main/Figure_01.png": "bae66209608650deb889ea75b78628db7515fffba26326bd47c62038ccae449f",
@@ -29,7 +29,7 @@
     "JTAER_Figures/Main/Figure_07.png": "d5b6628b52fd9bed5839bca33545f6600db3f21683eefd3b6be03f0496345b77",
     "JTAER_Figures/Main/Figure_07.svg": "e981fa3f870c39f95119f04f3dbfd3a2fb103aa4f0c373e27884e4f226841440",
     "JTAER_Figures/README.md": "3a6e10490afd0d0fd441e9c83b60ffa530e5ed59ff1f84c532781f5323db5bc3",
-    "JTAER_Figures/SHA256SUMS.json": "9e9c814a49a6fc5788b1e72e8eca4c28627ffb77f9193edb3e40b66260bfde9e",
+    "JTAER_Figures/SHA256SUMS.json": "c6287efe0397b4bc0ef3504c2f5e15d49e54159ddc89aa938d2cddb7bd9736d2",
     "JTAER_Figures/Supplementary/Figure_S1.pdf": "8677736b348a61e33a4a419791ab9a3bab3d834d208f85ab51b00624ce85ca3f",
     "JTAER_Figures/Supplementary/Figure_S1.png": "919f7e4be8ab92409238e30bea4b464f3625df6bc0f4027b8f8d560e3b3bc656",
     "JTAER_Figures/Supplementary/Figure_S1.svg": "1ca586bf4170f22382ae0010b565b875be9c8de4a9a9296e7d7e03b65ffca2d6",
