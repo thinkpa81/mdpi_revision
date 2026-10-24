@@ -4,7 +4,7 @@
 
 Soonho Jang and Eung-Kyo Suh, Dankook University.
 
-This repository contains the analysis code, aggregate results, provenance, and figure data supporting the final 24 October 2026 manuscript and supplementary materials. The title and related descriptions in the manuscript, supplement, and three response documents were aligned on 24 October 2026. Response-letter location references were checked against the updated rendered documents. The updated document identities and title-alignment checks are recorded in [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json). The manuscript and supplementary documents themselves are not included.
+This repository contains the analysis code, aggregate results, provenance, and figure data supporting the 24 October 2026 manuscript and supplementary materials. The latest document audit checked all 34 comments reproduced in the three response letters, verified 105 section/page/line/passage locators, and aligned the reviewer responses with the supplied MDPI research-article response example. The manuscript and supplement are byte-identical to the inputs supplied for this audit; the response letters received editorial and cross-reference corrections. Current document identities and the exact verification scope are recorded in [RESPONSE_ALIGNMENT_CHECK_20261024.json](RESPONSE_ALIGNMENT_CHECK_20261024.json). Earlier title-alignment and release checks remain in [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json). Submission documents themselves are not included.
 
 [한국어 안내](README_KO.md)
 
@@ -20,6 +20,7 @@ This repository contains the analysis code, aggregate results, provenance, and f
 | [JTAER_Figures](JTAER_Figures) | Main Figures 1–7 and Supplementary Figures S1–S4, aggregate plot data, and the final figure crosswalk |
 | [SOURCE_RECHECK_20261024.json](SOURCE_RECHECK_20261024.json) | Source reconstruction and adjacent-service recheck cited in Supplementary Section S10 |
 | [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json) | Final-document alignment, archived removals, and current verification scope |
+| [RESPONSE_ALIGNMENT_CHECK_20261024.json](RESPONSE_ALIGNMENT_CHECK_20261024.json) | Current response/document alignment, document identities, and aggregate-check scope |
 | [FILE_MANIFEST_SHA256.json](FILE_MANIFEST_SHA256.json) | Current repository file hashes |
 
 Supplementary Table S26 maps the analysis groups to these scripts and outputs. Existing relative paths are preserved so that the documented pipeline continues to resolve its inputs. The earlier 200-repetition bootstrap records remain because the 1,000-repetition analysis and public validator compare against them. Their role is provenance and numerical verification, rather than an additional independent sample.
@@ -34,7 +35,7 @@ python validate_public_release.py
 python run_reproduction.py --dry-run
 ```
 
-The integrity check uses only the Python standard library. The numerical validator reaggregates the 8,000 procedure-level bootstrap records, checks the initial 200-repetition segment, and reconstructs interval and selection-frequency summaries. These records summarize analysis repetitions; they contain no respondent rows. This verification does not refit models.
+The integrity check uses only the Python standard library. The numerical validator reaggregates the 8,000 procedure-level bootstrap records, checks the initial 200-repetition segment, and reconstructs interval and selection-frequency summaries. These records summarize analysis repetitions; they contain no respondent rows. This verification does not refit models. The latest response audit reaggregated the 8,000 records and checked 98 downloaded evidence files against the base manifest; it did not rerun the complete repository validator or access source microdata. Its maximum absolute reaggregation difference was below 9.94e-17. Scientific code, results, and figures are unchanged.
 
 ## Reproduce with authorized source data
 

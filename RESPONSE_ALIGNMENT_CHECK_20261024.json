@@ -1,0 +1,101 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-24",
+  "repository": "https://github.com/thinkpa81/mdpi_revision",
+  "base_commit": "ae3c8766e97c5ccd7dd195bd203a44acfcef39f0",
+  "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+  "numerical_source_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
+  "scope": "Consistency of the supplied manuscript, supplementary materials, and three response letters; alignment with the supplied MDPI research-article response example; reconstruction from released aggregate outputs. Scientific results and code are unchanged.",
+  "documents": [
+    {
+      "role": "manuscript",
+      "filename": "261024_1_JTAER_Manuscript_Verified.docx",
+      "sha256": "f3e752a12ab2efbf9b6b04a6c6a034456040e7f3671191dfcddc670253c272f7",
+      "supplied_input_sha256": "f3e752a12ab2efbf9b6b04a6c6a034456040e7f3671191dfcddc670253c272f7",
+      "byte_identical_to_supplied_input": true,
+      "document_distributed": false
+    },
+    {
+      "role": "supplement",
+      "filename": "261024_2_JTAER_Supplementary_Verified.docx",
+      "sha256": "6318e14bc9cd21d86cd3561b25af58066374dfa5ea926481abde5e77dd512648",
+      "supplied_input_sha256": "6318e14bc9cd21d86cd3561b25af58066374dfa5ea926481abde5e77dd512648",
+      "byte_identical_to_supplied_input": true,
+      "document_distributed": false
+    },
+    {
+      "role": "editor_response",
+      "filename": "261024_3_Response_to_Editor_Verified.docx",
+      "sha256": "dc6b61427dbe17ed7b03fadc71f70e01bb5229199debeaf5345f8cf2d2adb0ca",
+      "supplied_input_sha256": "df758742204a0011f23cb3874af08412f5ab4d1a2a3cb35f0dc53a90783b96f0",
+      "byte_identical_to_supplied_input": false,
+      "document_distributed": false
+    },
+    {
+      "role": "reviewer_1_response",
+      "filename": "261024_4_Response_to_Reviewer_1_Verified.docx",
+      "sha256": "8f509e3364dbe133d5d86a29a5f268e96c6830c4f809c76ce95fd7f019b9bc47",
+      "supplied_input_sha256": "c4032b24ebae3b8ca0b10a8622b4b10d0717dbf407cf13140316adb8bcd08c24",
+      "byte_identical_to_supplied_input": false,
+      "document_distributed": false
+    },
+    {
+      "role": "reviewer_2_response",
+      "filename": "261024_5_Response_to_Reviewer_2_Verified.docx",
+      "sha256": "f7443fca6e44ebad97fca31704a5ff6f6d2bdcf759c2b13f0fe549639646f652",
+      "supplied_input_sha256": "ad50bccd1d93aa8af2b29bf2869f5a2aa21e87ccef1eb24717b6becc7d8efd7f",
+      "byte_identical_to_supplied_input": false,
+      "document_distributed": false
+    }
+  ],
+  "document_version_note": "The supplied manuscript differs from the manuscript hash in the earlier title_alignment record. Its supplied bytes are preserved in this review. The historical title_alignment record remains unchanged; the document identities here and in documents_checked are current.",
+  "document_checks": {
+    "supplied_response_comment_counts": {
+      "editor": 5,
+      "reviewer_1": 16,
+      "reviewer_2": 13
+    },
+    "detailed_page_line_passage_locations_verified": 105,
+    "original_comment_text_preserved": true,
+    "general_evaluation_questions_and_ratings_preserved": true,
+    "reviewer_responses_follow_five_section_research_article_structure": true,
+    "editor_response_retains_decision_letter_structure": true,
+    "main_and_supplement_preserved_byte_for_byte": true,
+    "all_11_figure_captions_match_crosswalk": true,
+    "all_11_embedded_images_match_recorded_figure_hashes": true,
+    "supplementary_table_S26_exact_filenames_resolved": 45
+  },
+  "editorial_changes": [
+    "Verify section, page, line, and quoted passage references against the current clean documents.",
+    "Correct reproducibility and Shapley-evidence locators and complete supplementary diagnostic cross-references.",
+    "Use courteous, specific acknowledgements and closing paragraphs without changing empirical claims.",
+    "Match the package description to the supplied clean documents.",
+    "Align reviewer headings and English-language point/response labels with the research-article example; fit evaluation tables within the text area."
+  ],
+  "current_validation": {
+    "status": "passed",
+    "scope": "Document cross-check and reconstruction from public aggregate results; source microdata and model fitting were not rerun in this review.",
+    "public_files_verified_against_base_sha256_manifest": 98,
+    "bootstrap_records_reaggregated": 8000,
+    "procedures": 8,
+    "repetitions_per_procedure": 1000,
+    "initial_200_repetitions_preserved": true,
+    "maximum_absolute_reaggregation_error": 9.93129189996722e-17,
+    "source_microdata_read": false,
+    "predictive_models_refitted": false,
+    "full_repository_integrity_and_syntax_rerun": false,
+    "note": "The 98-file count describes the downloaded public evidence subset, not a new complete repository checkout validation. Earlier full-release and source-data execution records remain historical records with their original scopes."
+  },
+  "scientific_scope_limits": [
+    "Complete-process bootstrap covers budgets 1 and 4, the original ridge/HGB grids, and the restricted whole evaluation cohort.",
+    "Adjacent-service diagnostics do not establish formal longitudinal measurement invariance or a causal wording effect.",
+    "The added analyses use an already examined temporal outcome period; they are not an untouched external confirmatory test.",
+    "The outcome is annual self-reported use; platform conversion, revenue, trust, and privacy benefits were not observed outcomes."
+  ],
+  "document_distribution": {
+    "manuscript_supplement_response_files_in_repository": false,
+    "reviewer_comment_text_in_this_record": false,
+    "raw_or_individual_level_data_added": false
+  },
+  "submission_note": "The checked package contains clean manuscript and supplementary files and three response letters. A comparison against the initial submission is a separate marked-file deliverable; none is claimed to be included by this record."
+}

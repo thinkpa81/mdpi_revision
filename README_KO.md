@@ -1,6 +1,6 @@
 # JTAER 최종 논문 분석자료
 
-이 저장소는 **Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**의 최종 논문·보충자료를 뒷받침하는 분석 코드, 집계 결과, 그림과 출처 기록을 제공합니다. 2026년 10월 24일 원고·보충자료·답변서 3개의 제목과 관련 설명을 확정 제목으로 통일하고, 답변서의 페이지·줄 번호를 수정 원고와 대조했습니다. 수정본의 문서 식별 정보와 제목 정합성 점검 범위는 [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json)에 기록했습니다. 논문·보충자료 문서 자체는 포함하지 않습니다.
+이 저장소는 **Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**의 분석 코드, 집계 결과, 그림과 출처 기록을 제공합니다. 최신 검토에서는 답변서에 수록된 편집자·심사자 의견 34개를 원고·보충자료와 대조하고, 상세 위치 안내 105개와 첨부 MDPI 연구논문용 답변 예시의 구성을 확인했습니다. 이번 검토에 제공된 원고·보충자료의 바이트는 유지하고, 답변서의 표현·참조·서식을 수정했습니다. 최신 문서 식별 정보와 검증 범위는 [RESPONSE_ALIGNMENT_CHECK_20261024.json](RESPONSE_ALIGNMENT_CHECK_20261024.json)에, 이전 제목 정합성 및 배포 검사는 [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json)에 기록했습니다. 제출 문서 자체는 공개 저장소에 포함하지 않습니다.
 
 ## 자료 구성
 
@@ -29,7 +29,7 @@ python validate_public_release.py
 python run_reproduction.py --dry-run
 ```
 
-첫 검사는 파일 무결성·Python 문법·JSON을 확인합니다. 집계 검사는 8개 조건별 1,000회, 총 8,000개 반복별 집계 레코드에서 구간과 선택 빈도를 재구성합니다. 모델을 새로 적합하는 검사가 아닙니다. 재실행을 원하면 KISDI 이용 조건에 따라 원자료를 별도로 확보한 후 `main_result/README.md`를 따릅니다. 보충표 S26의 실행 진입점은 `main_result/run_reproduction.py`입니다.
+첫 검사는 파일 무결성·Python 문법·JSON을 확인합니다. 집계 검사는 8개 조건별 1,000회, 총 8,000개 반복별 집계 레코드에서 구간과 선택 빈도를 재구성합니다. 모델을 새로 적합하는 검사가 아닙니다. 이번 답변서 검토에서는 공개 근거 파일 98개의 해시를 기준 커밋의 manifest와 대조하고 8,000개 기록을 재집계했습니다. 재계산의 최대 절대 차이는 9.94e-17 미만이었습니다. 전체 저장소 검증기나 원자료 분석을 새로 실행한 것은 아니며, 과학적 코드·수치·그림은 변경하지 않았습니다. 재실행을 원하면 KISDI 이용 조건에 따라 원자료를 별도로 확보한 후 `main_result/README.md`를 따릅니다. 보충표 S26의 실행 진입점은 `main_result/run_reproduction.py`입니다.
 
 그림 재생성 경로는 `main_result/JTAER_Figures/`이며, 저장소 최상위 `JTAER_Figures/`가 최종 논문 번호를 적용한 배포본입니다. 두 경로의 대응과 최종 캡션은 `FIGURE_CROSSWALK.csv`에 있습니다. 11개 PNG는 최종 Word 문서에 삽입된 이미지와 바이트 단위로 일치합니다.
 

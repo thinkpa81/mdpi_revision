@@ -5,18 +5,20 @@
   "base_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
   "documents_checked": {
     "main": {
-      "filename": "261024_1_JTAER_Manuscript_Title_Updated.docx",
-      "sha256": "95afb9c520c67e52e0ed7674b97de24e04d43f448b1669e89d940633341eed8a",
+      "filename": "261024_1_JTAER_Manuscript_Verified.docx",
+      "sha256": "f3e752a12ab2efbf9b6b04a6c6a034456040e7f3671191dfcddc670253c272f7",
       "inline_figures": 7,
       "document_distributed": false,
-      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
+      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+      "alignment_record": "RESPONSE_ALIGNMENT_CHECK_20261024.json"
     },
     "supplement": {
-      "filename": "261024_2_JTAER_Supplementary_Title_Updated.docx",
+      "filename": "261024_2_JTAER_Supplementary_Verified.docx",
       "sha256": "6318e14bc9cd21d86cd3561b25af58066374dfa5ea926481abde5e77dd512648",
       "inline_figures": 4,
       "document_distributed": false,
-      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
+      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+      "alignment_record": "RESPONSE_ALIGNMENT_CHECK_20261024.json"
     }
   },
   "document_content_unchanged_from_previous_final_files": false,
@@ -527,5 +529,14 @@
       "model_refitting_performed": false
     },
     "earlier_validation_scope": "The existing validation object records the preceding repository alignment. This update checks title/document consistency, unchanged scientific content, and the hashes of changed repository files."
+  },
+  "response_alignment": {
+    "date": "2026-10-24",
+    "base_commit": "ae3c8766e97c5ccd7dd195bd203a44acfcef39f0",
+    "record": "RESPONSE_ALIGNMENT_CHECK_20261024.json",
+    "current_document_identities": true,
+    "locations_verified": 105,
+    "scientific_results_changed": false,
+    "historical_validation_note": "The validation and title_alignment objects above record earlier work. The current response-alignment checks and their limits are in the linked record."
   }
 }
