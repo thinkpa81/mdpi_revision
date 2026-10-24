@@ -5,19 +5,21 @@
   "base_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
   "documents_checked": {
     "main": {
-      "filename": "261024_1_JTAER_Manuscript_Clean(1).docx",
-      "sha256": "f3b21525fc96101f927b06702d58102857e9acf937e1d4b02c77871a6ac3198a",
+      "filename": "261024_1_JTAER_Manuscript_Title_Updated.docx",
+      "sha256": "95afb9c520c67e52e0ed7674b97de24e04d43f448b1669e89d940633341eed8a",
       "inline_figures": 7,
-      "document_distributed": false
+      "document_distributed": false,
+      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
     },
     "supplement": {
-      "filename": "261024_2_JTAER_Supplementary_Clean(1).docx",
-      "sha256": "0be10b86ec3afb8600859857bea2e261532732c417591665469e12fac0e32273",
+      "filename": "261024_2_JTAER_Supplementary_Title_Updated.docx",
+      "sha256": "6318e14bc9cd21d86cd3561b25af58066374dfa5ea926481abde5e77dd512648",
       "inline_figures": 4,
-      "document_distributed": false
+      "document_distributed": false,
+      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
     }
   },
-  "document_content_unchanged_from_previous_final_files": true,
+  "document_content_unchanged_from_previous_final_files": false,
   "documents_distributed": false,
   "removed_from_current_tree": [
     {
@@ -464,5 +466,66 @@
       "removed_files_archived": 10,
       "private_and_submission_ignore_cases": 8
     }
+  },
+  "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+  "title_alignment": {
+    "date": "2026-10-24",
+    "base_commit": "a2d776db731ef0a1fcfb771e70616b12a17cf967",
+    "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+    "scope": "Manuscript title, title-related abstract/introduction wording and response explanations, Word metadata, and response-letter location references. Quantitative findings, tables, figures, reviewer comments, and analytical code are unchanged.",
+    "documents": [
+      {
+        "filename": "261024_1_JTAER_Manuscript_Title_Updated.docx",
+        "sha256": "95afb9c520c67e52e0ed7674b97de24e04d43f448b1669e89d940633341eed8a",
+        "previous_sha256": "f3b21525fc96101f927b06702d58102857e9acf937e1d4b02c77871a6ac3198a",
+        "current_title_occurrences_in_body": 1,
+        "updated_location_references": 0,
+        "document_distributed": false
+      },
+      {
+        "filename": "261024_2_JTAER_Supplementary_Title_Updated.docx",
+        "sha256": "6318e14bc9cd21d86cd3561b25af58066374dfa5ea926481abde5e77dd512648",
+        "previous_sha256": "0be10b86ec3afb8600859857bea2e261532732c417591665469e12fac0e32273",
+        "current_title_occurrences_in_body": 1,
+        "updated_location_references": 0,
+        "document_distributed": false
+      },
+      {
+        "filename": "261024_3_Response_to_Editor_Title_Updated.docx",
+        "sha256": "df758742204a0011f23cb3874af08412f5ab4d1a2a3cb35f0dc53a90783b96f0",
+        "previous_sha256": "141876b0ecef62ae6c7daaece999d254c82c4baea39ac6de4a78cfca53a7cdb4",
+        "current_title_occurrences_in_body": 2,
+        "updated_location_references": 5,
+        "document_distributed": false
+      },
+      {
+        "filename": "261024_4_Response_to_Reviewer_1_Title_Updated.docx",
+        "sha256": "c4032b24ebae3b8ca0b10a8622b4b10d0717dbf407cf13140316adb8bcd08c24",
+        "previous_sha256": "b578c6160437ef50456bbac64dfbdb1dd813f6785c639b551b91196e8a63f7d1",
+        "current_title_occurrences_in_body": 1,
+        "updated_location_references": 32,
+        "document_distributed": false
+      },
+      {
+        "filename": "261024_5_Response_to_Reviewer_2_Title_Updated.docx",
+        "sha256": "ad50bccd1d93aa8af2b29bf2869f5a2aa21e87ccef1eb24717b6becc7d8efd7f",
+        "previous_sha256": "648df34b9bad92d54145f4f73cfa449a6a3f9477dd8dedbadfc4d70ad948acb2",
+        "current_title_occurrences_in_body": 2,
+        "updated_location_references": 31,
+        "document_distributed": false
+      }
+    ],
+    "checks": {
+      "documents_checked": 5,
+      "exact_current_title_in_all_documents": true,
+      "superseded_full_titles_remaining_in_updated_documents": 0,
+      "document_metadata_aligned": true,
+      "unchanged_document_tables_and_images": true,
+      "response_location_references_verified": 102,
+      "response_location_references_updated": 68,
+      "repository_text_files_scanned": 210,
+      "model_refitting_performed": false
+    },
+    "earlier_validation_scope": "The existing validation object records the preceding repository alignment. This update checks title/document consistency, unchanged scientific content, and the hashes of changed repository files."
   }
 }

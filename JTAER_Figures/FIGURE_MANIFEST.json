@@ -5,16 +5,18 @@
   "supplementary_count": 4,
   "documents": {
     "main": {
-      "filename": "261024_1_JTAER_Manuscript_Clean(1).docx",
-      "sha256": "f3b21525fc96101f927b06702d58102857e9acf937e1d4b02c77871a6ac3198a",
+      "filename": "261024_1_JTAER_Manuscript_Title_Updated.docx",
+      "sha256": "95afb9c520c67e52e0ed7674b97de24e04d43f448b1669e89d940633341eed8a",
       "inline_figures": 7,
-      "document_distributed": false
+      "document_distributed": false,
+      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
     },
     "supplement": {
-      "filename": "261024_2_JTAER_Supplementary_Clean(1).docx",
-      "sha256": "0be10b86ec3afb8600859857bea2e261532732c417591665469e12fac0e32273",
+      "filename": "261024_2_JTAER_Supplementary_Title_Updated.docx",
+      "sha256": "6318e14bc9cd21d86cd3561b25af58066374dfa5ea926481abde5e77dd512648",
       "inline_figures": 4,
-      "document_distributed": false
+      "document_distributed": false,
+      "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
     }
   },
   "figures": [
@@ -647,5 +649,7 @@
     }
   ],
   "alignment_date": "2026-10-24",
-  "preceding_manifest_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/JTAER_Figures/FIGURE_MANIFEST.json"
+  "preceding_manifest_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/JTAER_Figures/FIGURE_MANIFEST.json",
+  "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+  "title_alignment_date": "2026-10-24"
 }

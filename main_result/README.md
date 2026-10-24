@@ -1,6 +1,8 @@
-# Questionnaire collection and incremental prediction — final analysis materials
+# Final analysis materials
 
-This research release contains executable analysis code and aggregate results for the temporal evaluation of self-reported AI-enabled consumer-service use in the Korean KISDI panel. It covers the original restricted-cohort models, expanded model searches, full-panel comparisons, complete-procedure bootstrap, and additional measurement and representation diagnostics.
+**Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**
+
+This research release contains executable analysis code and aggregate results for evaluating questionnaire item budgets and incremental predictive value through the temporal evaluation of self-reported AI-enabled consumer-service use in the Korean KISDI panel. It covers the original restricted-cohort models, expanded model searches, full-panel comparisons, complete-procedure bootstrap, and additional measurement and representation diagnostics.
 
 ## Contents and data access
 

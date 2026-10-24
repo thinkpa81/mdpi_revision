@@ -1,6 +1,6 @@
 # JTAER 최종 논문 분석자료
 
-이 저장소는 **Questionnaire Collection Volume and Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Evidence from a Korean Panel**의 최종 논문·보충자료를 뒷받침하는 분석 코드, 집계 결과, 그림과 출처 기록을 제공합니다. 2026년 10월 24일 최종 문서와 대조했으며, 파일명 변경 전후 문서 내용과 SHA-256이 동일함을 확인했습니다. 문서 식별 정보와 점검 범위는 [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json)에 기록했습니다. 논문·보충자료 문서 자체는 포함하지 않습니다.
+이 저장소는 **Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**의 최종 논문·보충자료를 뒷받침하는 분석 코드, 집계 결과, 그림과 출처 기록을 제공합니다. 2026년 10월 24일 원고·보충자료·답변서 3개의 제목과 관련 설명을 확정 제목으로 통일하고, 답변서의 페이지·줄 번호를 수정 원고와 대조했습니다. 수정본의 문서 식별 정보와 제목 정합성 점검 범위는 [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json)에 기록했습니다. 논문·보충자료 문서 자체는 포함하지 않습니다.
 
 ## 자료 구성
 

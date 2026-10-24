@@ -1,10 +1,10 @@
 # JTAER final research materials
 
-**Questionnaire Collection Volume and Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Evidence from a Korean Panel**
+**Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**
 
 Soonho Jang and Eung-Kyo Suh, Dankook University.
 
-This repository contains the analysis code, aggregate results, provenance, and figure data supporting the final 24 October 2026 manuscript and supplementary materials. The final documents were checked by their contents and SHA-256 hashes; renaming them did not change their contents. Document identities and the alignment checks are recorded in [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json). The manuscript and supplementary documents themselves are not included.
+This repository contains the analysis code, aggregate results, provenance, and figure data supporting the final 24 October 2026 manuscript and supplementary materials. The title and related descriptions in the manuscript, supplement, and three response documents were aligned on 24 October 2026. Response-letter location references were checked against the updated rendered documents. The updated document identities and title-alignment checks are recorded in [FINAL_ALIGNMENT_CHECK.json](FINAL_ALIGNMENT_CHECK.json). The manuscript and supplementary documents themselves are not included.
 
 [한국어 안내](README_KO.md)
 

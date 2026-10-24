@@ -22,8 +22,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7312,
-      "sha256": "4a5406b64418456645dde7ffa2e872fb5dfd291ed0125a82b0ba8c56ef7bba35"
+      "bytes": 7489,
+      "sha256": "e0e8c75b64a3e119e1d9591f0ce302e3cab40b65ba2e39da73a3219f75e61ab6"
     },
     {
       "path": "original_results/main_result/mdpi-main/01_required_prior_analysis/analysis_outputs/development_all_subsets.csv",
@@ -890,5 +890,7 @@
       "bytes": 3921,
       "sha256": "34f4fe9b5001b1273a9cddb2a43dd19be947eebbba71fdbed44436dd85d00918"
     }
-  ]
+  ],
+  "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+  "title_alignment_date": "2026-10-24"
 }
