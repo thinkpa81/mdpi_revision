@@ -2,7 +2,7 @@
 
 **Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**
 
-This directory contains the 7 main figures and 4 supplementary figures used in the final 24 October 2026 documents. Each figure is provided as a 600 dpi PNG, vector PDF, vector SVG, and aggregate source CSV. All 11 PNGs are byte-identical to their embedded document images. The document filenames and SHA-256 hashes in the manifest identify the clean files from the latest editorial revision; the documents themselves are not distributed here. The document and response checks are summarized in [EDITORIAL_ALIGNMENT_CHECK_20261024.json](../EDITORIAL_ALIGNMENT_CHECK_20261024.json).
+This directory contains the 7 main figures and 4 supplementary figures used in the final 25 October 2026 documents. Each figure is provided as a 600 dpi PNG, vector PDF, vector SVG, and aggregate source CSV. All 11 PNGs are byte-identical to their embedded document images. The document filenames and SHA-256 hashes in the manifest identify the clean files from the latest editorial revision; the documents themselves are not distributed here. The document and response checks are summarized in [EDITORIAL_ALIGNMENT_CHECK_20261025.json](../EDITORIAL_ALIGNMENT_CHECK_20261025.json).
 
 - `Main/`: Figures 1–7.
 - `Supplementary/`: Figures S1–S4.

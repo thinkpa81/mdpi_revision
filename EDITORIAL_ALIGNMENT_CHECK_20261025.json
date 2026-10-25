@@ -1,0 +1,198 @@
+{
+  "schema_version": 1,
+  "alignment_date": "2026-10-25",
+  "base_commit": "c31ebf0c679a372e23eca227719df6a81e0c59e1",
+  "numerical_source_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
+  "scope": "Align public explanatory documentation and document/figure metadata with the seven revised 25 October 2026 submission files.",
+  "documents": {
+    "main": {
+      "filename": "261025_1_JTAER_Manuscript.docx",
+      "sha256": "c27b0c15af3bfec63216da61e6762cf061239aedbdcc6c9dcbf1dcfa09a07e9f",
+      "bytes": 3060145,
+      "rendered_pages": 29,
+      "document_distributed_in_repository": false
+    },
+    "main_red": {
+      "filename": "261025_1_JTAER_Manuscript_Changes_marked_Red.docx",
+      "sha256": "0d7d557817055bdbf976b557640420a2bbe2d253c0c7cb420008a87b5e180c73",
+      "bytes": 3061389,
+      "rendered_pages": 29,
+      "document_distributed_in_repository": false
+    },
+    "supp": {
+      "filename": "261025_2_JTAER_Supplementary.docx",
+      "sha256": "1d8d40eb88b388e4ea9c530e8aa569929ffecaa3409813c6f25ad24edcc4b264",
+      "bytes": 1077237,
+      "rendered_pages": 34,
+      "document_distributed_in_repository": false
+    },
+    "supp_red": {
+      "filename": "261025_2_JTAER_Supplementary_Changes_marked_Red.docx",
+      "sha256": "9de984a60aa985144bbeb2556993381a78870f1336c5bd39777aac69a0566b8f",
+      "bytes": 1103191,
+      "rendered_pages": 34,
+      "document_distributed_in_repository": false
+    },
+    "editor": {
+      "filename": "261025_3_Response_to_Editor.docx",
+      "sha256": "4925dc2d4938db408283e06080b8914dbab1caccbd4bd6d0c2ebe0ae7d984b18",
+      "bytes": 97388,
+      "rendered_pages": 5,
+      "document_distributed_in_repository": false
+    },
+    "r1": {
+      "filename": "261025_4_Response_to_Reviewer_1.docx",
+      "sha256": "3e2b2ef89a819e5b918255f011d707571d74c632b02b273dc0db929b7628321b",
+      "bytes": 112460,
+      "rendered_pages": 16,
+      "document_distributed_in_repository": false
+    },
+    "r2": {
+      "filename": "261025_5_Response_to_Reviewer_2.docx",
+      "sha256": "6b60e740e66554f8a1a472233e83857f8d8b373c66a6c339cdae7e24d7c1a098",
+      "bytes": 114580,
+      "rendered_pages": 18,
+      "document_distributed_in_repository": false
+    }
+  },
+  "editorial_changes": [
+    "Describe the study as a retrospective, exploratory secondary analysis; explicitly restrict additional hyperparameter tuning and portfolio selection to development data and describe reuse of the evaluation cohort as exploratory assessment.",
+    "Retain the original comparison families and report added sensitivity analyses separately; replace post-review wording in the full-model table note with exploratory family.",
+    "Consolidate repetitive future-assessment and public-data statements while retaining the inferential scope of pointwise intervals, overlapping repetitions, and observational measurement diagnostics.",
+    "Specify validated short-form measures, directly measured acquisition costs, and a prespecified collection policy implemented prospectively for future policy evaluation.",
+    "Retain Table S28 under its revised title and column headings; distinguish diagnostic evidence, interpretation, and the proposed future concurrent wording study.",
+    "Align response text and detailed locations with the revised clean manuscript and supplement."
+  ],
+  "table_s28": {
+    "title": "Table S28. Measurement diagnostics and conditions for interpreting temporal comparisons.",
+    "column_headings": [
+      "Diagnostic or design component",
+      "Evidence and design status",
+      "Interpretation"
+    ],
+    "proposed_wording_study_status": "Future study; not performed in the reported analyses."
+  },
+  "checks": {
+    "reproduced_comments_unchanged": 34,
+    "comment_checks_by_document": [
+      {
+        "document": "editor",
+        "unchanged_comments": 5
+      },
+      {
+        "document": "r1",
+        "unchanged_comments": 16
+      },
+      {
+        "document": "r2",
+        "unchanged_comments": 13
+      }
+    ],
+    "detailed_response_locators_verified": 105,
+    "response_locator_texts_updated_from_supplied_input": 74,
+    "locator_checks_by_document": [
+      {
+        "document": "editor",
+        "verified": 9,
+        "updated_from_supplied_input": 5,
+        "unresolved": 0
+      },
+      {
+        "document": "r1",
+        "verified": 52,
+        "updated_from_supplied_input": 34,
+        "unresolved": 0
+      },
+      {
+        "document": "r2",
+        "verified": 44,
+        "updated_from_supplied_input": 35,
+        "unresolved": 0
+      }
+    ],
+    "unresolved_response_locators": 0,
+    "clean_marked_paragraph_text_including_math_equal": {
+      "main": true,
+      "supp": true
+    },
+    "clean_marked_page_counts_equal": {
+      "main": true,
+      "supp": true
+    },
+    "numeric_table_data_unchanged_from_supplied_inputs": true,
+    "equations_and_embedded_images_unchanged_from_supplied_inputs": true,
+    "figure_checks": [
+      {
+        "figure": "1",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "2",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "3",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "4",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "5",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "6",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "7",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "S1",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "S2",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "S3",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      },
+      {
+        "figure": "S4",
+        "caption_matches_document_and_crosswalk": true,
+        "embedded_png_matches_repository_blob": true
+      }
+    ],
+    "documents_rendered_and_visually_reviewed_in_document_editing_step": 7,
+    "repository_change_scope": "Documentation and document/figure metadata with dependent SHA-256 manifests; no scientific code, numerical output, figure caption, image, or plot-data changes."
+  },
+  "verification_method": "Read repository documentation and metadata at base_commit; verify current document hashes, 105 response locators against rendered clean PDFs, reproduced comments against supplied inputs, and 11 captions and embedded PNGs against the repository crosswalk, manifest, and Git blob identities. Validate modified metadata and dependent manifest entries locally.",
+  "not_performed_in_this_alignment": [
+    "Model refitting",
+    "Access to source microdata",
+    "New bootstrap runs or numerical reaggregation",
+    "Complete repository reproduction or validator execution"
+  ],
+  "preceding_checks": {
+    "editorial_alignment": "EDITORIAL_ALIGNMENT_CHECK_20261024.json",
+    "response_audit": "RESPONSE_ALIGNMENT_CHECK_20261024.json",
+    "source_recheck": "SOURCE_RECHECK_20261024.json",
+    "release_alignment": "FINAL_ALIGNMENT_CHECK.json"
+  },
+  "public_scope": "Document identities and verification summaries are public. Submission documents, reviewer-comment text, correspondence, respondent records, identifiers, and individual predictions are excluded."
+}

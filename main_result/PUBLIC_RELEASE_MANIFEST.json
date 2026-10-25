@@ -1,13 +1,13 @@
 {
   "schema_version": 2,
   "release": "JTAER final-document-aligned analytical research materials",
-  "date": "2026-10-24",
+  "date": "2026-10-25",
   "publication_status": "published_repository_materials",
   "repository": "https://github.com/thinkpa81/mdpi_revision",
   "manuscript_cited_snapshot_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
   "current_commit_resolution": "Use the Git commit containing this manifest; a file cannot embed the hash of its own commit.",
   "scope": "Current analytical code, aggregate results, retained original evidence, and scientific execution records; no respondent-level or submission documents.",
-  "alignment_scope": "Documentation, figure-caption and metadata alignment plus removal of archived redundant files. Scientific numerical outputs and current analysis code are unchanged.",
+  "alignment_scope": "Explanatory documentation and current document/figure metadata alignment. Scientific code, numerical outputs, figure captions, images, plot data, and historical execution records are unchanged.",
   "historical_metadata": {
     "package_manifest_and_normalization_records": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/PUBLIC_RELEASE_MANIFEST.json",
     "earlier_implementation_copies": "https://github.com/thinkpa81/mdpi_revision/tree/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/historical_source",
@@ -22,8 +22,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 7489,
-      "sha256": "e0e8c75b64a3e119e1d9591f0ce302e3cab40b65ba2e39da73a3219f75e61ab6"
+      "bytes": 8375,
+      "sha256": "75310d37756f6544c6bede0867e89fb10e608c65b54b1606e1ee2c319f96ba20"
     },
     {
       "path": "original_results/main_result/mdpi-main/01_required_prior_analysis/analysis_outputs/development_all_subsets.csv",
@@ -892,5 +892,6 @@
     }
   ],
   "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
-  "title_alignment_date": "2026-10-24"
+  "title_alignment_date": "2026-10-24",
+  "editorial_alignment_record": "../EDITORIAL_ALIGNMENT_CHECK_20261025.json"
 }

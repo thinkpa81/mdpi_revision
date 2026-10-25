@@ -5,15 +5,15 @@
   "supplementary_count": 4,
   "documents": {
     "main": {
-      "filename": "261024_1_JTAER_Manuscript.docx",
-      "sha256": "485c96df3addd83cdc49ae6fa8f08e09e9f4fd11348825bd44727ff29a8514ec",
+      "filename": "261025_1_JTAER_Manuscript.docx",
+      "sha256": "c27b0c15af3bfec63216da61e6762cf061239aedbdcc6c9dcbf1dcfa09a07e9f",
       "inline_figures": 7,
       "document_distributed": false,
       "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
     },
     "supplement": {
-      "filename": "261024_2_JTAER_Supplementary.docx",
-      "sha256": "3c75a9836f4d46cd6c4777055fa8505e12a7f4412d5b7b8e8513fb965580a72c",
+      "filename": "261025_2_JTAER_Supplementary.docx",
+      "sha256": "1d8d40eb88b388e4ea9c530e8aa569929ffecaa3409813c6f25ad24edcc4b264",
       "inline_figures": 4,
       "document_distributed": false,
       "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel"
@@ -648,10 +648,10 @@
       "source_csv": "JTAER_Figures/data/Round2_Figure_03_Person_Disjoint_Importance.csv"
     }
   ],
-  "alignment_date": "2026-10-24",
-  "preceding_manifest_url": "https://github.com/thinkpa81/mdpi_revision/blob/162919c804880c6e6b29a7d6a4d3a5b09e93f3ec/JTAER_Figures/FIGURE_MANIFEST.json",
+  "alignment_date": "2026-10-25",
+  "preceding_manifest_url": "https://github.com/thinkpa81/mdpi_revision/blob/c31ebf0c679a372e23eca227719df6a81e0c59e1/JTAER_Figures/FIGURE_MANIFEST.json",
   "manuscript_title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
   "title_alignment_date": "2026-10-24",
-  "editorial_alignment_date": "2026-10-24",
-  "editorial_alignment_record": "../EDITORIAL_ALIGNMENT_CHECK_20261024.json"
+  "editorial_alignment_date": "2026-10-25",
+  "editorial_alignment_record": "../EDITORIAL_ALIGNMENT_CHECK_20261025.json"
 }
