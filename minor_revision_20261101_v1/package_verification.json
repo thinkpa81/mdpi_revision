@@ -1,0 +1,17 @@
+{
+  "status": "PASS",
+  "allowlist_analysis_files": 10,
+  "syntax_checked_python_files": 9,
+  "csv_files_checked": 17,
+  "no_raw_data_file_types_or_paths": true,
+  "no_identifier_csv_columns": true,
+  "aggregate_reverification": {
+    "status": "passed",
+    "recomputed_draws": 200,
+    "recomputed_aggregate_rows": 1600,
+    "combined_draws": 1000,
+    "combined_aggregate_rows": 8000,
+    "all_outputs_numerically_exact": true
+  },
+  "scope": "Prior 50-file focused diagnostics and bootstrap package; retained as provenance. Current v1 verification is performed by qa/verify_public_addendum.py."
+}

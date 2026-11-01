@@ -1,0 +1,328 @@
+{
+  "purpose": "Focused additional diagnostics requested in minor revision; original model estimates are unchanged.",
+  "source_audit": [
+    {
+      "year": 2023,
+      "file_name": "panel_2023.xlsx",
+      "drive_id": "1qUZQb4Es6nL6Dq5zEBpzeF3ofwiVi8sc",
+      "sheet": "Numeric",
+      "sha256": "c38782a595dc9ee898cb64a3ebbdde40099c09cca655454eabc7b02316efb0a9",
+      "sha256_matches_revision_source_manifest": true,
+      "source_n": 4581,
+      "source_fields": {
+        "id": "ID",
+        "use": "q1_8",
+        "hesitation": "q15_6",
+        "A": "q23"
+      },
+      "invalid_nonmissing_codes": {
+        "use": 0,
+        "hesitation": 0,
+        "A": 0
+      },
+      "missing_after_valid_code_filter": {
+        "use": 0,
+        "hesitation": 0,
+        "A": 0
+      }
+    },
+    {
+      "year": 2024,
+      "file_name": "panel_2024.xlsx",
+      "drive_id": "1Dju6mOvLAuAsyHm3qiKRYxE6KxM5i6HT",
+      "sheet": "Numeric",
+      "sha256": "65fa040101d784b2225eafea9a7a8e5660c5fca9f1b962e342cd81b9cb689f5c",
+      "sha256_matches_revision_source_manifest": true,
+      "source_n": 4420,
+      "source_fields": {
+        "id": "id",
+        "use": "Q1_8",
+        "hesitation": "Q15_6",
+        "A": "Q24"
+      },
+      "invalid_nonmissing_codes": {
+        "use": 0,
+        "hesitation": 0,
+        "A": 0
+      },
+      "missing_after_valid_code_filter": {
+        "use": 0,
+        "hesitation": 0,
+        "A": 0
+      }
+    },
+    {
+      "year": 2025,
+      "file_name": "panel_2025.xlsx",
+      "drive_id": "1mXkKaVE7B1zoUY0u5xzhzqk-BDg1P8aM",
+      "sheet": "Numeric",
+      "sha256": "16867d676338e22da82a84c72b667fe5764ff266a03d6e8086182de138a2c185",
+      "sha256_matches_revision_source_manifest": true,
+      "source_n": 4324,
+      "source_fields": {
+        "id": "id",
+        "use": "q1_8",
+        "hesitation": "q14_6",
+        "A": "q20"
+      },
+      "invalid_nonmissing_codes": {
+        "use": 0,
+        "hesitation": 0,
+        "A": 0
+      },
+      "missing_after_valid_code_filter": {
+        "use": 0,
+        "hesitation": 0,
+        "A": 0
+      }
+    }
+  ],
+  "controls": {
+    "source_2023_n": {
+      "observed": 4581,
+      "expected": 4581,
+      "passed": true
+    },
+    "source_2024_n": {
+      "observed": 4420,
+      "expected": 4420,
+      "passed": true
+    },
+    "source_2025_n": {
+      "observed": 4324,
+      "expected": 4324,
+      "passed": true
+    },
+    "restricted_development_n": {
+      "observed": 1565,
+      "expected": 1565,
+      "passed": true
+    },
+    "restricted_evaluation_n": {
+      "observed": 1520,
+      "expected": 1520,
+      "passed": true
+    },
+    "restricted_development_events": {
+      "observed": 880,
+      "expected": 880,
+      "passed": true
+    },
+    "restricted_evaluation_events": {
+      "observed": 853,
+      "expected": 853,
+      "passed": true
+    },
+    "restricted_overlap_n": {
+      "observed": 641,
+      "expected": 641,
+      "passed": true
+    },
+    "full_development_n": {
+      "observed": 3895,
+      "expected": 3895,
+      "passed": true
+    },
+    "full_evaluation_n": {
+      "observed": 3741,
+      "expected": 3741,
+      "passed": true
+    },
+    "full_development_events": {
+      "observed": 2215,
+      "expected": 2215,
+      "passed": true
+    },
+    "full_evaluation_events": {
+      "observed": 2125,
+      "expected": 2125,
+      "passed": true
+    },
+    "full_overlap_n": {
+      "observed": 3333,
+      "expected": 3333,
+      "passed": true
+    }
+  },
+  "cohort_id_set_hashes": {
+    "restricted_development": "94366961524e7d143b097db4f8d583ea57f35c46df40fec8adb3d88ae4a7d9ee",
+    "restricted_evaluation": "8c574843c41208193aa1c39eb96052a5ed12cbdc7c32b313b7f19fd02a5de0d2",
+    "full_development": "1bf53dbc0770ffac67cbda104d4dc1c57d7bebb8cd5fd3e094db53af2bb094f6",
+    "full_evaluation": "4fd4752741c2683e0dde95cb2856a0b719b52eb24cd0037e37b6e2e0c384ae19"
+  },
+  "A_prevalence": [
+    {
+      "sample": "restricted_development",
+      "baseline_year": 2023,
+      "outcome_year": 2024,
+      "n": 1565,
+      "A_valid_n": 1565,
+      "A_missing_n": 0,
+      "A_yes_n": 193,
+      "A_no_n": 1372,
+      "A_yes_pct": 12.332268370607029,
+      "A_yes_pct_pointwise_95_low": 10.794842924434246,
+      "A_yes_pct_pointwise_95_high": 14.054159925971039,
+      "outcome_events": 880,
+      "outcome_pct": 56.23003194888179
+    },
+    {
+      "sample": "restricted_evaluation",
+      "baseline_year": 2024,
+      "outcome_year": 2025,
+      "n": 1520,
+      "A_valid_n": 1520,
+      "A_missing_n": 0,
+      "A_yes_n": 458,
+      "A_no_n": 1062,
+      "A_yes_pct": 30.13157894736842,
+      "A_yes_pct_pointwise_95_low": 27.877401376636662,
+      "A_yes_pct_pointwise_95_high": 32.48592930295794,
+      "outcome_events": 853,
+      "outcome_pct": 56.11842105263158
+    }
+  ],
+  "A_outcome_association": [
+    {
+      "sample": "restricted_development",
+      "baseline_year": 2023,
+      "outcome_year": 2024,
+      "complete_n": 1565,
+      "A_yes_n": 193,
+      "A_yes_outcome_events": 134,
+      "A_yes_outcome_pct": 69.43005181347151,
+      "A_no_n": 1372,
+      "A_no_outcome_events": 746,
+      "A_no_outcome_pct": 54.373177842565596,
+      "risk_difference_pp": 15.056873970905905,
+      "risk_difference_pp_pointwise_95_low": 7.745183907009399,
+      "risk_difference_pp_pointwise_95_high": 21.675843028366454,
+      "unadjusted_odds_ratio": 1.9058481392284272,
+      "unadjusted_OR_pointwise_95_low": 1.3782201179161706,
+      "unadjusted_OR_pointwise_95_high": 2.635469532466503,
+      "phi_correlation": 0.09979387891255825
+    },
+    {
+      "sample": "restricted_evaluation",
+      "baseline_year": 2024,
+      "outcome_year": 2025,
+      "complete_n": 1520,
+      "A_yes_n": 458,
+      "A_yes_outcome_events": 258,
+      "A_yes_outcome_pct": 56.33187772925764,
+      "A_no_n": 1062,
+      "A_no_outcome_events": 595,
+      "A_no_outcome_pct": 56.026365348399246,
+      "risk_difference_pp": 0.30551238085839705,
+      "risk_difference_pp_pointwise_95_low": -5.143689865293079,
+      "risk_difference_pp_pointwise_95_high": 5.690650766359838,
+      "unadjusted_odds_ratio": 1.0124873949579831,
+      "unadjusted_OR_pointwise_95_low": 0.8118424457811965,
+      "unadjusted_OR_pointwise_95_high": 1.2627212709510027,
+      "phi_correlation": 0.0028247913814526573
+    }
+  ],
+  "full_panel_group_overlap": [
+    {
+      "evaluation_group": "all_linked",
+      "evaluation_n": 3741,
+      "overlap_with_full_development_n": 3333,
+      "overlap_with_full_development_pct": 89.09382518043304,
+      "person_disjoint_from_full_development_n": 408,
+      "person_disjoint_from_full_development_pct": 10.90617481956696,
+      "overlap_with_restricted_development_n_for_reference_only": 1366,
+      "overlap_with_restricted_development_pct_for_reference_only": 36.514300989040365,
+      "outcome_events": 2125,
+      "shared_outcome_events": 1914,
+      "disjoint_outcome_events": 211
+    },
+    {
+      "evaluation_group": "hesitant",
+      "evaluation_n": 1520,
+      "overlap_with_full_development_n": 1369,
+      "overlap_with_full_development_pct": 90.0657894736842,
+      "person_disjoint_from_full_development_n": 151,
+      "person_disjoint_from_full_development_pct": 9.93421052631579,
+      "overlap_with_restricted_development_n_for_reference_only": 641,
+      "overlap_with_restricted_development_pct_for_reference_only": 42.171052631578945,
+      "outcome_events": 853,
+      "shared_outcome_events": 769,
+      "disjoint_outcome_events": 84
+    },
+    {
+      "evaluation_group": "other",
+      "evaluation_n": 2221,
+      "overlap_with_full_development_n": 1964,
+      "overlap_with_full_development_pct": 88.4286357496623,
+      "person_disjoint_from_full_development_n": 257,
+      "person_disjoint_from_full_development_pct": 11.571364250337686,
+      "overlap_with_restricted_development_n_for_reference_only": 725,
+      "overlap_with_restricted_development_pct_for_reference_only": 32.64295362449347,
+      "outcome_events": 1272,
+      "shared_outcome_events": 1145,
+      "disjoint_outcome_events": 127
+    },
+    {
+      "evaluation_group": "rare_or_never_hesitant",
+      "evaluation_n": 1995,
+      "overlap_with_full_development_n": 1768,
+      "overlap_with_full_development_pct": 88.62155388471177,
+      "person_disjoint_from_full_development_n": 227,
+      "person_disjoint_from_full_development_pct": 11.37844611528822,
+      "overlap_with_restricted_development_n_for_reference_only": 672,
+      "overlap_with_restricted_development_pct_for_reference_only": 33.68421052631579,
+      "outcome_events": 1198,
+      "shared_outcome_events": 1083,
+      "disjoint_outcome_events": 115
+    },
+    {
+      "evaluation_group": "no_relevant_experience",
+      "evaluation_n": 226,
+      "overlap_with_full_development_n": 196,
+      "overlap_with_full_development_pct": 86.72566371681415,
+      "person_disjoint_from_full_development_n": 30,
+      "person_disjoint_from_full_development_pct": 13.274336283185843,
+      "overlap_with_restricted_development_n_for_reference_only": 53,
+      "overlap_with_restricted_development_pct_for_reference_only": 23.451327433628318,
+      "outcome_events": 74,
+      "shared_outcome_events": 62,
+      "disjoint_outcome_events": 12
+    }
+  ],
+  "A_paired_641": [
+    {
+      "A_2023": 0,
+      "A_2024": 0,
+      "count": 449
+    },
+    {
+      "A_2023": 0,
+      "A_2024": 1,
+      "count": 109
+    },
+    {
+      "A_2023": 1,
+      "A_2024": 0,
+      "count": 0
+    },
+    {
+      "A_2023": 1,
+      "A_2024": 1,
+      "count": 83
+    }
+  ],
+  "interval_methods": {
+    "prevalence": "Pointwise Wilson 95%",
+    "risk_difference": "Pointwise Newcombe 95%",
+    "odds_ratio": "Pointwise log-Wald 95%; cross-product OR validated against difference of outcome logits"
+  },
+  "scope": "Unweighted exploratory associations; separate-period estimates are descriptive. They do not estimate incremental multivariable prediction value or a causal effect. Overlap for the group comparison refers to the full linked development sample, not the restricted development cohort.",
+  "software": {
+    "python": "3.12.14",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "scipy": "1.17.0"
+  },
+  "script_sha256": "30ae7c3ff72e5ded78fc0b41c2921b18e09870896db025928b6d059eca2124e6",
+  "privacy": "All exported outputs are aggregate counts, estimates, source/schema metadata and nonreversible cohort-set hashes; no respondent rows or IDs are exported."
+}

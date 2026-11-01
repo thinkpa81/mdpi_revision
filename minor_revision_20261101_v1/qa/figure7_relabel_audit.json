@@ -1,0 +1,43 @@
+{
+  "status": "PASS",
+  "scope": "Panel-name prefixes changed from A\u2013D to (a)\u2013(d); values, intervals and significance are unchanged.",
+  "source_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
+  "original_script_url": "https://github.com/thinkpa81/mdpi_revision/blob/af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/revision/code/plot_submission_block_heatmap.py",
+  "original_script_sha256": "a9286cd48ba553f92486092e3dd98d21e048a53c660608163b824504cc85a551",
+  "regeneration_script_sha256": "8b47b38e97540c281cb54c549e10f2f010cc23a6f908f28af76887724c54cae5",
+  "original_figure_sha256": "d5b6628b52fd9bed5839bca33545f6600db3f21683eefd3b6be03f0496345b77",
+  "revised_figure_sha256": "98839cc233fbb3ecc09b221419fa1327c25eff7cf3e894501cd4dd0810a08d01",
+  "pixel_dimensions": [
+    4389,
+    4258
+  ],
+  "changed_pixels": 94783,
+  "changed_row_bands_zero_based_inclusive": [
+    [
+      226,
+      309
+    ],
+    [
+      2002,
+      2085
+    ]
+  ],
+  "all_pixels_outside_panel_title_bands_identical": true,
+  "all_84_source_rows_byte_identical": true,
+  "full_precision_values_and_intervals_unchanged": true,
+  "outlined_cells": 7,
+  "outlined_D_cells": 6,
+  "outlined_A_cells": 1,
+  "source_sha256": {
+    "attribution_per_item.csv": "5936324d55abb25a1d855bbd36a8a648c6581b377b4b8987e9bcc190d6237083",
+    "original_submission_block_heatmap.csv": "4cb6ef4c955c9e441b683374695d4a87de1d29b33415ee1694ae66201ad758d5",
+    "round2_development_temporal_block_attribution.csv": "12fe04c725e64a8f0418210d73d32a840425d5ee65ef3455b53d28bca5fff4b9",
+    "submission_block_heatmap.csv": "4cb6ef4c955c9e441b683374695d4a87de1d29b33415ee1694ae66201ad758d5"
+  },
+  "runtime": {
+    "matplotlib": "3.10.8",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5"
+  },
+  "visual_qa": "passed: all four panels inspected; only panel-prefix lettering changed"
+}

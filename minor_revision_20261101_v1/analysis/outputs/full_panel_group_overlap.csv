@@ -1,0 +1,6 @@
+evaluation_group,evaluation_n,overlap_with_full_development_n,overlap_with_full_development_pct,person_disjoint_from_full_development_n,person_disjoint_from_full_development_pct,overlap_with_restricted_development_n_for_reference_only,overlap_with_restricted_development_pct_for_reference_only,outcome_events,shared_outcome_events,disjoint_outcome_events
+all_linked,3741,3333,89.09382518043304,408,10.90617481956696,1366,36.514300989040365,2125,1914,211
+hesitant,1520,1369,90.0657894736842,151,9.93421052631579,641,42.171052631578945,853,769,84
+other,2221,1964,88.4286357496623,257,11.571364250337686,725,32.64295362449347,1272,1145,127
+rare_or_never_hesitant,1995,1768,88.62155388471177,227,11.37844611528822,672,33.68421052631579,1198,1083,115
+no_relevant_experience,226,196,86.72566371681415,30,13.274336283185843,53,23.451327433628318,74,62,12

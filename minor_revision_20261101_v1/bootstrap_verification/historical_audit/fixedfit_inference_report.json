@@ -1,0 +1,15 @@
+{
+  "seed": 20261020,
+  "bootstrap_replicates": 5000,
+  "metric_ci_replicates": 2000,
+  "inference_rows": 344,
+  "families": 24,
+  "full_model_rows": 8,
+  "prediction_sha256": "2ef94b21638f068f065182d02d9ba71fbcc7d99b6dc497069b502ae468b253f9",
+  "sign": "LL_model minus LL_reference; positive means worse prediction",
+  "limitation": "fixed-fit intervals condition on development and selection; full reselection uncertainty is a separate analysis",
+  "noninferiority_margins": "0, 0.0025, 0.005, 0.01 are illustrative retrospective sensitivity thresholds, not validated business tolerances",
+  "postreview_families": "exploratory sensitivity; original family retained",
+  "bootstrap": "ordinary participant bootstrap on whole evaluation cohort; disjoint counts reweighted from same replicate for parity with original method",
+  "MDE": "normal-approximation local effect-size planning diagnostic from observed paired SE; not achieved post-hoc power"
+}

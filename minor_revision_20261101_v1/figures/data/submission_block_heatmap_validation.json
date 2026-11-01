@@ -1,0 +1,137 @@
+{
+  "status": "passed",
+  "panels": 4,
+  "blocks_per_panel": 7,
+  "domains": [
+    "development_oof",
+    "whole",
+    "disjoint"
+  ],
+  "cells": 84,
+  "panel_labels": [
+    "(a)",
+    "(b)",
+    "(c)",
+    "(d)"
+  ],
+  "archived_84_cell_csv_byte_identical": true,
+  "temporal_values_and_bounds_match_per_item_source": true,
+  "global_symmetric_color_limit": 0.024,
+  "interval_family_size": 56,
+  "outlined_cells": 7,
+  "outlined_cells_higher_loss": 7,
+  "outlined_cells_lower_loss": 0,
+  "outline_detail": [
+    {
+      "algorithm": "ridge",
+      "history_fixed": true,
+      "block": "D",
+      "items": 4,
+      "domain": "whole",
+      "loss_reduction_per_item": -0.010393825503436874,
+      "simultaneous_lower_per_item": -0.016020624330249075,
+      "simultaneous_upper_per_item": -0.0047670266766247,
+      "scope": "temporal contribution conditional on fitted subset models",
+      "reference": "ridge::H",
+      "interval_excludes_zero": true,
+      "outlined": true
+    },
+    {
+      "algorithm": "ridge",
+      "history_fixed": true,
+      "block": "D",
+      "items": 4,
+      "domain": "disjoint",
+      "loss_reduction_per_item": -0.014002315616002375,
+      "simultaneous_lower_per_item": -0.01962911444281455,
+      "simultaneous_upper_per_item": -0.008375516789190175,
+      "scope": "temporal contribution conditional on fitted subset models",
+      "reference": "ridge::H",
+      "interval_excludes_zero": true,
+      "outlined": true
+    },
+    {
+      "algorithm": "ridge",
+      "history_fixed": false,
+      "block": "D",
+      "items": 4,
+      "domain": "whole",
+      "loss_reduction_per_item": -0.008153818397931775,
+      "simultaneous_lower_per_item": -0.01378061722474395,
+      "simultaneous_upper_per_item": -0.002527019571119575,
+      "scope": "temporal contribution conditional on fitted subset models",
+      "reference": "ridge::NONE",
+      "interval_excludes_zero": true,
+      "outlined": true
+    },
+    {
+      "algorithm": "ridge",
+      "history_fixed": false,
+      "block": "D",
+      "items": 4,
+      "domain": "disjoint",
+      "loss_reduction_per_item": -0.0141640112453582,
+      "simultaneous_lower_per_item": -0.0197908100721704,
+      "simultaneous_upper_per_item": -0.008537212418546025,
+      "scope": "temporal contribution conditional on fitted subset models",
+      "reference": "ridge::NONE",
+      "interval_excludes_zero": true,
+      "outlined": true
+    },
+    {
+      "algorithm": "hgb",
+      "history_fixed": true,
+      "block": "A",
+      "items": 1,
+      "domain": "disjoint",
+      "loss_reduction_per_item": -0.0230642605135063,
+      "simultaneous_lower_per_item": -0.045571455820755,
+      "simultaneous_upper_per_item": -0.0005570652062576,
+      "scope": "temporal contribution conditional on fitted subset models",
+      "reference": "hgb::H",
+      "interval_excludes_zero": true,
+      "outlined": true
+    },
+    {
+      "algorithm": "hgb",
+      "history_fixed": false,
+      "block": "D",
+      "items": 4,
+      "domain": "whole",
+      "loss_reduction_per_item": -0.0073013501923638,
+      "simultaneous_lower_per_item": -0.012928149019175975,
+      "simultaneous_upper_per_item": -0.001674551365551625,
+      "scope": "temporal contribution conditional on fitted subset models",
+      "reference": "hgb::NONE",
+      "interval_excludes_zero": true,
+      "outlined": true
+    },
+    {
+      "algorithm": "hgb",
+      "history_fixed": false,
+      "block": "D",
+      "items": 4,
+      "domain": "disjoint",
+      "loss_reduction_per_item": -0.0116544903657182,
+      "simultaneous_lower_per_item": -0.017281289192530375,
+      "simultaneous_upper_per_item": -0.006027691538906025,
+      "scope": "temporal contribution conditional on fitted subset models",
+      "reference": "hgb::NONE",
+      "interval_excludes_zero": true,
+      "outlined": true
+    }
+  ],
+  "source_csv": "figures/data/submission_block_heatmap.csv",
+  "original_release_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
+  "source_sha256": {
+    "figures/data/round2_development_temporal_block_attribution.csv": "12fe04c725e64a8f0418210d73d32a840425d5ee65ef3455b53d28bca5fff4b9",
+    "figures/data/attribution_per_item.csv": "5936324d55abb25a1d855bbd36a8a648c6581b377b4b8987e9bcc190d6237083"
+  },
+  "script_sha256": "8b47b38e97540c281cb54c549e10f2f010cc23a6f908f28af76887724c54cae5",
+  "image_files": {
+    "Submission_Figure_07_Block_Heatmap.png": "98839cc233fbb3ecc09b221419fa1327c25eff7cf3e894501cd4dd0810a08d01",
+    "Submission_Figure_07_Block_Heatmap.pdf": "965913bd99f3410d1dfd79bc398e9d4c20355050894066dc520377c077a2cb64",
+    "Submission_Figure_07_Block_Heatmap.svg": "d28a5becfcd323611616de43a957e46c008583cd3c12537e0a32bf320512f0fe"
+  },
+  "visual_qa": "passed: full figure inspected; (a)\u2013(d) labels readable and distinct from block letters; no clipping or overlaps"
+}

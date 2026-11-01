@@ -1,0 +1,210 @@
+{
+  "scope": "Source item A wording and response-code audit; all three question pages and the preceding definition pages inspected as pixels and extracted text.",
+  "audited_on": "2026-11-01",
+  "items": [
+    {
+      "year": 2023,
+      "question_number": "Q23",
+      "variable_labels_sheet_name": "Variable Lables",
+      "variable_name": "q23",
+      "prompt_ko": "귀하는 생성형 AI를 이용한 경험이 있습니까?",
+      "prompt_en": "Have you ever used generative AI?",
+      "responses": {
+        "1": {
+          "ko": "이용한 경험이 있다.",
+          "en": "I have used it."
+        },
+        "2": {
+          "ko": "이용한 경험이 없다.",
+          "en": "I have not used it."
+        }
+      },
+      "recall_window": "No explicit time window; experience of use rather than a specified past-year frequency.",
+      "questionnaire_pdf_page_1based": 17,
+      "questionnaire_printed_page": 16,
+      "definition_pdf_page_1based": 16,
+      "definition_printed_page": 15,
+      "codebook_hits": [
+        {
+          "sheet": "D. 생성형 AI에 대한 이용자 인식 및 경험",
+          "row_1based": 4,
+          "rows": [
+            [
+              null,
+              "Q23",
+              "Q23. 귀하는 생성형 AI를 이용한 경험이 있습니까?",
+              "1.00",
+              "  1) 이용한 경험이 있다."
+            ],
+            [
+              null,
+              null,
+              null,
+              "2.00",
+              "  2) 이용한 경험이 없다."
+            ]
+          ]
+        },
+        {
+          "sheet": "Variable Lables",
+          "row_1based": 218,
+          "rows": [
+            [
+              "q23",
+              "Q23. 생성형 AI 이용 경험"
+            ],
+            [
+              "q24_1",
+              "Q24. 가장 많이 이용하는 생성형 AI 서비스 1순위"
+            ]
+          ]
+        }
+      ],
+      "sources": {
+        "questionnaire_id": "1r6rclTxpMNhgUpyCi3XXlYdp3IUuYOkS",
+        "codebook_id": "1bMr65he9qhWnHTQY0-I2LULutm8vcQ3q",
+        "questionnaire_sha256": "0b87e50c3f86870ab01b8b57499c5299d40cb77f78eeb01273dc93bb46da25ec",
+        "codebook_sha256": "1cd1372075f4288ca812de290f0dd7f3af8e97ac853c67e77db2b82835e65baa"
+      }
+    },
+    {
+      "year": 2024,
+      "question_number": "Q24",
+      "variable_labels_sheet_name": "Variable Lables",
+      "variable_name": "Q24",
+      "prompt_ko": "귀하는 생성형 AI를 이용한 경험이 있습니까?",
+      "prompt_en": "Have you ever used generative AI?",
+      "responses": {
+        "1": {
+          "ko": "이용한 경험이 있다.",
+          "en": "I have used it."
+        },
+        "2": {
+          "ko": "이용한 경험이 없다.",
+          "en": "I have not used it."
+        }
+      },
+      "recall_window": "No explicit time window; experience of use rather than a specified past-year frequency.",
+      "questionnaire_pdf_page_1based": 21,
+      "questionnaire_printed_page": 20,
+      "definition_pdf_page_1based": 20,
+      "definition_printed_page": 19,
+      "codebook_hits": [
+        {
+          "sheet": "D. 생성형 AI에 대한 이용자 인식 및 경험",
+          "row_1based": 4,
+          "rows": [
+            [
+              null,
+              "Q24",
+              "Q24. 생성형 AI 이용 경험",
+              "1.00",
+              "  1) 이용한 경험이 있다."
+            ],
+            [
+              null,
+              null,
+              null,
+              "2.00",
+              "  2) 이용한 경험이 없다."
+            ]
+          ]
+        },
+        {
+          "sheet": "Variable Lables",
+          "row_1based": 230,
+          "rows": [
+            [
+              "Q24",
+              "Q24. 생성형 AI 이용 경험"
+            ],
+            [
+              "q25_1",
+              "Q25. 가장 많이 이용하는 생성형 AI 서비스 1순위"
+            ]
+          ]
+        }
+      ],
+      "sources": {
+        "questionnaire_id": "1Zv5qnWoxVegS14GFcCZ_h7HXooUoCrBT",
+        "codebook_id": "1A1cRVkjB4tlIADa6yT8DAlsa7Xv_UPqk",
+        "questionnaire_sha256": "129ada188e76dfe6f89ad5a3d1767717b6eff7a273e86dc6ec308c2ceec3c4dc",
+        "codebook_sha256": "227a2e9af089c86e5562b1a7ea999771243d2605ea6ffc57aeb243e171124d5f"
+      }
+    },
+    {
+      "year": 2025,
+      "question_number": "Q20",
+      "variable_labels_sheet_name": "Variable Lables",
+      "variable_name": "q20",
+      "prompt_ko": "귀하는 생성형 AI를 이용한 경험이 있습니까?",
+      "prompt_en": "Have you ever used generative AI?",
+      "responses": {
+        "1": {
+          "ko": "이용한 경험이 있다.",
+          "en": "I have used it."
+        },
+        "2": {
+          "ko": "이용한 경험이 없다.",
+          "en": "I have not used it."
+        }
+      },
+      "recall_window": "No explicit time window; experience of use rather than a specified past-year frequency.",
+      "questionnaire_pdf_page_1based": 29,
+      "questionnaire_printed_page": 28,
+      "definition_pdf_page_1based": 28,
+      "definition_printed_page": 27,
+      "codebook_hits": [
+        {
+          "sheet": "D. 생성형 AI에 대한 이용 현황 및 인식",
+          "row_1based": 4,
+          "rows": [
+            [
+              null,
+              "Q20",
+              "Q20. 생성형 AI 이용 경험",
+              "1.00",
+              "  1) 이용한 경험이 있다."
+            ],
+            [
+              null,
+              null,
+              null,
+              "2.00",
+              "  2) 이용한 경험이 없다."
+            ]
+          ]
+        },
+        {
+          "sheet": "Variable Lables",
+          "row_1based": 191,
+          "rows": [
+            [
+              "q20",
+              "Q20. 생성형 AI 이용 경험"
+            ],
+            [
+              "q21_1",
+              "Q21. 가장 많이 이용하는 생성형 AI 서비스 1순위"
+            ]
+          ]
+        }
+      ],
+      "sources": {
+        "questionnaire_id": "1ouBQOwHmT-3dNYrJ4YktqqTu_QdYLMmV",
+        "codebook_id": "1nhS15nbUkQvDNRfDgTJ2CxuCNGkuguv4",
+        "questionnaire_sha256": "0075dc1a95f2d1e7dbbaa619998246ec9b379f5d523dd88742fd98a57d5ef480",
+        "codebook_sha256": "aa05556364d6818499350aa1f23189643d3594324208b19802bec743b8ab1c3b"
+      }
+    }
+  ],
+  "comparison": {
+    "core_question": "Identical across 2023,2024,2025 except question number and layout.",
+    "response_codes": "1=experience,2=no experience in all years. No code reversal or recall-period change found.",
+    "context_2023_to_2024": "Definition retains the same substantive description and examples of text,image and video generation; ChatGPT is transliterated as 챗GPT and Bard is replaced by Gemini. The Google screenshot changes from Bard to Gemini. The subsequent service-type follow-up changes categories/examples, but is a separate item after A.",
+    "context_2024_to_2025": "Definition and ChatGPT/Gemini example images retained. The Part D heading becomes 생성형 AI 이용 현황 및 인식 and the introductory instruction asking about changes to daily life is omitted. Follow-up item numbering and branching change.",
+    "position": "2023 Q23,2024 Q24,2025 Q20; these are item identifiers, not changes in the response coding.",
+    "interpretive_boundary": "Stable core prompt and codes do not establish measurement invariance. Updated examples, altered instrument position/context, sample composition and actual behavior may affect reported experience. The 2025 A measure is not used as a predictor in the two original 2023-to-2024 and2024-to-2025 prediction transitions."
+  },
+  "recommended_manuscript_sentence": "The generative-AI experience item retained the same question and response codes across waves (1, experience; 2, no experience), with no specified recall window. Its identifier changed from Q23 in 2023 to Q24 in 2024 and Q20 in 2025. The preceding explanatory examples replaced Bard with Gemini in 2024; therefore, the audit supports stable core coding while allowing for changes in respondents’ interpretation of the surrounding material."
+}

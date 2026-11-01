@@ -1,0 +1,29 @@
+{
+  "status": "verified_distinct_analyses",
+  "sources": [
+    {
+      "seed": 20261020,
+      "source": "historical_audit/seed_source/refit_and_inference.py",
+      "source_sha256": "c5b1f2e13f8a3149fe74a6f2e23b67aff210366548de542504f3d182a6d1918b",
+      "draws": 5000,
+      "target": "Original fixed-prediction item-budget, benchmark-only sensitivity and full-information log-loss contrast families"
+    },
+    {
+      "seed": 2026102002,
+      "source": "historical_audit/seed_source/round2_figures.py",
+      "source_sha256": "93aa5bd288213a72074d3cf51e0c786cb5b8f4002bb9a1a149e1396bce8fdb85",
+      "function": "frontier",
+      "draws": 5000,
+      "target": "Figure 2 pointwise percentile intervals for absolute temporal log loss conditional on fixed fitted predictions"
+    },
+    {
+      "base_seed": 202610200,
+      "rule": "base_seed + replicate_index",
+      "source": "exact_original_source/main_result/revision/code/run_selection_bootstrap.py",
+      "source_sha256": "d2b441fe7ecaa494f768f5dbdb0c3a86ebb4302216e40851bf9a852acf1904d0",
+      "draws": 1000,
+      "target": "Full-process participant-union resampling with preprocessing, tuning, selection, and refitting"
+    }
+  ],
+  "additional_families": "Other analysis-specific seeds are documented in ../qa/public_seed_catalog.json; the present receipt covers the three listed calculations."
+}

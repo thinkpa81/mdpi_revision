@@ -1,0 +1,203 @@
+{
+  "title": "Analysis-specific bootstrap seeds and aggregate consistency checks",
+  "source_repository": "https://github.com/thinkpa81/mdpi_revision",
+  "source_commit": "af06ecda65c0f5768cbe2b3449bb46ebf229edca",
+  "status": "verified",
+  "seeds": [
+    {
+      "seed": 20261020,
+      "repetitions": 5000,
+      "scope": "Original item-budget fixed-prediction contrast families, benchmark-only sensitivity families, and original full-information comparisons",
+      "source": "main_result/revision/code/refit_and_inference.py",
+      "lines": [
+        19,
+        97,
+        99,
+        113,
+        117,
+        122,
+        132,
+        184
+      ]
+    },
+    {
+      "seed": 2026102002,
+      "repetitions": 5000,
+      "scope": "Figure 2 pointwise percentile intervals for absolute temporal log loss with predictions fixed",
+      "source": "main_result/revision/code/round2_figures.py",
+      "lines": [
+        214,
+        215,
+        216,
+        218,
+        223
+      ]
+    },
+    {
+      "seed": 2026102021,
+      "repetitions": 5000,
+      "scope": "Figure 7/Table S21 simultaneous family of 56 exact block allocations",
+      "source": "main_result/revision/code/run_attribution.py",
+      "lines": [
+        45,
+        49,
+        59
+      ],
+      "manifest": "main_result/revision/audit/attribution_audit.json"
+    },
+    {
+      "seed": 2026102109,
+      "repetitions": 5000,
+      "scope": "Table S32 regional coarsening: separate 16 model-versus-benchmark and 8 coarsened-minus-original families per evaluation group",
+      "source": "github:thinkpa81/mdpi_revision@af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/revision/code/region_overlap_sensitivity.py",
+      "lines": [
+        23,
+        137,
+        259,
+        290,
+        309,
+        405
+      ],
+      "manifest": "main_result/revision/results/region_overlap_analysis.json:124–127"
+    },
+    {
+      "seed": 2026102121,
+      "repetitions": 5000,
+      "scope": "Table S20 expanded full-panel models in rare-or-never hesitant group, 8 full-model contrasts",
+      "source": "main_result/revision/code/model_sensitivity_intervals.py",
+      "lines": [
+        16,
+        20,
+        37,
+        38,
+        40,
+        41,
+        51,
+        52
+      ],
+      "derivation": "2026102017  + 100 (full population index 1) + 4 (group index 4) = 2026102121"
+    },
+    {
+      "seed": 2026102122,
+      "repetitions": 5000,
+      "scope": "Expanded full-panel models in no-service-experience group, 8 full-model contrasts",
+      "source": "main_result/revision/code/model_sensitivity_intervals.py",
+      "lines": [
+        16,
+        20,
+        37,
+        38,
+        40,
+        41
+      ],
+      "derivation": "2026102017 +100 +5"
+    },
+    {
+      "seed": "2026102017 +100*population_index +group_index",
+      "repetitions": 5000,
+      "scope": "Expanded model family; indices separately identify population and evaluation group",
+      "source": "main_result/revision/code/model_sensitivity_intervals.py",
+      "lines": [
+        16,
+        20,
+        37,
+        38,
+        41
+      ]
+    },
+    {
+      "seed": "2026102131 /2026102132",
+      "repetitions": 10000,
+      "scope": "Adjacent-domain 18-contrast simultaneous families, restricted shared cohort/full three-wave panel",
+      "source": "github:thinkpa81/mdpi_revision@af06ecda65c0f5768cbe2b3449bb46ebf229edca/main_result/revision/code/adjacent_service_diagnostics.py",
+      "lines": [
+        236,
+        237,
+        296,
+        419,
+        420,
+        422
+      ]
+    },
+    {
+      "seed": "202610200 +replicate_index",
+      "repetitions": 1000,
+      "scope": "Complete repeated-development bootstrap, indices 1–1000",
+      "source": "bootstrap_verification/results/minor_reselection_software_verification.json",
+      "note": "Distinct from fixed-prediction interval calculations."
+    }
+  ],
+  "interpretation": "Seed 20261020 applies to the original fixed-prediction comparison families. Additional comparison families and Figure 2 use their own documented seeds. No seed or result was altered.",
+  "aggregate_checks": {
+    "A_temporal_cells": 8,
+    "A_significant_cells": 1,
+    "A_significant_rows": [
+      {
+        "algorithm": "hgb",
+        "history_fixed": true,
+        "domain": "person_disjoint",
+        "loss_reduction_per_item": -0.0230642605135063,
+        "per_item_simultaneous95_lower": -0.045571455820755,
+        "per_item_simultaneous95_upper": -0.0005570652062576
+      }
+    ],
+    "D_significant_cells": 6,
+    "B_positive_cells": 8,
+    "K_positive_cells": 8,
+    "regularization_groups": [
+      {
+        "condition": "Ridge / H",
+        "same_setting_mean_excess_loss": 0.05204,
+        "stronger_simpler_mean_excess_loss": 0.00985
+      },
+      {
+        "condition": "Ridge / no H",
+        "same_setting_mean_excess_loss": 0.03939,
+        "stronger_simpler_mean_excess_loss": 0.00351
+      },
+      {
+        "condition": "HGB / H",
+        "same_setting_mean_excess_loss": 0.03826,
+        "stronger_simpler_mean_excess_loss": 0.01388
+      },
+      {
+        "condition": "HGB / no H",
+        "same_setting_mean_excess_loss": 0.0324,
+        "stronger_simpler_mean_excess_loss": 0.01368
+      }
+    ],
+    "regional_sign_reversals": [
+      {
+        "condition": "Ridge / H / H+D",
+        "original": 0.03571,
+        "coarsened": -0.00679
+      },
+      {
+        "condition": "Ridge / no H / D",
+        "original": 0.02502,
+        "coarsened": -0.00624
+      },
+      {
+        "condition": "HGB / H / H+D",
+        "original": 0.01832,
+        "coarsened": -0.00259
+      },
+      {
+        "condition": "HGB / no H / D",
+        "original": 0.02988,
+        "coarsened": -0.00132
+      }
+    ],
+    "paired_A": {
+      "n": 641,
+      "A_yes_2023": 83,
+      "A_yes_2024": 192,
+      "reversals_yes_to_no": 0,
+      "no_to_yes": 109
+    }
+  },
+  "aggregate_source_hashes": {
+    "attribution_per_item.csv": "5936324d55abb25a1d855bbd36a8a648c6581b377b4b8987e9bcc190d6237083",
+    "A_shared_participant_transitions.csv": "327ff7640ebecce12c5686f91b18675ac3a0f9910d5a44b14e1f1f37af7a2341"
+  }
+}

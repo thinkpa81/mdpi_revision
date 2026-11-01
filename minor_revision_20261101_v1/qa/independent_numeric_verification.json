@@ -1,0 +1,868 @@
+{
+  "status": "PASS",
+  "method": "Independent direct openpyxl Numeric-worksheet joins; no production analysis functions imported",
+  "sources": [
+    {
+      "year": 2023,
+      "sha256": "c38782a595dc9ee898cb64a3ebbdde40099c09cca655454eabc7b02316efb0a9",
+      "rows": 4581,
+      "fields": [
+        "ID",
+        "q1_8",
+        "q15_6",
+        "q23"
+      ]
+    },
+    {
+      "year": 2024,
+      "sha256": "65fa040101d784b2225eafea9a7a8e5660c5fca9f1b962e342cd81b9cb689f5c",
+      "rows": 4420,
+      "fields": [
+        "id",
+        "Q1_8",
+        "Q15_6",
+        "Q24"
+      ]
+    },
+    {
+      "year": 2025,
+      "sha256": "16867d676338e22da82a84c72b667fe5764ff266a03d6e8086182de138a2c185",
+      "rows": 4324,
+      "fields": [
+        "id",
+        "q1_8",
+        "q14_6",
+        "q20"
+      ]
+    }
+  ],
+  "historical_controls": 13,
+  "checks_passed": 115,
+  "A_results": {
+    "restricted_development": {
+      "n": 1565,
+      "A_valid_n": 1565,
+      "A_missing_n": 0,
+      "A_yes_n": 193,
+      "A_no_n": 1372,
+      "A_yes_pct": 12.332268370607029,
+      "A_yes_pct_pointwise_95_low": 10.794842924434246,
+      "A_yes_pct_pointwise_95_high": 14.054159925971035,
+      "outcome_events": 880,
+      "outcome_pct": 56.23003194888179,
+      "complete_n": 1565,
+      "A_yes_outcome_events": 134,
+      "A_yes_outcome_pct": 69.43005181347151,
+      "A_no_outcome_events": 746,
+      "A_no_outcome_pct": 54.3731778425656,
+      "risk_difference_pp": 15.056873970905905,
+      "risk_difference_pp_pointwise_95_low": 7.745183907009399,
+      "risk_difference_pp_pointwise_95_high": 21.675843028366454,
+      "unadjusted_odds_ratio": 1.9058481392284272,
+      "unadjusted_OR_pointwise_95_low": 1.3782201179161706,
+      "unadjusted_OR_pointwise_95_high": 2.6354695324665025,
+      "phi_correlation": 0.09979387891255843
+    },
+    "restricted_evaluation": {
+      "n": 1520,
+      "A_valid_n": 1520,
+      "A_missing_n": 0,
+      "A_yes_n": 458,
+      "A_no_n": 1062,
+      "A_yes_pct": 30.13157894736842,
+      "A_yes_pct_pointwise_95_low": 27.877401376636662,
+      "A_yes_pct_pointwise_95_high": 32.48592930295794,
+      "outcome_events": 853,
+      "outcome_pct": 56.11842105263158,
+      "complete_n": 1520,
+      "A_yes_outcome_events": 258,
+      "A_yes_outcome_pct": 56.33187772925764,
+      "A_no_outcome_events": 595,
+      "A_no_outcome_pct": 56.026365348399246,
+      "risk_difference_pp": 0.30551238085839705,
+      "risk_difference_pp_pointwise_95_low": -5.143689865293089,
+      "risk_difference_pp_pointwise_95_high": 5.690650766359829,
+      "unadjusted_odds_ratio": 1.0124873949579831,
+      "unadjusted_OR_pointwise_95_low": 0.8118424457811965,
+      "unadjusted_OR_pointwise_95_high": 1.2627212709510025,
+      "phi_correlation": 0.002824791381452632
+    }
+  },
+  "full_panel_group_overlap": {
+    "all_linked": {
+      "evaluation_n": 3741,
+      "overlap_with_full_development_n": 3333,
+      "overlap_with_full_development_pct": 89.09382518043304,
+      "person_disjoint_from_full_development_n": 408,
+      "person_disjoint_from_full_development_pct": 10.90617481956696,
+      "overlap_with_restricted_development_n_for_reference_only": 1366,
+      "overlap_with_restricted_development_pct_for_reference_only": 36.514300989040365,
+      "outcome_events": 2125,
+      "shared_outcome_events": 1914,
+      "disjoint_outcome_events": 211
+    },
+    "hesitant": {
+      "evaluation_n": 1520,
+      "overlap_with_full_development_n": 1369,
+      "overlap_with_full_development_pct": 90.0657894736842,
+      "person_disjoint_from_full_development_n": 151,
+      "person_disjoint_from_full_development_pct": 9.93421052631579,
+      "overlap_with_restricted_development_n_for_reference_only": 641,
+      "overlap_with_restricted_development_pct_for_reference_only": 42.171052631578945,
+      "outcome_events": 853,
+      "shared_outcome_events": 769,
+      "disjoint_outcome_events": 84
+    },
+    "other": {
+      "evaluation_n": 2221,
+      "overlap_with_full_development_n": 1964,
+      "overlap_with_full_development_pct": 88.42863574966232,
+      "person_disjoint_from_full_development_n": 257,
+      "person_disjoint_from_full_development_pct": 11.571364250337686,
+      "overlap_with_restricted_development_n_for_reference_only": 725,
+      "overlap_with_restricted_development_pct_for_reference_only": 32.64295362449347,
+      "outcome_events": 1272,
+      "shared_outcome_events": 1145,
+      "disjoint_outcome_events": 127
+    },
+    "rare_or_never": {
+      "evaluation_n": 1995,
+      "overlap_with_full_development_n": 1768,
+      "overlap_with_full_development_pct": 88.62155388471177,
+      "person_disjoint_from_full_development_n": 227,
+      "person_disjoint_from_full_development_pct": 11.37844611528822,
+      "overlap_with_restricted_development_n_for_reference_only": 672,
+      "overlap_with_restricted_development_pct_for_reference_only": 33.68421052631579,
+      "outcome_events": 1198,
+      "shared_outcome_events": 1083,
+      "disjoint_outcome_events": 115
+    },
+    "no_experience": {
+      "evaluation_n": 226,
+      "overlap_with_full_development_n": 196,
+      "overlap_with_full_development_pct": 86.72566371681415,
+      "person_disjoint_from_full_development_n": 30,
+      "person_disjoint_from_full_development_pct": 13.274336283185841,
+      "overlap_with_restricted_development_n_for_reference_only": 53,
+      "overlap_with_restricted_development_pct_for_reference_only": 23.451327433628318,
+      "outcome_events": 74,
+      "shared_outcome_events": 62,
+      "disjoint_outcome_events": 12
+    }
+  },
+  "A_paired_transition_counts": [
+    {
+      "A2023": 0,
+      "A2024": 0,
+      "count": 449
+    },
+    {
+      "A2023": 0,
+      "A2024": 1,
+      "count": 109
+    },
+    {
+      "A2023": 1,
+      "A2024": 0,
+      "count": 0
+    },
+    {
+      "A2023": 1,
+      "A2024": 1,
+      "count": 83
+    }
+  ],
+  "checks": [
+    {
+      "label": "2023 annual rows",
+      "observed": 4581,
+      "reported": 4581.0,
+      "pass": true
+    },
+    {
+      "label": "2024 annual rows",
+      "observed": 4420,
+      "reported": 4420.0,
+      "pass": true
+    },
+    {
+      "label": "2025 annual rows",
+      "observed": 4324,
+      "reported": 4324.0,
+      "pass": true
+    },
+    {
+      "label": "full development n",
+      "observed": 3895,
+      "reported": 3895.0,
+      "pass": true
+    },
+    {
+      "label": "full development events",
+      "observed": 2215,
+      "reported": 2215.0,
+      "pass": true
+    },
+    {
+      "label": "full evaluation n",
+      "observed": 3741,
+      "reported": 3741.0,
+      "pass": true
+    },
+    {
+      "label": "full evaluation events",
+      "observed": 2125,
+      "reported": 2125.0,
+      "pass": true
+    },
+    {
+      "label": "restricted development n",
+      "observed": 1565,
+      "reported": 1565.0,
+      "pass": true
+    },
+    {
+      "label": "restricted development events",
+      "observed": 880,
+      "reported": 880.0,
+      "pass": true
+    },
+    {
+      "label": "restricted evaluation n",
+      "observed": 1520,
+      "reported": 1520.0,
+      "pass": true
+    },
+    {
+      "label": "restricted evaluation events",
+      "observed": 853,
+      "reported": 853.0,
+      "pass": true
+    },
+    {
+      "label": "restricted overlap",
+      "observed": 641,
+      "reported": 641.0,
+      "pass": true
+    },
+    {
+      "label": "full overlap",
+      "observed": 3333,
+      "reported": 3333.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:n",
+      "observed": 1565,
+      "reported": 1565.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:A_valid_n",
+      "observed": 1565,
+      "reported": 1565.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:A_missing_n",
+      "observed": 0,
+      "reported": 0.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:A_yes_n",
+      "observed": 193,
+      "reported": 193.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:A_no_n",
+      "observed": 1372,
+      "reported": 1372.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:A_yes_pct",
+      "observed": 12.332268370607029,
+      "reported": 12.332268370607029,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:A_yes_pct_pointwise_95_low",
+      "observed": 10.794842924434246,
+      "reported": 10.794842924434246,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:A_yes_pct_pointwise_95_high",
+      "observed": 14.054159925971035,
+      "reported": 14.054159925971039,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:outcome_events",
+      "observed": 880,
+      "reported": 880.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_development:outcome_pct",
+      "observed": 56.23003194888179,
+      "reported": 56.23003194888179,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:n",
+      "observed": 1520,
+      "reported": 1520.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:A_valid_n",
+      "observed": 1520,
+      "reported": 1520.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:A_missing_n",
+      "observed": 0,
+      "reported": 0.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:A_yes_n",
+      "observed": 458,
+      "reported": 458.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:A_no_n",
+      "observed": 1062,
+      "reported": 1062.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:A_yes_pct",
+      "observed": 30.13157894736842,
+      "reported": 30.13157894736842,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:A_yes_pct_pointwise_95_low",
+      "observed": 27.877401376636662,
+      "reported": 27.877401376636662,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:A_yes_pct_pointwise_95_high",
+      "observed": 32.48592930295794,
+      "reported": 32.48592930295794,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:outcome_events",
+      "observed": 853,
+      "reported": 853.0,
+      "pass": true
+    },
+    {
+      "label": "A_prevalence.csv:restricted_evaluation:outcome_pct",
+      "observed": 56.11842105263158,
+      "reported": 56.11842105263158,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:A_yes_n",
+      "observed": 193,
+      "reported": 193.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:A_no_n",
+      "observed": 1372,
+      "reported": 1372.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:complete_n",
+      "observed": 1565,
+      "reported": 1565.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:A_yes_outcome_events",
+      "observed": 134,
+      "reported": 134.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:A_yes_outcome_pct",
+      "observed": 69.43005181347151,
+      "reported": 69.43005181347151,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:A_no_outcome_events",
+      "observed": 746,
+      "reported": 746.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:A_no_outcome_pct",
+      "observed": 54.3731778425656,
+      "reported": 54.373177842565596,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:risk_difference_pp",
+      "observed": 15.056873970905905,
+      "reported": 15.056873970905905,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:risk_difference_pp_pointwise_95_low",
+      "observed": 7.745183907009399,
+      "reported": 7.745183907009399,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:risk_difference_pp_pointwise_95_high",
+      "observed": 21.675843028366454,
+      "reported": 21.675843028366454,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:unadjusted_odds_ratio",
+      "observed": 1.9058481392284272,
+      "reported": 1.9058481392284272,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:unadjusted_OR_pointwise_95_low",
+      "observed": 1.3782201179161706,
+      "reported": 1.3782201179161706,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:unadjusted_OR_pointwise_95_high",
+      "observed": 2.6354695324665025,
+      "reported": 2.635469532466503,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_development:phi_correlation",
+      "observed": 0.09979387891255843,
+      "reported": 0.09979387891255825,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:A_yes_n",
+      "observed": 458,
+      "reported": 458.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:A_no_n",
+      "observed": 1062,
+      "reported": 1062.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:complete_n",
+      "observed": 1520,
+      "reported": 1520.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:A_yes_outcome_events",
+      "observed": 258,
+      "reported": 258.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:A_yes_outcome_pct",
+      "observed": 56.33187772925764,
+      "reported": 56.33187772925764,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:A_no_outcome_events",
+      "observed": 595,
+      "reported": 595.0,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:A_no_outcome_pct",
+      "observed": 56.026365348399246,
+      "reported": 56.026365348399246,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:risk_difference_pp",
+      "observed": 0.30551238085839705,
+      "reported": 0.30551238085839705,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:risk_difference_pp_pointwise_95_low",
+      "observed": -5.143689865293089,
+      "reported": -5.143689865293079,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:risk_difference_pp_pointwise_95_high",
+      "observed": 5.690650766359829,
+      "reported": 5.690650766359838,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:unadjusted_odds_ratio",
+      "observed": 1.0124873949579831,
+      "reported": 1.0124873949579831,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:unadjusted_OR_pointwise_95_low",
+      "observed": 0.8118424457811965,
+      "reported": 0.8118424457811965,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:unadjusted_OR_pointwise_95_high",
+      "observed": 1.2627212709510025,
+      "reported": 1.2627212709510027,
+      "pass": true
+    },
+    {
+      "label": "A_outcome_association.csv:restricted_evaluation:phi_correlation",
+      "observed": 0.002824791381452632,
+      "reported": 0.0028247913814526573,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:evaluation_n",
+      "observed": 3741,
+      "reported": 3741.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:overlap_with_full_development_n",
+      "observed": 3333,
+      "reported": 3333.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:overlap_with_full_development_pct",
+      "observed": 89.09382518043304,
+      "reported": 89.09382518043304,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:person_disjoint_from_full_development_n",
+      "observed": 408,
+      "reported": 408.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:person_disjoint_from_full_development_pct",
+      "observed": 10.90617481956696,
+      "reported": 10.90617481956696,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:overlap_with_restricted_development_n_for_reference_only",
+      "observed": 1366,
+      "reported": 1366.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:overlap_with_restricted_development_pct_for_reference_only",
+      "observed": 36.514300989040365,
+      "reported": 36.514300989040365,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:outcome_events",
+      "observed": 2125,
+      "reported": 2125.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:shared_outcome_events",
+      "observed": 1914,
+      "reported": 1914.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:all_linked:disjoint_outcome_events",
+      "observed": 211,
+      "reported": 211.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:evaluation_n",
+      "observed": 1520,
+      "reported": 1520.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:overlap_with_full_development_n",
+      "observed": 1369,
+      "reported": 1369.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:overlap_with_full_development_pct",
+      "observed": 90.0657894736842,
+      "reported": 90.0657894736842,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:person_disjoint_from_full_development_n",
+      "observed": 151,
+      "reported": 151.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:person_disjoint_from_full_development_pct",
+      "observed": 9.93421052631579,
+      "reported": 9.93421052631579,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:overlap_with_restricted_development_n_for_reference_only",
+      "observed": 641,
+      "reported": 641.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:overlap_with_restricted_development_pct_for_reference_only",
+      "observed": 42.171052631578945,
+      "reported": 42.171052631578945,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:outcome_events",
+      "observed": 853,
+      "reported": 853.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:shared_outcome_events",
+      "observed": 769,
+      "reported": 769.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:hesitant:disjoint_outcome_events",
+      "observed": 84,
+      "reported": 84.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:evaluation_n",
+      "observed": 2221,
+      "reported": 2221.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:overlap_with_full_development_n",
+      "observed": 1964,
+      "reported": 1964.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:overlap_with_full_development_pct",
+      "observed": 88.42863574966232,
+      "reported": 88.4286357496623,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:person_disjoint_from_full_development_n",
+      "observed": 257,
+      "reported": 257.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:person_disjoint_from_full_development_pct",
+      "observed": 11.571364250337686,
+      "reported": 11.571364250337686,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:overlap_with_restricted_development_n_for_reference_only",
+      "observed": 725,
+      "reported": 725.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:overlap_with_restricted_development_pct_for_reference_only",
+      "observed": 32.64295362449347,
+      "reported": 32.64295362449347,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:outcome_events",
+      "observed": 1272,
+      "reported": 1272.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:shared_outcome_events",
+      "observed": 1145,
+      "reported": 1145.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:other:disjoint_outcome_events",
+      "observed": 127,
+      "reported": 127.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:evaluation_n",
+      "observed": 1995,
+      "reported": 1995.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:overlap_with_full_development_n",
+      "observed": 1768,
+      "reported": 1768.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:overlap_with_full_development_pct",
+      "observed": 88.62155388471177,
+      "reported": 88.62155388471177,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:person_disjoint_from_full_development_n",
+      "observed": 227,
+      "reported": 227.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:person_disjoint_from_full_development_pct",
+      "observed": 11.37844611528822,
+      "reported": 11.37844611528822,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:overlap_with_restricted_development_n_for_reference_only",
+      "observed": 672,
+      "reported": 672.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:overlap_with_restricted_development_pct_for_reference_only",
+      "observed": 33.68421052631579,
+      "reported": 33.68421052631579,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:outcome_events",
+      "observed": 1198,
+      "reported": 1198.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:shared_outcome_events",
+      "observed": 1083,
+      "reported": 1083.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:rare_or_never:disjoint_outcome_events",
+      "observed": 115,
+      "reported": 115.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:evaluation_n",
+      "observed": 226,
+      "reported": 226.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:overlap_with_full_development_n",
+      "observed": 196,
+      "reported": 196.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:overlap_with_full_development_pct",
+      "observed": 86.72566371681415,
+      "reported": 86.72566371681415,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:person_disjoint_from_full_development_n",
+      "observed": 30,
+      "reported": 30.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:person_disjoint_from_full_development_pct",
+      "observed": 13.274336283185841,
+      "reported": 13.274336283185843,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:overlap_with_restricted_development_n_for_reference_only",
+      "observed": 53,
+      "reported": 53.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:overlap_with_restricted_development_pct_for_reference_only",
+      "observed": 23.451327433628318,
+      "reported": 23.451327433628318,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:outcome_events",
+      "observed": 74,
+      "reported": 74.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:shared_outcome_events",
+      "observed": 62,
+      "reported": 62.0,
+      "pass": true
+    },
+    {
+      "label": "overlap:no_experience:disjoint_outcome_events",
+      "observed": 12,
+      "reported": 12.0,
+      "pass": true
+    },
+    {
+      "label": "Apaired:(0, 0)",
+      "observed": 449,
+      "reported": 449.0,
+      "pass": true
+    },
+    {
+      "label": "Apaired:(0, 1)",
+      "observed": 109,
+      "reported": 109.0,
+      "pass": true
+    },
+    {
+      "label": "Apaired:(1, 0)",
+      "observed": 0,
+      "reported": 0.0,
+      "pass": true
+    },
+    {
+      "label": "Apaired:(1, 1)",
+      "observed": 83,
+      "reported": 83.0,
+      "pass": true
+    }
+  ],
+  "privacy": "Only aggregate results exported; raw records and identifiers remain local"
+}

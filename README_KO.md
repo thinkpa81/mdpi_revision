@@ -1,51 +1,49 @@
-# JTAER 최종 논문 분석자료
+# JTAER 연구 재현 자료
 
-이 저장소는 **Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**의 분석 코드, 집계 결과, 그림과 출처 기록을 제공합니다. 2026년 10월 25일 수정본에 맞춰 제출 문서 7개의 식별 정보와 분석 범위 안내를 갱신했습니다. 답변서에 인용된 편집자·심사자 의견 34개는 유지했습니다. 상세 위치 안내 105개를 최종 일반본과 대조했으며, 제공된 입력 파일 대비 위치 안내 문구 74개를 수정했습니다. 일반본과 붉은색 표시본의 본문·수식 및 페이지 수가 일치합니다. 최신 기록은 [EDITORIAL_ALIGNMENT_CHECK_20261025.json](EDITORIAL_ALIGNMENT_CHECK_20261025.json)에 있습니다. [10월 24일 문서 검토](EDITORIAL_ALIGNMENT_CHECK_20261024.json), [이전 답변서 검토](RESPONSE_ALIGNMENT_CHECK_20261024.json), [제목·배포 정리](FINAL_ALIGNMENT_CHECK.json)는 당시 검증 기록으로 보존합니다. 제출 문서 자체는 공개 저장소에 포함하지 않습니다.
+**Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**
 
-## 자료 구성
+장순호·서응교, 단국대학교.
 
-- `main_result/revision/code/`: 현재 분석·검증·그림 생성 코드
-- `main_result/revision/tables/`, `main_result/revision/results/`: 모형 결과, 부트스트랩 집계, 선택·중복 참여·지역·인접 서비스 진단
-- `main_result/revision/audit/`: 소스 해시, 분석 계획, 소프트웨어 환경과 실행 기록
-- `main_result/original_results/`: 표본 구성, 원래 결과와의 비교, 유지된 nested 교차검증 및 보충표 S25에 필요한 이전 분석자료
-- `JTAER_Figures/`: 본문 그림 1–7, 보충 그림 S1–S4의 PNG·PDF·SVG 및 집계 원천 CSV
-- `SOURCE_RECHECK_20261024.json`: 보충자료 S10이 인용하는 원자료 재검증 기록
+최신 추가 자료는 2026년 11월 1일 작성한 [minor_revision_20261101_v1](minor_revision_20261101_v1/README.md)입니다. 생성형 AI 경험 및 집단별 참여자 중복 진단, 동일 소프트웨어 환경에서의 부트스트랩 재현 확인, 분석별 시드 목록, Figure 7의 소문자 패널 표시 (a)–(d)를 포함합니다. 기존 과학적 분석 코드, 모형 결과 및 집계표는 그대로 유지했습니다.
 
-보충표 S26의 코드·결과 경로를 유지했습니다. 초기 부트스트랩 200회 기록은 최종 1,000회 분석의 앞부분과 일치하는지 검증하는 데 사용하므로 보존했습니다. 초기 200회는 별도의 독립 표본이 아닙니다.
+[English README](README.md)
 
-## 최신 문서 수정
+## 주요 경로
 
-본 연구는 후향적·탐색적 이차분석이며, 후속 기간의 결과변수는 원래 연구에서 이미 검토되었습니다. 추가 하이퍼파라미터 튜닝과 정보 블록 조합 선택은 개발 데이터로 한정했습니다. 동일 평가 코호트를 활용한 추가 분석은 관측된 전이에 대한 탐색적 평가로 설명하고, 원래의 비교군을 유지하면서 추가 민감도 분석을 별도로 보고합니다. 반복적인 후속 평가 문장은 정리하되 점별 구간과 동시 구간의 범위, 중첩 반복의 의존성, 측정동등성 및 인과효과의 식별 조건은 유지했습니다.
+| 경로 | 내용 |
+| --- | --- |
+| [minor_revision_20261101_v1](minor_revision_20261101_v1/README.md) | 최신 진단 코드·집계 결과·재현 확인 자료 |
+| [시드 목록](minor_revision_20261101_v1/qa/public_seed_catalog.json) | 분석군별 시드, 적용 범위 및 집계 결과 확인 |
+| [Figure 7](minor_revision_20261101_v1/figures) | 새 패널 표시를 적용한 그림, 생성 코드, 집계 데이터 및 시각 비교 기록 |
+| [main_result/revision](main_result/revision) | 기존 복원·모형·추론·민감도 분석 코드와 결과 |
+| [JTAER_Figures](JTAER_Figures) | 이전 그림과 집계 데이터; Figure 7의 최신 표시 버전은 위 추가 자료에 수록 |
+| [FILE_MANIFEST_SHA256.json](FILE_MANIFEST_SHA256.json) | 자기 자신을 제외한 공개 파일의 SHA-256 |
 
-표 S28은 “측정 진단과 시점 간 비교의 해석 조건”으로 제목을 다듬고, 열을 “진단 또는 설계 요소”, “근거 및 설계 상태”, “해석”으로 구성했습니다. 제안된 동시기 문구 비교는 후속 연구 설계로 구분했습니다. 수집 검토 접근의 후속 평가는 검증된 단축척도, 직접 측정한 획득 비용, 사전에 명시하여 전향적으로 시행하는 수집 정책을 활용하도록 구체화했습니다.
+날짜가 붙은 기존 문서 정합성 확인서는 해당 날짜의 문서에 관한 기록입니다. 이후 문서의 검증 결과로 해석하지 않습니다. 논문 Word 파일, 답변서 및 심사 의견은 이 공개 저장소에 포함하지 않습니다.
 
-본문의 반복적인 저장소·그림 경로 안내는 Data Availability Statement와 보충자료 S10·S26에 모았습니다. 공개 그림 11개의 캡션과 Word 삽입 PNG를 대조하고 문서 식별 정보를 갱신했습니다. 이번 단계에서 새 모형 적합이나 집계 재계산은 수행하지 않았습니다.
-
-## 이전 배포 정리
-
-현재 실행에 사용되지 않는 과거 코드 사본 8개, 중복 캡션 문서 1개, 이전 업로드 준비 점검 기록 1개를 현재 파일 목록에서 정리했습니다. 삭제한 파일의 해시와 이전 커밋 주소를 기록하여 출처 확인이 가능합니다. 현재 분석 코드, 집계 수치, 그림 원천 데이터와 이미지 파일은 유지했습니다. 그림 캡션과 문서 식별 정보를 최종본에 맞추고, 과거 버전명·업로드 전 상태를 설명하던 안내를 갱신했습니다.
-
-개인별 원자료·파생자료·식별자·예측값·교차검증 배정·모형 객체는 공개 범위에서 제외합니다. 논문·보충자료 Word/PDF, 답변서, 이메일, 원본 압축파일과 KISDI 원본 조사표·코드북도 업로드하지 않습니다. 제공된 PDF 파일은 그림의 벡터 출력본입니다.
-
-## 공개 자료 검증
+## 원자료 없이 확인하기
 
 ```bash
 python verify_release.py
-python -m pip install -r main_result/revision/requirements.txt
-cd main_result
-python validate_public_release.py
-python run_reproduction.py --dry-run
+python -m pip install -r minor_revision_20261101_v1/requirements.txt
+cd minor_revision_20261101_v1
+python qa/verify_public_addendum.py
 ```
 
-첫 검사는 파일 무결성·Python 문법·JSON을 확인합니다. 집계 검사는 8개 조건별 1,000회, 총 8,000개 반복별 집계 레코드에서 구간과 선택 빈도를 재구성합니다. 모델을 새로 적합하는 검사가 아닙니다. 앞선 답변서 검토에서는 공개 근거 파일 98개의 해시를 기준 커밋의 manifest와 대조하고 8,000개 기록을 재집계했습니다. 재계산의 최대 절대 차이는 9.94e-17 미만이었습니다. 전체 저장소 검증기나 원자료 분석을 새로 실행한 것은 아니며, 과학적 코드·수치·그림은 변경하지 않았습니다. 재실행을 원하면 KISDI 이용 조건에 따라 원자료를 별도로 확보한 후 `main_result/README.md`를 따릅니다. 보충표 S26의 실행 진입점은 `main_result/run_reproduction.py`입니다.
+첫 명령은 전체 공개 파일의 해시와 Python·JSON 구문을 확인합니다. 추가 자료 검증기는 파일 유형, CSV 구조 및 부트스트랩 집계값의 정확한 일치를 확인합니다. 이 검증은 새 모형을 적합하지 않습니다.
 
-그림 재생성 경로는 `main_result/JTAER_Figures/`이며, 저장소 최상위 `JTAER_Figures/`가 최종 논문 번호를 적용한 배포본입니다. 두 경로의 대응과 최종 캡션은 `JTAER_Figures/FIGURE_CROSSWALK.csv`에 있습니다. 11개 PNG는 최종 Word 문서에 삽입된 이미지와 바이트 단위로 일치합니다.
+초기 200회 부트스트랩을 원래 보존된 적합 코드와 시드, 마지막 800회에 기록된 소프트웨어 버전으로 다시 생성했습니다. 집계 1,600행과 점추정치 8행이 정확히 일치했으며, 재생성한 200회와 기존 800회를 합친 구간 및 선택 빈도도 변하지 않았습니다. 최초 200회 기록에는 별도의 버전 확인서가 없으므로, 과거 환경의 동일성을 추정하지 않고 재생성 결과를 근거로 제시합니다.
 
-## 원자료 재검증 범위
+원래 분석의 집계 검증기는 저장소 루트에서 `cd main_result` 후 `python validate_public_release.py`로 실행할 수 있습니다. 전체 파이프라인 순서 점검은 `python run_reproduction.py --dry-run`입니다.
 
-별도 원자료 재검증에서 원자료·코드북·조사표 9개 파일의 해시를 확인하고, 표본 재구성 및 조사표·코드북·인접 서비스 진단 코드를 실행했습니다. 분석 표본 4개의 해시와 집계 CSV 20개가 기존 결과와 일치했습니다. 인접 서비스 진단은 코호트별 참여자 부트스트랩 10,000회, 대조 36개, 조건부 검정 24개를 다시 계산했습니다. 예측 모형 전체 적합이나 개발 절차 부트스트랩 1,000회를 다시 실행한 것은 아닙니다. 세부 기록은 [SOURCE_RECHECK_20261024.json](SOURCE_RECHECK_20261024.json)에 있습니다.
+## 원자료를 이용한 재현
 
-## 인용과 이전 결과
+2023–2025년 KISDI AI 서비스 이용자 정책 아카이브 자료는 제공기관의 이용 조건에 따라 별도로 확보해야 합니다. 기존 파이프라인은 `main_result/private_raw/`에 `YYYY_data.xlsx`, `YYYY_codebook.xlsx`, `YYYY_questionnaire.pdf`를 배치한 뒤 [main_result/README.md](main_result/README.md)를 따릅니다. 추가 진단의 별도 파일명과 실행 명령은 [추가 자료 안내](minor_revision_20261101_v1/README.md)에 있습니다. 실행 시 결과와 기록이 덮어써질 수 있으므로 별도 작업 사본을 사용하십시오.
 
-최종 문서가 인용하는 [`af06ecda65c0f5768cbe2b3449bb46ebf229edca`](https://github.com/thinkpa81/mdpi_revision/commit/af06ecda65c0f5768cbe2b3449bb46ebf229edca) 커밋은 그대로 유지됩니다. 현재 수정은 이 커밋의 과학적 결과를 유지하면서 문서 식별 정보와 해석 범위 안내를 맞춘 것입니다. 삭제된 과거 사본은 해당 커밋에서 확인할 수 있습니다. 기존 [thinkpa81/mdpi](https://github.com/thinkpa81/mdpi) 저장소는 수정하지 않았습니다. 특정 버전 인용 시 사용한 실제 GitHub 커밋을 명시하십시오.
+시드 20261020은 원래 고정 예측값 비교군에 적용됩니다. Figure 2의 절대 로그손실 점별 구간은 2026102002를 사용합니다. 기여도·지역 재코딩 등 다른 분석의 시드는 별도 목록에 명시했습니다. 이번 설명 정리로 시드나 수치 결과를 바꾸지 않았습니다. Figure 7은 패널 문자만 변경했으며 값·축·색상·유의성 테두리는 유지했습니다.
 
+## 공개 범위와 인용
+
+공개 대상은 코드, 메타데이터, 집계 통계 및 그림입니다. 개인별 응답, 식별자, 예측값, 재표집 빈도, 폴드 배정, 적합 객체, 비공개 캐시, 원자료·설문지 전체, 투고 문서 및 심사 서신은 제외합니다.
+
+인용할 때는 실제 사용한 파일이 포함된 Git 커밋을 지정하십시오. 새 커밋의 해시를 해당 커밋 파일 안에 넣으면 자기참조가 생기므로 이 안내에는 새 해시를 기재하지 않습니다. 이전 수치 분석 스냅샷은 [`af06ecda65c0f5768cbe2b3449bb46ebf229edca`](https://github.com/thinkpa81/mdpi_revision/commit/af06ecda65c0f5768cbe2b3449bb46ebf229edca)에 보존되어 있습니다. 이번 추가 자료는 소프트웨어 라이선스나 제공기관 원자료의 재배포 권한을 새로 부여하지 않습니다.
