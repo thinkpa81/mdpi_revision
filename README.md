@@ -1,12 +1,30 @@
-# JTAER research materials
+# Questionnaire budgets and temporal prediction of AI service use
 
 **Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**
 
 Soonho Jang and Eung-Kyo Suh, Dankook University.
 
-This repository contains analysis code, aggregate results, provenance and figure data. The current reproducibility addendum is [minor_revision_20261101_v1](minor_revision_20261101_v1/README.md), prepared on 1 November 2026. It adds generative-AI experience and participant-overlap diagnostics, verifies the original bootstrap results in a common software environment, clarifies analysis-specific random seeds, and changes Figure 7 panel labels to (a)–(d). The previous scientific code, fitted-model results and aggregate tables are preserved.
+This is the canonical repository for the current reproducibility materials.
+The version identifier is `v2.0-minor-revision`; the GitHub release records the exact commit for this snapshot.
+See [release information](reproducibility/RELEASE.json), [release notes](RELEASE_NOTES.md), and the [functional index](reproducibility/INDEX.json).
 
-[한국어 안내](README_KO.md)
+| Purpose | Location |
+| --- | --- |
+| Main execution entry point | `main_result/run_reproduction.py` |
+| Main analysis code and aggregate tables | `main_result/revision/code/`, `main_result/revision/tables/` |
+| Additional A and participant-overlap diagnostics | `minor_revision_20261101_v1/analysis/` |
+| Bootstrap replay and software verification | `minor_revision_20261101_v1/bootstrap_verification/` |
+| Analysis-specific seed catalog | `minor_revision_20261101_v1/qa/public_seed_catalog.json` |
+| Figures and source data | `JTAER_Figures/`; updated Figure 7 in `minor_revision_20261101_v1/figures/` |
+| File integrity and syntax check | `python verify_release.py` |
+
+Existing analytical paths are retained to keep executable code and provenance links stable. Dated directories identify historical analysis bundles; the Git commit and release tag identify the complete repository snapshot. This documentation update does not refit models or change analytical code, aggregate estimates, or figure data.
+
+The earlier `thinkpa81/mdpi` repository remains a historical archive. Its initial public code snapshot is commit `f3b0a46b86f8ab0a7e6093f17105d0f38d281824`; the later `research_release_20261021` bundle is at `34f4172e3bebdb97fe5d5044dd51b237a7c82881`. These are separate historical states, not two targets of a single tag. New work is maintained here.
+
+The public materials comprise code, aggregate outputs, figures, and provenance records. KISDI manages source microdata under its access and statistical-use conditions. Manuscripts, reviewer correspondence, participant records, identifiers, and individual predictions are outside this public release.
+
+## Detailed reproduction instructions and analysis provenance
 
 ## Contents
 

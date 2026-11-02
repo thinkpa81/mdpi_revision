@@ -1,7 +1,7 @@
 {
   "format": "sha256",
-  "release_date": "2026-11-01",
-  "note": "Current public files except this manifest. The additive minor_revision_20261101_v1 release provides focused diagnostics, common-environment bootstrap verification, analysis-specific seeds and Figure 7 panel relabeling. Earlier dated alignment receipts remain historical records. Existing scientific code and results are preserved.",
+  "release_date": "2026-11-02",
+  "note": "Public files except this manifest. Existing analytical files are unchanged; this snapshot adds a functional index, release metadata and bounded GitHub release publishing workflow.",
   "files": {
     ".gitignore": "d8c4cd31b85215871055eb3967ebf42be5713f78e3b69984d2238e27d95888b8",
     "EDITORIAL_ALIGNMENT_CHECK_20261024.json": "c498b43a1403320da8e687056363d73057e53a7ba8385efc03aab07359119b23",
@@ -55,8 +55,8 @@
     "JTAER_Figures/data/Supplementary/Figure_S2.csv": "242adead816ac3200b7c6dd95c945d6043911a54c2a99be2aa21f1a38e94166a",
     "JTAER_Figures/data/Supplementary/Figure_S3.csv": "b00c3d5187c5b51ea1f29258f1733a124afd521e016edc5beb346e84ddbd1bd2",
     "JTAER_Figures/data/Supplementary/Figure_S4.csv": "91ca95bf4f04414f7c74ff9918be39ce7a1726c482877ca9a56645a0e6799a49",
-    "README.md": "11631347531ef2079af667f21cec7f9ecc605d7bf73491245eebfa69b82421ef",
-    "README_KO.md": "8118bc2e9a23e1a06ad61c5976e2bfea86f5ef963be436edadb48aaa2dd815f8",
+    "README.md": "3aecd4348a6de41ea8cf3d79d642b82e7c23a4ea2db41e8d9e2302b193094c13",
+    "README_KO.md": "bddd724e382e9d6428009315b3861a148c2417710b9b9224c8084665036a62ec",
     "RESPONSE_ALIGNMENT_CHECK_20261024.json": "acd3f837630e3d322d56d93aaac95289831d89f08022406b2d03efb09210b90b",
     "SOURCE_RECHECK_20261024.json": "31249fc0d51e7d03fca6c1a10b8557d5889836da7afdf45f16a5ccb11b50c800",
     "main_result/.gitignore": "a03e4f792187f2bf953d2e4b137b8c736331dd68a139181bf4c8daa9e1333885",
@@ -302,6 +302,11 @@
     "minor_revision_20261101_v1/qa/verify_minor_aggregates.py": "7c348fc1b1703d1a09fcdd9538efafbda2be47634d29fbde855257ec9ff1f92d",
     "minor_revision_20261101_v1/qa/verify_public_addendum.py": "51c282a0ff63ab3c8b8d40e504559272ac331951485d1d35a214ea4e4e505ae9",
     "minor_revision_20261101_v1/requirements.txt": "799f18399bd716b29eaebd61350aee7f5c3c2733919729a256a38a506c9b0dbb",
-    "verify_release.py": "d11e60dd4a3dfa39b9ef1e4a558a63447c360c4e29a9e20263c11fe84f64e2d3"
+    "verify_release.py": "d11e60dd4a3dfa39b9ef1e4a558a63447c360c4e29a9e20263c11fe84f64e2d3",
+    "RELEASE_NOTES.md": "e19244c4a72f8a1d2b5f54e0490cf8c4362e53a31a3c324c1d30695de30fa485",
+    "reproducibility/AGGREGATE_VERIFICATION.json": "295147155050c84c0b61423bf5834efee70cb198af75534ea579fd26277e669d",
+    "reproducibility/RELEASE.json": "d44484f7b8235cfc254fde1d059598e4bf680c978345d6fdae27f0dc647b6ad7",
+    "reproducibility/INDEX.json": "b4f5fab869f23bc3b49b38c8e9d6ece92f83a608da0e460f1215743b3e5deed2",
+    ".github/workflows/publish-research-release.yml": "6a246dc17770e560f7087e29aace42233c7e9af43cc142acb429a0f2d831752b"
   }
 }

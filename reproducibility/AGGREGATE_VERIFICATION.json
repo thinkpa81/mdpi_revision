@@ -1,0 +1,17 @@
+{
+  "source_commit": "8415ca20cbfcc59d23ee538387ae5daf77f08539",
+  "cached_public_files_match_live_git_blobs": true,
+  "files_matched": 66,
+  "validation": {
+    "status": "passed",
+    "files": 65,
+    "python_files": 13,
+    "json_files": 17,
+    "csv_files": 21,
+    "bootstrap_aggregate_verification": "passed",
+    "figure_7_numeric_data_unchanged": true,
+    "figure_7_changes_limited_to_panel_title_bands": true,
+    "scope": "Integrity, syntax, public aggregate structure, bootstrap aggregate equality and Figure 7 pixel scope; no model fitting or raw-data access."
+  },
+  "verified_on": "2026-11-02"
+}

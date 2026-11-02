@@ -1,12 +1,18 @@
-# JTAER 연구 재현 자료
-
-**Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel**
+# 설문 문항 예산과 AI 서비스 이용의 시간순 예측
 
 장순호·서응교, 단국대학교.
 
-최신 추가 자료는 2026년 11월 1일 작성한 [minor_revision_20261101_v1](minor_revision_20261101_v1/README.md)입니다. 생성형 AI 경험 및 집단별 참여자 중복 진단, 동일 소프트웨어 환경에서의 부트스트랩 재현 확인, 분석별 시드 목록, Figure 7의 소문자 패널 표시 (a)–(d)를 포함합니다. 기존 과학적 분석 코드, 모형 결과 및 집계표는 그대로 유지했습니다.
+현재 재현 자료는 이 저장소에서 통합하여 관리합니다. 버전 식별자는 `v2.0-minor-revision`이며, GitHub 릴리즈에 해당 전체 스냅샷의 커밋이 기록됩니다. [릴리즈 정보](reproducibility/RELEASE.json), [변경 내역](RELEASE_NOTES.md), [기능별 파일 안내](reproducibility/INDEX.json)를 참조하십시오.
 
-[English README](README.md)
+기존 분석 폴더와 실행 경로는 코드·출처 링크의 연속성을 위해 유지하였습니다. 날짜가 붙은 폴더는 역사적 분석 묶음을 식별하며, 전체 저장소의 버전은 커밋과 릴리즈 태그로 구분합니다. 이번 공개 자료 정리는 모형 재적합이나 분석 코드·집계 결과·그림 데이터의 변경을 포함하지 않습니다.
+
+이전 `thinkpa81/mdpi` 저장소는 역사적 보관본입니다. 최초 공개 코드의 커밋은 `f3b0a46b86f8ab0a7e6093f17105d0f38d281824`이며, `research_release_20261021` 묶음은 `34f4172e3bebdb97fe5d5044dd51b237a7c82881`에 있습니다. 서로 다른 두 시점을 하나의 초기 제출 태그로 표현하지 않았습니다. 이후 변경은 현재 저장소에서 관리합니다.
+
+공개 범위는 코드·집계 결과·그림·출처 기록입니다. 개인 수준 원자료는 KISDI의 접근 및 통계 이용 조건을 따릅니다. 원고, 심사 대응 문서, 참여자 기록·식별자·개인별 예측값은 공개 범위에 포함되지 않습니다.
+
+파일 무결성과 구문은 `python verify_release.py`로 확인할 수 있습니다. 주요 실행 진입점은 `main_result/run_reproduction.py`이며, 생성형 AI·중복 진단과 소프트웨어 검증·시드 목록·갱신된 그림 7은 `minor_revision_20261101_v1/`에 있습니다.
+
+## 세부 재현 절차와 분석 출처
 
 ## 주요 경로
 

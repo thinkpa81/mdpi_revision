@@ -1,0 +1,206 @@
+name: Publish the v2 research snapshot
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - reproducibility/RELEASE.json
+      - .github/workflows/publish-research-release.yml
+
+# This single-purpose workflow creates one fixed research tag and release.
+# It does not modify a branch, move a tag, upload data, or use third-party actions.
+permissions:
+  contents: write
+
+concurrency:
+  group: publish-v2-research-snapshot
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: >-
+      github.repository == 'thinkpa81/mdpi_revision' &&
+      github.ref == 'refs/heads/main' &&
+      github.event_name == 'push'
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Validate and publish the fixed research version
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import base64
+          import json
+          import os
+          import re
+          import subprocess
+          import sys
+          import tempfile
+          import urllib.error
+          import urllib.parse
+          import urllib.request
+
+          REPO = "thinkpa81/mdpi_revision"
+          TAG = "v2.0-minor-revision"
+          API = "https://api.github.com"
+          MANIFEST = "reproducibility/RELEASE.json"
+          NOTES = "RELEASE_NOTES.md"
+
+          class NoRedirect(urllib.request.HTTPRedirectHandler):
+              def redirect_request(self, req, fp, code, msg, headers, newurl):
+                  return None
+
+          def fail(message):
+              raise RuntimeError(message)
+
+          def main():
+              if (os.environ.get("GITHUB_REPOSITORY") != REPO or
+                  os.environ.get("GITHUB_REF") != "refs/heads/main" or
+                  os.environ.get("GITHUB_EVENT_NAME") != "push"):
+                  fail("This publisher is restricted to pushes to the designated main branch.")
+              sha = os.environ.get("GITHUB_SHA", "")
+              if not re.fullmatch(r"[0-9a-f]{40}", sha):
+                  fail("The triggering commit SHA is invalid.")
+              token = os.environ.get("GH_TOKEN", "")
+              if not token:
+                  fail("The repository GITHUB_TOKEN is unavailable.")
+              opener = urllib.request.build_opener(NoRedirect())
+
+              def api(method, suffix, data=None, missing_ok=False):
+                  body = None if data is None else json.dumps(data).encode("utf-8")
+                  request = urllib.request.Request(
+                      API + "/repos/" + REPO + suffix,
+                      data=body,
+                      method=method,
+                      headers={
+                          "Accept": "application/vnd.github+json",
+                          "Authorization": "Bearer " + token,
+                          "X-GitHub-Api-Version": "2026-03-10",
+                          "Content-Type": "application/json",
+                      },
+                  )
+                  try:
+                      with opener.open(request, timeout=30) as response:
+                          raw = response.read()
+                          return json.loads(raw) if raw else None
+                  except urllib.error.HTTPError as error:
+                      if error.code == 404 and missing_ok:
+                          return None
+                      # Never print request headers or the token.
+                      fail("GitHub API %s %s returned HTTP %s; no existing tag or release was changed."
+                           % (method, suffix.split("?")[0], error.code))
+
+              def file_at_commit(path):
+                  endpoint = "/contents/" + urllib.parse.quote(path, safe="/") + "?ref=" + sha
+                  entry = api("GET", endpoint)
+                  if entry.get("type") != "file" or entry.get("encoding") != "base64":
+                      fail("The release metadata must be a small, ordinary repository file: " + path)
+                  return base64.b64decode(entry["content"]).decode("utf-8")
+
+              def tag_commit(ref):
+                  obj = ref["object"]
+                  for _ in range(8):
+                      if obj["type"] == "commit":
+                          return obj["sha"]
+                      if obj["type"] != "tag" or not re.fullmatch(r"[0-9a-f]{40}", obj["sha"]):
+                          fail("The existing tag does not resolve to a commit.")
+                      obj = api("GET", "/git/tags/" + obj["sha"])["object"]
+                  fail("The existing annotated tag has excessive indirection.")
+
+              repository = api("GET", "")
+              if repository.get("full_name") != REPO or repository.get("default_branch") != "main":
+                  fail("The repository identity or default branch differs from the release configuration.")
+              head = api("GET", "/git/ref/heads/main")
+              if head["object"].get("sha") != sha:
+                  fail("Main has advanced; this run will not publish an outdated triggering commit.")
+
+              manifest = json.loads(file_at_commit(MANIFEST))
+              expected = {"schema_version": 1, "repository": REPO, "branch": "main",
+                          "tag": TAG, "target": "triggering_main_commit", "notes_path": NOTES}
+              if any(manifest.get(k) != v for k, v in expected.items()):
+                  fail("The release manifest does not match this fixed publisher.")
+              if manifest.get("publish") is not True:
+                  print("Release publication is disabled in the manifest; no write performed.")
+                  return
+              release_name = manifest.get("release_name", "")
+              if not isinstance(release_name, str) or not 1 <= len(release_name) <= 256:
+                  fail("The release name is missing or too long.")
+              notes = file_at_commit(NOTES).strip()
+              if not notes or len(notes.encode("utf-8")) > 60000:
+                  fail("The public release notes are empty or too large.")
+
+              tree = api("GET", "/git/trees/" + sha + "?recursive=1")
+              if tree.get("truncated"):
+                  fail("The repository tree response was truncated; file validation is incomplete.")
+              blobs = {entry["path"] for entry in tree["tree"] if entry["type"] == "blob"}
+              required = manifest.get("required_paths")
+              if not isinstance(required, list) or not required or any(not isinstance(p, str) for p in required):
+                  fail("The manifest requires an explicit list of public files.")
+              missing = sorted(set(required + [MANIFEST, NOTES]) - blobs)
+              if missing:
+                  fail("Required public files are absent: " + ", ".join(missing))
+
+              # Verify hashes and code/JSON syntax at this exact public commit.
+              # The repository verifier uses the standard library only and does
+              # not fit models or access provider-controlled respondent data.
+              with tempfile.TemporaryDirectory(prefix="research-release-") as folder:
+                  subprocess.run(["git", "clone", "--no-checkout", "--depth", "1",
+                                  "https://github.com/" + REPO + ".git", folder],
+                                 check=True, timeout=90)
+                  subprocess.run(["git", "fetch", "--depth", "1", "origin", sha],
+                                 cwd=folder, check=True, timeout=90)
+                  subprocess.run(["git", "checkout", "--detach", sha],
+                                 cwd=folder, check=True, timeout=30)
+                  checked_sha = subprocess.check_output(
+                      ["git", "rev-parse", "HEAD"], cwd=folder, text=True).strip()
+                  if checked_sha != sha:
+                      fail("The checked-out verification tree differs from the triggering commit.")
+                  subprocess.run([sys.executable, "verify_release.py"],
+                                 cwd=folder, check=True, timeout=90)
+
+              encoded_tag = urllib.parse.quote(TAG, safe="")
+              ref_path = "/git/ref/tags/" + encoded_tag
+              release_path = "/releases/tags/" + encoded_tag
+              existing_ref = api("GET", ref_path, missing_ok=True)
+              existing_release = api("GET", release_path, missing_ok=True)
+              if existing_ref is not None and tag_commit(existing_ref) != sha:
+                  fail("The fixed tag already identifies another commit; it will not be moved.")
+              if existing_release is not None:
+                  if (existing_ref is None or existing_release.get("tag_name") != TAG or
+                      existing_release.get("draft") or existing_release.get("prerelease")):
+                      fail("An existing release has an unexpected tag or publication state.")
+                  print("The existing release already identifies this exact commit: " +
+                        existing_release["html_url"])
+                  return
+
+              # Recheck main immediately before the first write. Keeping the
+              # target on the default branch also avoids the API's extra
+              # workflow-file permission requirement for off-branch commits.
+              if api("GET", "/git/ref/heads/main")["object"].get("sha") != sha:
+                  fail("Main advanced during validation; no release was created.")
+              if existing_ref is None:
+                  api("POST", "/git/refs", {"ref": "refs/tags/" + TAG, "sha": sha})
+              result = api("POST", "/releases", {
+                  "tag_name": TAG,
+                  "target_commitish": sha,
+                  "name": release_name,
+                  "body": notes + "\n\nCommit: `" + sha + "`.\n",
+                  "draft": False,
+                  "prerelease": False,
+                  "generate_release_notes": False,
+                  "make_latest": "true",
+              })
+              final_ref = api("GET", ref_path)
+              if tag_commit(final_ref) != sha or result.get("tag_name") != TAG:
+                  fail("Release verification failed; inspect the repository before retrying.")
+              print("Published the research snapshot: " + result["html_url"])
+
+          if __name__ == "__main__":
+              try:
+                  main()
+              except Exception as error:
+                  print("Release publisher stopped: " + str(error), file=sys.stderr)
+                  sys.exit(1)
+          PY

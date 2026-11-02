@@ -1,0 +1,47 @@
+{
+  "version": "v2.0-minor-revision",
+  "repository": "thinkpa81/mdpi_revision",
+  "path_policy": "Existing executable and provenance paths are preserved. The Git commit and release tag identify the complete snapshot.",
+  "entry_point": "main_result/run_reproduction.py",
+  "code": [
+    "main_result/revision/code/",
+    "minor_revision_20261101_v1/analysis/",
+    "minor_revision_20261101_v1/code/"
+  ],
+  "aggregate_results": [
+    "main_result/revision/tables/",
+    "main_result/revision/results/",
+    "minor_revision_20261101_v1/analysis/"
+  ],
+  "figures": [
+    "JTAER_Figures/",
+    "minor_revision_20261101_v1/figures/"
+  ],
+  "provenance": [
+    "main_result/revision/audit/",
+    "minor_revision_20261101_v1/bootstrap_verification/"
+  ],
+  "seed_catalog": "minor_revision_20261101_v1/qa/public_seed_catalog.json",
+  "verification": [
+    "verify_release.py",
+    "minor_revision_20261101_v1/qa/verify_public_addendum.py"
+  ],
+  "historical_snapshots": [
+    {
+      "repository": "thinkpa81/mdpi",
+      "commit": "f3b0a46b86f8ab0a7e6093f17105d0f38d281824",
+      "role": "Initial public code and aggregate release"
+    },
+    {
+      "repository": "thinkpa81/mdpi",
+      "commit": "34f4172e3bebdb97fe5d5044dd51b237a7c82881",
+      "directory": "research_release_20261021",
+      "role": "Historical analysis bundle"
+    },
+    {
+      "repository": "thinkpa81/mdpi_revision",
+      "commit": "8415ca20cbfcc59d23ee538387ae5daf77f08539",
+      "role": "Preceding complete numerical snapshot"
+    }
+  ]
+}

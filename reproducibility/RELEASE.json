@@ -1,0 +1,60 @@
+{
+  "schema_version": 1,
+  "repository": "thinkpa81/mdpi_revision",
+  "branch": "main",
+  "tag": "v2.0-minor-revision",
+  "release_name": "v2.0-minor-revision — Questionnaire item budgets and AI-service use",
+  "publish": true,
+  "target": "triggering_main_commit",
+  "notes_path": "RELEASE_NOTES.md",
+  "title": "Questionnaire Item Budgets and Incremental Predictive Value for Self-Reported AI-Enabled Consumer Service Use: Temporal Evidence from a Korean Panel",
+  "authors": ["Soonho Jang", "Eung-Kyo Suh"],
+  "prepared_date": "2026-11-02",
+  "prior_public_snapshot": "8415ca20cbfcc59d23ee538387ae5daf77f08539",
+  "public_materials": [
+    {
+      "path": "main_result/revision/code",
+      "description": "Analysis, model fitting, inference and plotting code"
+    },
+    {
+      "path": "main_result/revision/tables",
+      "description": "Aggregate model and resampling results"
+    },
+    {
+      "path": "main_result/revision/results",
+      "description": "Aggregate calibration, selection and sensitivity results"
+    },
+    {
+      "path": "minor_revision_20261101_v1/analysis/outputs",
+      "description": "Aggregate generative-AI experience, outcome association, transitions and participant-overlap results"
+    },
+    {
+      "path": "minor_revision_20261101_v1/bootstrap_verification",
+      "description": "Software environment records and checks of the regenerated bootstrap segment"
+    },
+    {
+      "path": "minor_revision_20261101_v1/qa/public_seed_catalog.json",
+      "description": "Analysis-specific random seeds and their scope"
+    },
+    {
+      "path": "minor_revision_20261101_v1/figures",
+      "description": "Figure 7 source data, plotting code and exports"
+    }
+  ],
+  "required_paths": [
+    "README.md",
+    "verify_release.py",
+    "FILE_MANIFEST_SHA256.json",
+    "minor_revision_20261101_v1/analysis/outputs/A_prevalence.csv",
+    "minor_revision_20261101_v1/analysis/outputs/A_outcome_2x2_counts.csv",
+    "minor_revision_20261101_v1/analysis/outputs/A_outcome_association.csv",
+    "minor_revision_20261101_v1/analysis/outputs/A_shared_participant_transitions.csv",
+    "minor_revision_20261101_v1/analysis/outputs/full_panel_group_overlap.csv",
+    "minor_revision_20261101_v1/bootstrap_verification/results/minor_reselection_software_verification.json",
+    "minor_revision_20261101_v1/qa/public_seed_catalog.json",
+    "minor_revision_20261101_v1/figures/Submission_Figure_07_Block_Heatmap.png",
+    "minor_revision_20261101_v1/code/regenerate_figure7.py"
+  ],
+  "data_access": "Respondent-level source data are supplied by KISDI under its access and statistical-use conditions.",
+  "path_policy": "Existing analysis directories are retained to preserve runnable relative paths and previously published citations. This release identifies the complete repository snapshot."
+}
